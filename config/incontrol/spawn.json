@@ -1,5 +1,30 @@
 [
   {
+    "mob": ["naturalist:butterfly", "naturalist:firefly", "naturalist:caterpillar", "minecraft:bee"],
+    "winter": true,
+    "result": "deny"
+  },
+  {
+    "mob": ["naturalist:butterfly", "naturalist:firefly", "naturalist:caterpillar", "minecraft:bee"],
+    "autumn": true,
+    "random": 0.7,
+    "result": "deny"
+  },
+  {
+    "mob": ["naturalist:bear", "alexsmobs:grizzly_bear"],
+    "winter": true,
+    "random": 0.8,
+    "result": "deny"
+  },
+  {
+    "mob": ["naturalist:bear", "alexsmobs:grizzly_bear"],
+    "winter": true,
+    "angry": true,
+    "speedmultiply": 1.15,
+    "potion": ["minecraft:strength,99999,0"],
+    "result": "default"
+  },
+  {
     "mob": [
       "tide:anglerfish",
       "tide:arapaima",
@@ -26,6 +51,54 @@
       "hybrid_aquatic:lobster",
       "hybrid_aquatic:orca"
     ],
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "alexsmobs",
+    "mincount": {
+      "amount": 14,
+      "mod": "alexsmobs",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mod": "naturalist",
+    "mincount": {
+      "amount": 12,
+      "mod": "naturalist",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mob": "alexsmobs:crow",
+    "mincount": {
+      "amount": 6,
+      "mob": "alexsmobs:crow",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mob": [
+      "naturalist:deer",
+      "naturalist:boar",
+      "naturalist:bear"
+    ],
+    "mincount": {
+      "amount": 5,
+      "mob": [
+        "naturalist:deer",
+        "naturalist:boar",
+        "naturalist:bear"
+      ],
+      "perchunk": true
+    },
     "result": "deny"
   }
 ]

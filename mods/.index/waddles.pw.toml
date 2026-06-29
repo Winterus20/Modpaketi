@@ -1,0 +1,18 @@
+filename = 'Waddles-1.20.1-0.9.4.jar'
+name = 'Waddles'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Waddles-1.20.1-0.9.4.jar'
+
+[download]
+hash = 'f226f517ef8fce8b8e97e228ba4d17f0f933172e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4618308
+project-id = 251767

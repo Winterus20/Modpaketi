@@ -1,0 +1,25 @@
+filename = 'DragNs_Livestock_Overhaul-1.20.1-3.8.jar'
+name = "DragN's Livestock Overhaul!"
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'DragNs_Livestock_Overhaul-1.20.1-3.8.jar'
+
+[download]
+hash = '37a18011da9de0eac6ac432781b23c695db25306'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8295682
+project-id = 1131669
+
+[[x-prismlauncher-dependencies]]
+addonId = '306770'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '388172'
+type = 'REQUIRED'

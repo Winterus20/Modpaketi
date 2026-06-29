@@ -1,0 +1,25 @@
+filename = 'create_alexscaves_compat-1.20.1-1.6.1.jar'
+name = "Create: Alex's Caves Compat"
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'create_alexscaves_compat-1.20.1-1.6.1.jar'
+
+[download]
+hash = 'c1c4f13ac4364f2c95d2729716cc8576ec41682c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8112771
+project-id = 1274783
+
+[[x-prismlauncher-dependencies]]
+addonId = '924854'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'

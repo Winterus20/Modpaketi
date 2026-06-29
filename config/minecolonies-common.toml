@@ -1,0 +1,11 @@
+
+#Ana oyunla ilgili tüm yapılandırma öğeleri.
+[gameplay]
+	#Yağma sandıklarından ikmal gemi ve kampları oluşturup oluşturmayacağı. [Varsayılan: true]
+	generatesupplyloot = true
+
+#Talep sistemiyle ilgili tüm yapılandırmalar
+[requestsystem]
+	#İstemci sistemi hata ayıklama bilgilerini debug.log'da göstermeli mi? Sorun giderme için kullanışlıdır. [Varsayılan: false]
+	enabledebuglogging = false
+

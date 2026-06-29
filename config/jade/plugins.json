@@ -51,6 +51,19 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "minecolonies_compatibility": {
+    "crop.age": true,
+    "postbox.requested": true,
+    "stash.requested": true
+  },
+  "delightful": {
+    "crop_progress": true,
+    "pie_icons": true,
+    "mushroom_colony": true
+  },
+  "supplementaries": {
+    "hat_stand": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
@@ -59,8 +72,16 @@
     "registry_name": "OFF",
     "mod_name": true
   },
+  "waystones": {
+    "waystone": true
+  },
   "quality_food": {
     "quality": true
+  },
+  "dragnlivestock": {
+    "age_time": true,
+    "dry_time": true,
+    "o_tooltips": true
   },
   "balm": {
     "jade": true

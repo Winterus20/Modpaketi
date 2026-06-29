@@ -1,0 +1,18 @@
+filename = 'ecologics-forge-1.20.1-2.2.6.jar'
+name = 'Ecologics'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Ecologics 2.2.6 (Forge 1.20.1)'
+
+[download]
+hash = '588e5f119351212db6cda4d2e3378a68b3b38db5'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8100575
+project-id = 570463

@@ -35,7 +35,7 @@
 	#Whether wild raccoons steal food from chests.
 	raccoonStealFromChests = true
 	#Whether wild crows steal crops from farmland.
-	crowsStealCrops = true
+	crowsStealCrops = false
 	#Whether fish oil gives players a special levitation effect.
 	fishOilMeme = true
 	#Whether soul vulture spawns should be restricted solely to the nether fossil structure or to whatever biome is specified in their respective biome config.

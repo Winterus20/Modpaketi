@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "dragnlivestock:fish_strips"
+    },
+    "title": "Efficient",
+    "description": "Cut fish into strips for drying or cooking.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["dragnlivestock:fish_strips"]
+          }
+        ]
+      }
+    }
+  }
+}
