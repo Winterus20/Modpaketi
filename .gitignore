@@ -20,3 +20,9 @@ kubejs/data/_backup_fishing_*/
 Thumbs.db
 *.swp
 *.swo
+
+# Geçici / derleme
+scratch/
+__pycache__/
+*.pyc
+*.bak

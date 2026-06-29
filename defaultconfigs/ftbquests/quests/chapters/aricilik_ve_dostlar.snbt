@@ -1,0 +1,197 @@
+{
+	id: "8E97EA7FD8392626"
+	group: ""
+	order_index: 2
+	filename: "aricilik_ve_dostlar"
+	title: "{kubejs.ftbquests.chapter.aricilik_ve_dostlar.title}"
+	icon: "productivebees:advanced_oak_beehive"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			id: "5C5A21BB7D9091BD"
+			title: "{kubejs.ftbquests.quest.aricilik_ve_dostlar.bees_intro.title}"
+			x: 0.0d
+			y: 0.0d
+			description: [ "{kubejs.ftbquests.quest.aricilik_ve_dostlar.bees_intro.desc.0}" ]
+			tasks: [
+				{
+					id: "48EA2FD97C3185A3"
+					type: "item"
+					item: "productivebees:oak_wood_nest"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "AA70A1904847B214"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 4
+				}
+				{
+					id: "E6AF4A8F0C63A51E"
+					type: "item"
+					item: "minecraft:honeycomb"
+					count: 2
+				}
+			]
+		}
+		{
+			id: "7A2A331A704E570D"
+			title: "{kubejs.ftbquests.quest.aricilik_ve_dostlar.honey_treat.title}"
+			x: -1.5d
+			y: 1.0d
+			description: [ "{kubejs.ftbquests.quest.aricilik_ve_dostlar.honey_treat.desc.0}" ]
+			tasks: [
+				{
+					id: "C13755C586928713"
+					type: "item"
+					item: "productivebees:honey_treat"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "806AF8EB46DD4E76"
+					type: "item"
+					item: "productivebees:nest_locator"
+					count: 1
+				}
+			]
+			dependencies: [ "5C5A21BB7D9091BD" ]
+		}
+		{
+			id: "E97BC23170FC294C"
+			title: "{kubejs.ftbquests.quest.aricilik_ve_dostlar.advanced_hive.title}"
+			x: 0.0d
+			y: 2.0d
+			description: [ "{kubejs.ftbquests.quest.aricilik_ve_dostlar.advanced_hive.desc.0}" ]
+			tasks: [
+				{
+					id: "7F5C6B0D373329E5"
+					type: "item"
+					item: "productivebees:advanced_oak_beehive"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "62EB8ACDE0687038"
+					type: "item"
+					item: "minecraft:honey_bottle"
+					count: 2
+				}
+			]
+			dependencies: [ "5C5A21BB7D9091BD" ]
+		}
+		{
+			id: "A15AEEC61AD7F67C"
+			title: "{kubejs.ftbquests.quest.aricilik_ve_dostlar.centrifuge.title}"
+			x: 0.0d
+			y: 4.0d
+			description: [ "{kubejs.ftbquests.quest.aricilik_ve_dostlar.centrifuge.desc.0}" ]
+			tasks: [
+				{
+					id: "0C2D588CEA38D918"
+					type: "item"
+					item: "productivebees:centrifuge"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "287CC71197D135EC"
+					type: "item"
+					item: "minecraft:copper_ingot"
+					count: 4
+				}
+			]
+			dependencies: [ "E97BC23170FC294C" ]
+		}
+		{
+			id: "8752D665AA8EA3EF"
+			title: "{kubejs.ftbquests.quest.aricilik_ve_dostlar.doggy_talents.title}"
+			x: 2.5d
+			y: 0.0d
+			description: [ "{kubejs.ftbquests.quest.aricilik_ve_dostlar.doggy_talents.desc.0}" ]
+			tasks: [
+				{
+					id: "7F59C0ECDCE9A134"
+					type: "item"
+					item: "doggytalents:training_treat"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "34A903646880B20A"
+					type: "item"
+					item: "minecraft:clay_ball"
+					count: 4
+				}
+				{
+					id: "F3BC999FA11184F6"
+					type: "item"
+					item: "minecraft:bone"
+					count: 2
+				}
+			]
+		}
+		{
+			id: "1D6526BFDCF0173C"
+			title: "{kubejs.ftbquests.quest.aricilik_ve_dostlar.dog_bed.title}"
+			x: 2.5d
+			y: 2.0d
+			description: [ "{kubejs.ftbquests.quest.aricilik_ve_dostlar.dog_bed.desc.0}" ]
+			tasks: [
+				{
+					id: "C8C1874200A2B819"
+					type: "item"
+					item: "doggytalents:dog_bed"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "3CF19E63314D2889"
+					type: "item"
+					item: "minecraft:red_dye"
+					count: 1
+				}
+				{
+					id: "7F463C3B93889081"
+					type: "item"
+					item: "minecraft:leather"
+					count: 1
+				}
+			]
+			dependencies: [ "8752D665AA8EA3EF" ]
+		}
+		{
+			id: "FCC3199F0ADF7B3B"
+			title: "{kubejs.ftbquests.quest.aricilik_ve_dostlar.pet_care.title}"
+			x: 4.0d
+			y: 2.0d
+			description: [ "{kubejs.ftbquests.quest.aricilik_ve_dostlar.pet_care.desc.0}" ]
+			tasks: [
+				{
+					id: "F10D6603E0486EEC"
+					type: "item"
+					item: "domesticationinnovation:pet_bed_red"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "09B2893A7D66E69A"
+					type: "item"
+					item: "domesticationinnovation:collar_tag"
+					count: 2
+				}
+			]
+			dependencies: [ "1D6526BFDCF0173C" ]
+		}
+	]
+	quest_links: [ ]
+}

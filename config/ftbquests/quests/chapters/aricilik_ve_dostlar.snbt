@@ -1,0 +1,163 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aricilik_ve_dostlar"
+	group: ""
+	icon: "productivebees:advanced_oak_beehive"
+	id: "13B2EA1194F473F7"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.bees_intro.desc.0}"]
+			id: "5C5A21BB7D9091BD"
+			rewards: [
+				{
+					count: 4
+					id: "4FBCB8E28381A99A"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7363AD403DADCBC3"
+					item: "minecraft:honeycomb"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "48EA2FD97C3185A3"
+				item: "productivebees:oak_wood_nest"
+				type: "item"
+			}]
+			title: "{kubejs.ftbquests.quest.aricilik_ve_dostlar.bees_intro.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C5A21BB7D9091BD"]
+			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.honey_treat.desc.0}"]
+			id: "7A2A331A704E570D"
+			rewards: [{
+				id: "190531145AFB1D54"
+				item: "productivebees:nest_locator"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B1C8FCA1E6AC8A7"
+				item: "productivebees:honey_treat"
+				type: "item"
+			}]
+			title: "{kubejs.ftbquests.quest.aricilik_ve_dostlar.honey_treat.title}"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5C5A21BB7D9091BD"]
+			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.advanced_hive.desc.0}"]
+			id: "750D366697FED616"
+			rewards: [{
+				count: 2
+				id: "62EB8ACDE0687038"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F5C6B0D373329E5"
+				item: "productivebees:advanced_oak_beehive"
+				type: "item"
+			}]
+			title: "{kubejs.ftbquests.quest.aricilik_ve_dostlar.advanced_hive.title}"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.centrifuge.desc.0}"]
+			id: "1E76BF255E9F7B95"
+			rewards: [{
+				count: 4
+				id: "287CC71197D135EC"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C2D588CEA38D918"
+				item: "productivebees:centrifuge"
+				type: "item"
+			}]
+			title: "{kubejs.ftbquests.quest.aricilik_ve_dostlar.centrifuge.title}"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.doggy_talents.desc.0}"]
+			id: "0D581DC913B615FD"
+			rewards: [
+				{
+					count: 4
+					id: "34A903646880B20A"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3565016E48DE7F0F"
+					item: "minecraft:bone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7F59C0ECDCE9A134"
+				item: "doggytalents:training_treat"
+				type: "item"
+			}]
+			title: "{kubejs.ftbquests.quest.aricilik_ve_dostlar.doggy_talents.title}"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.dog_bed.desc.0}"]
+			id: "1D6526BFDCF0173C"
+			rewards: [
+				{
+					id: "3CF19E63314D2889"
+					item: "minecraft:red_dye"
+					type: "item"
+				}
+				{
+					id: "7F463C3B93889081"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5F0899763BC4F43F"
+				item: "doggytalents:dog_bed"
+				type: "item"
+			}]
+			title: "{kubejs.ftbquests.quest.aricilik_ve_dostlar.dog_bed.title}"
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1D6526BFDCF0173C"]
+			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.pet_care.desc.0}"]
+			id: "7ECB8363EBC5B24D"
+			rewards: [{
+				count: 2
+				id: "09B2893A7D66E69A"
+				item: "domesticationinnovation:collar_tag"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D5882F863736410"
+				item: "domesticationinnovation:pet_bed_red"
+				type: "item"
+			}]
+			title: "{kubejs.ftbquests.quest.aricilik_ve_dostlar.pet_care.title}"
+			x: 4.0d
+			y: 2.0d
+		}
+	]
+	title: "{kubejs.ftbquests.chapter.aricilik_ve_dostlar.title}"
+}

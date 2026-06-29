@@ -1,0 +1,114 @@
+{
+	id: "B92205C1BF014260"
+	group: ""
+	order_index: 7
+	filename: "icecekler_ve_eglence"
+	title: "{kubejs.ftbquests.chapter.icecekler_ve_eglence.title}"
+	icon: "brewinandchewin:keg"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			id: "32247CCC3B30D72F"
+			title: "{kubejs.ftbquests.quest.icecekler_ve_eglence.keg.title}"
+			x: 0.0d
+			y: 0.0d
+			description: [ "{kubejs.ftbquests.quest.icecekler_ve_eglence.keg.desc.0}" ]
+			tasks: [
+				{
+					id: "58EC6CB060F48E40"
+					type: "item"
+					item: "brewinandchewin:keg"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "DC1C731A5F078C9B"
+					type: "item"
+					item: "brewinandchewin:beer"
+					count: 4
+				}
+			]
+		}
+		{
+			id: "595269980D06FFD9"
+			title: "{kubejs.ftbquests.quest.icecekler_ve_eglence.brewery.title}"
+			x: -1.5d
+			y: 1.5d
+			description: [ "{kubejs.ftbquests.quest.icecekler_ve_eglence.brewery.desc.0}" ]
+			tasks: [
+				{
+					id: "D259C02CF6A66AD0"
+					type: "item"
+					item: "brewery:wooden_brewingstation"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "9047ADE811513A07"
+					type: "item"
+					item: "brewery:beer_mug"
+					count: 2
+				}
+			]
+			dependencies: [ "32247CCC3B30D72F" ]
+		}
+		{
+			id: "63E2FDBBB279461F"
+			title: "{kubejs.ftbquests.quest.icecekler_ve_eglence.cheese.title}"
+			x: 1.5d
+			y: 1.5d
+			description: [ "{kubejs.ftbquests.quest.icecekler_ve_eglence.cheese.desc.0}" ]
+			tasks: [
+				{
+					id: "60AA4CBA681C7E72"
+					type: "item"
+					item: "brewinandchewin:flaxen_cheese_wheel"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "2D48C7F90C50747E"
+					type: "item"
+					item: "brewinandchewin:cheesy_pasta"
+					count: 2
+				}
+			]
+			dependencies: [ "32247CCC3B30D72F" ]
+		}
+		{
+			id: "4A083D469E9FDADA"
+			title: "{kubejs.ftbquests.quest.icecekler_ve_eglence.beach_party.title}"
+			x: 0.0d
+			y: 3.5d
+			description: [ "{kubejs.ftbquests.quest.icecekler_ve_eglence.beach_party.desc.0}" ]
+			tasks: [
+				{
+					id: "8EF74805C9C90206"
+					type: "item"
+					item: "beachparty:beach_chair"
+					count: 1L
+				}
+				{
+					id: "F4DD30DB2316982E"
+					type: "item"
+					item: "beachparty:coconut_cocktail"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "F658CADBC97930B3"
+					type: "item"
+					item: "beachparty:mini_fridge"
+					count: 1
+				}
+			]
+			dependencies: [ "32247CCC3B30D72F" ]
+		}
+	]
+	quest_links: [ ]
+}

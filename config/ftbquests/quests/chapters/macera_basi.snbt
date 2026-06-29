@@ -1,0 +1,183 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "macera_basi"
+	group: ""
+	icon: "minecraft:grass_block"
+	id: "66A04C4BB0CD4B31"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{kubejs.ftbquests.quest.macera_basi.welcome.desc.0}"]
+			id: "3549FF5EB477A160"
+			rewards: [{
+				count: 5
+				id: "1AB21602F7B15138"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C42CDAA43CC4E10"
+				type: "checkmark"
+			}]
+			title: "{kubejs.ftbquests.quest.macera_basi.welcome.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["{kubejs.ftbquests.quest.macera_basi.seasons.desc.0}"]
+			id: "15EB32DC2B757BD3"
+			rewards: [{
+				id: "1F68A436152E5FF6"
+				item: "sereneseasons:season_sensor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "17D58C3168079696"
+				item: "sereneseasons:calendar"
+				type: "item"
+			}]
+			title: "{kubejs.ftbquests.quest.macera_basi.seasons.title}"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: ["{kubejs.ftbquests.quest.macera_basi.sol_carrot.desc.0}"]
+			id: "2616C7E54F4FBCD8"
+			rewards: [{
+				count: 4
+				id: "225AB44CEDBD0199"
+				item: "minecraft:golden_carrot"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "30DAB45F41B0B122"
+					item: "minecraft:apple"
+					type: "item"
+				}
+				{
+					id: "46C7810B6D54B261"
+					item: "minecraft:sweet_berries"
+					type: "item"
+				}
+				{
+					id: "6A3C2BCD63CE1399"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+			]
+			title: "{kubejs.ftbquests.quest.macera_basi.sol_carrot.title}"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			description: ["{kubejs.ftbquests.quest.macera_basi.backpack.desc.0}"]
+			id: "39963C4D67FE66B2"
+			rewards: [
+				{
+					count: 4
+					id: "6B5D6D1A9EB84998"
+					item: "minecraft:leather"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "125069E908AC0818"
+					item: "minecraft:string"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "11E48194A4152A6A"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			title: "{kubejs.ftbquests.quest.macera_basi.backpack.title}"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			description: ["{kubejs.ftbquests.quest.macera_basi.sleeping_bag.desc.0}"]
+			id: "3F94C819A7618AB6"
+			rewards: [{
+				count: 2
+				id: "0B4EF9A09A363AF4"
+				item: "minecraft:white_wool"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D4FBDDAC345D3D9"
+				item: "comforts:sleeping_bag_white"
+				type: "item"
+			}]
+			title: "{kubejs.ftbquests.quest.macera_basi.sleeping_bag.title}"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			description: ["{kubejs.ftbquests.quest.macera_basi.compasses.desc.0}"]
+			id: "3FA9EF5E73CD21F2"
+			rewards: [{
+				count: 2
+				id: "011921633964A762"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EE78CBDE5BC6F16"
+				item: "naturescompass:naturescompass"
+				type: "item"
+			}]
+			title: "{kubejs.ftbquests.quest.macera_basi.compasses.title}"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			description: ["{kubejs.ftbquests.quest.macera_basi.waystone.desc.0}"]
+			id: "3F4E25EE13F0402E"
+			rewards: [{
+				count: 3
+				id: "1C2CA74F4CE5C771"
+				item: "waystones:return_scroll"
+				type: "item"
+			}]
+			tasks: [{
+				id: "089A138738EC77F2"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			title: "{kubejs.ftbquests.quest.macera_basi.waystone.title}"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			description: ["{kubejs.ftbquests.quest.macera_basi.market.desc.0}"]
+			id: "287390543BB374C2"
+			rewards: [
+				{
+					count: 8
+					id: "6B54A60C72541BA1"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "02E867D2EAA9F6AA"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5B0B222FAE8B2858"
+				item: "farmingforblockheads:market"
+				type: "item"
+			}]
+			title: "{kubejs.ftbquests.quest.macera_basi.market.title}"
+			x: -1.5d
+			y: -3.0d
+		}
+	]
+	title: "{kubejs.ftbquests.chapter.macera_basi.title}"
+}

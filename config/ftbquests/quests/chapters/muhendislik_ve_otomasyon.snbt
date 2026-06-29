@@ -1,0 +1,140 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "muhendislik_ve_otomasyon"
+	group: ""
+	icon: "create:water_wheel"
+	id: "063D049208FB468C"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{kubejs.ftbquests.quest.muhendislik_ve_otomasyon.create_intro.desc.0}"]
+			id: "760FBFD6FA9523A8"
+			rewards: [{
+				count: 16
+				id: "3D8264D5837F9058"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "24C8A9BEF44F2A2D"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					id: "2C219A9C49295599"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					id: "4A2E8C7D01F7B7EB"
+					item: "create:cogwheel"
+					type: "item"
+				}
+			]
+			title: "{kubejs.ftbquests.quest.muhendislik_ve_otomasyon.create_intro.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["760FBFD6FA9523A8"]
+			description: ["{kubejs.ftbquests.quest.muhendislik_ve_otomasyon.press.desc.0}"]
+			id: "196F53A311022807"
+			rewards: [{
+				count: 4
+				id: "4FD10D1B3371C944"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "47C58F206A84C099"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			title: "{kubejs.ftbquests.quest.muhendislik_ve_otomasyon.press.title}"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["760FBFD6FA9523A8"]
+			description: ["{kubejs.ftbquests.quest.muhendislik_ve_otomasyon.mixer.desc.0}"]
+			id: "4B6652EEA596AF13"
+			rewards: [{
+				count: 8
+				id: "47D386C494E9253B"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6CE20A44CA384838"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "083CAFEE538D7682"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			title: "{kubejs.ftbquests.quest.muhendislik_ve_otomasyon.mixer.title}"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependency_requirement: "one_completed"
+			description: ["{kubejs.ftbquests.quest.muhendislik_ve_otomasyon.automated_kitchen.desc.0}"]
+			id: "602E47F690B26C98"
+			rewards: [{
+				count: 8
+				id: "58DA766ADD84FA7F"
+				item: "minecraft:golden_carrot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D5328BBC79C9160"
+				type: "checkmark"
+			}]
+			title: "{kubejs.ftbquests.quest.muhendislik_ve_otomasyon.automated_kitchen.title}"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: ["{kubejs.ftbquests.quest.muhendislik_ve_otomasyon.slicer.desc.0}"]
+			id: "245207CE7D25B936"
+			rewards: [{
+				id: "38EAB614714F16E4"
+				item: "sliceanddice:sprinkler"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C957A3173902E1A"
+				item: "sliceanddice:slicer"
+				type: "item"
+			}]
+			title: "{kubejs.ftbquests.quest.muhendislik_ve_otomasyon.slicer.title}"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			description: ["{kubejs.ftbquests.quest.muhendislik_ve_otomasyon.central_kitchen.desc.0}"]
+			id: "6C4552C6422C1741"
+			rewards: [{
+				id: "36D4AEDDB6EE04BD"
+				item: "create_central_kitchen:syrup_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1BBD5503B3130F50"
+				item: "create_central_kitchen:cooking_guide"
+				type: "item"
+			}]
+			title: "{kubejs.ftbquests.quest.muhendislik_ve_otomasyon.central_kitchen.title}"
+			x: 3.0d
+			y: 3.0d
+		}
+	]
+	title: "{kubejs.ftbquests.chapter.muhendislik_ve_otomasyon.title}"
+}

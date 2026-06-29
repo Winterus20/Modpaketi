@@ -1,0 +1,225 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ciftcilik_ve_gastronomi"
+	group: ""
+	icon: "farmersdelight:cooking_pot"
+	id: "3E46C0A93AC3C1DD"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{kubejs.ftbquests.quest.ciftcilik_ve_gastronomi.chef_knife.desc.0}"]
+			id: "58B87677D8D846ED"
+			rewards: [{
+				count: 5
+				id: "6F72841F000F34F2"
+				item: "farmersdelight:tomato_seeds"
+				type: "item"
+			}]
+			tasks: [{
+				id: "211CD09C313592C8"
+				item: {
+					Count: 1
+					id: "farmersdelight:flint_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{kubejs.ftbquests.quest.ciftcilik_ve_gastronomi.chef_knife.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58B87677D8D846ED"]
+			description: ["{kubejs.ftbquests.quest.ciftcilik_ve_gastronomi.cooking_pot.desc.0}"]
+			id: "6C4886007A30AEC0"
+			rewards: [
+				{
+					count: 4
+					id: "0F9786181D905105"
+					item: "minecraft:bowl"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "14AE7512DB724E56"
+					item: "farmersdelight:onion"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2BEFD3C9FDF96137"
+					item: "farmersdelight:cooking_pot"
+					type: "item"
+				}
+				{
+					id: "0BFE9D55379C71F0"
+					item: "farmersdelight:stove"
+					type: "item"
+				}
+			]
+			title: "{kubejs.ftbquests.quest.ciftcilik_ve_gastronomi.cooking_pot.title}"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["58B87677D8D846ED"]
+			description: ["{kubejs.ftbquests.quest.ciftcilik_ve_gastronomi.baking_tray.desc.0}"]
+			id: "7212DA74559BA79E"
+			rewards: [
+				{
+					count: 8
+					id: "5C17D237CACFE433"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3FB8A3433FB34C9E"
+					item: "minecraft:sugar"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "12BCB25CAFAF6FC7"
+				item: "bakery:tray"
+				type: "item"
+			}]
+			title: "{kubejs.ftbquests.quest.ciftcilik_ve_gastronomi.baking_tray.title}"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["58B87677D8D846ED"]
+			description: ["{kubejs.ftbquests.quest.ciftcilik_ve_gastronomi.winery.desc.0}"]
+			id: "3F791278A32C5D3F"
+			rewards: [
+				{
+					id: "3DB0B1FE6AB86433"
+					item: "vinery:grapevine_stem"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2A8EB121DF3822A8"
+					item: "vinery:wine_bottle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3A21B7CF7C405A5E"
+				item: "vinery:red_grape"
+				type: "item"
+			}]
+			title: "{kubejs.ftbquests.quest.ciftcilik_ve_gastronomi.winery.title}"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6C4886007A30AEC0"]
+			description: ["{kubejs.ftbquests.quest.ciftcilik_ve_gastronomi.ultimate_feast.desc.0}"]
+			id: "400BFB8DEB6E9893"
+			rewards: [
+				{
+					id: "11CD23A2B6C6B6B5"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "1DF6E40371C3870D"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6487F9AA79B3229A"
+				item: "farmersdelight:roast_chicken_block"
+				type: "item"
+			}]
+			title: "{kubejs.ftbquests.quest.ciftcilik_ve_gastronomi.ultimate_feast.title}"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6C4886007A30AEC0"]
+			description: ["{kubejs.ftbquests.quest.ciftcilik_ve_gastronomi.sprinkler.desc.0}"]
+			id: "75ADE92DE6D7D6A4"
+			rewards: [{
+				count: 4
+				id: "3FC8E571FFAA6C3C"
+				item: "farm_and_charm:fertilizer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "78420DFA3D8E0F2B"
+				item: "farm_and_charm:water_sprinkler"
+				type: "item"
+			}]
+			title: "{kubejs.ftbquests.quest.ciftcilik_ve_gastronomi.sprinkler.title}"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6C4886007A30AEC0"]
+			description: ["{kubejs.ftbquests.quest.ciftcilik_ve_gastronomi.tea_time.desc.0}"]
+			id: "593859834397A832"
+			rewards: [{
+				count: 4
+				id: "4D5288188D825C4B"
+				item: "farmersrespite:green_tea"
+				type: "item"
+			}]
+			tasks: [{
+				id: "258C914C8A99C647"
+				item: "farmersrespite:kettle"
+				type: "item"
+			}]
+			title: "{kubejs.ftbquests.quest.ciftcilik_ve_gastronomi.tea_time.title}"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["400BFB8DEB6E9893"]
+			description: ["{kubejs.ftbquests.quest.ciftcilik_ve_gastronomi.candlelight_dinner.desc.0}"]
+			id: "3CAE3005AB401E7C"
+			rewards: [{
+				count: 2
+				id: "2B3E02C7BBC3C61E"
+				item: "candlelight:wine_glass"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AE3647409149673"
+				item: "candlelight:hearth"
+				type: "item"
+			}]
+			title: "{kubejs.ftbquests.quest.ciftcilik_ve_gastronomi.candlelight_dinner.title}"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["58B87677D8D846ED"]
+			description: ["{kubejs.ftbquests.quest.ciftcilik_ve_gastronomi.corn_delight.desc.0}"]
+			id: "01BA662B335F345D"
+			rewards: [{
+				count: 4
+				id: "1F35673E17E9C4FF"
+				item: "corn_delight:cornbread"
+				type: "item"
+			}]
+			tasks: [{
+				id: "40A6544A1F1213D3"
+				item: "corn_delight:corn_seeds"
+				type: "item"
+			}]
+			title: "{kubejs.ftbquests.quest.ciftcilik_ve_gastronomi.corn_delight.title}"
+			x: -3.0d
+			y: 1.0d
+		}
+	]
+	title: "{kubejs.ftbquests.chapter.ciftcilik_ve_gastronomi.title}"
+}
