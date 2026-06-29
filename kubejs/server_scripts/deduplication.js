@@ -34,4 +34,13 @@ ServerEvents.tags('item', event => {
 
     event.add('forge:pearls', 'crittersandcompanions:pearl')
     event.add('forge:storage_blocks/pearl', 'crabbersdelight:pearl_block')
+
+    // Alex's Caves / Productive Bees / Create tag integrations
+    event.add('forge:gems/amber', 'alexscaves:amber')
+    event.add('forge:amber', 'alexscaves:amber')
+    event.add('forge:sulfur', 'alexscaves:sulfur')
+    event.add('forge:dusts/sulfur', 'alexscaves:sulfur')
+    event.add('forge:limestone', 'alexscaves:limestone')
+    event.add('forge:limestone', 'create:limestone')
 })
+
