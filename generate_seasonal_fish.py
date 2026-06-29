@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Mevsimsel balık override üreticisi — MEVSIMSEL_BALIK_PLANI.md"""
+"""Mevsimsel balık override üreticisi — kurallar README.md içinde."""
 
 from __future__ import annotations
 

@@ -1,0 +1,15 @@
+{
+  "name": "Mevsimler",
+  "icon": "minecraft:clock",
+  "category": "balik:basics",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Serene Seasons yalnızca Overworld'de çalışır. Her alt mevsim 8 Minecraft günü sürer: İlkbahar → Yaz → Sonbahar → Kış.$(br2)Ekinler mevsim dışında yavaş büyür. Balıklar Tide journal'da mevsime göre filtrelenir."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Test komutları (OP):$(br)- /season get — mevcut mevsim$(br)- /season set <spring|summer|fall|winter>$(br)- /fishing test loot — olta loot dağılımı"
+    }
+  ]
+}

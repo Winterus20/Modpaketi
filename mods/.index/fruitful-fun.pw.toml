@@ -1,0 +1,29 @@
+filename = 'FruitfulFun-1.20.1-Forge-7.8.5.jar'
+name = 'Fruitful Fun 🍊'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '7.8.5+forge'
+
+[download]
+hash = '04b6fa0d37d3bd1afed0a0ea70da9385097d0e09e12c29f8af766483985198cc2ee42363468da4896891400f3455e23572dec0339c73073943b10c673631ad1a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/4bZDWNlG/versions/N1DEXIOm/FruitfulFun-1.20.1-Forge-7.8.5.jar'
+
+[update.modrinth]
+mod-id = '4bZDWNlG'
+version = 'N1DEXIOm'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'ufdDoWPd'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'TdN6LxjM'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'nvQzSEkH'
+type = 'OPTIONAL'

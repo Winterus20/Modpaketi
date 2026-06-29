@@ -1,0 +1,15 @@
+{
+  "name": "Balıkçılık",
+  "icon": "aquaculture:iron_fishing_rod",
+  "category": "balik:basics",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Tüm olta avı Tide sistemi üzerinden yürür. Balıkçılık günlüğü ilk girişte verilir; yeni türler keşfedildikçe dolar.$(br2)Aquaculture oltaları ve Tide yemleri minigame ile uyumludur."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Pasif av: Fisherman's Trap'a yem koy (solucan, Tide bait). Ekmek yemi Tide balık havuzunu kullanır.$(br2)Kanonik balık türleri: Aquaculture (tatlı su), Hybrid Aquatic (deniz), Alex's Mobs (özel türler)."
+    }
+  ]
+}

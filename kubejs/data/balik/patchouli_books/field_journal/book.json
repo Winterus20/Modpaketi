@@ -1,0 +1,10 @@
+{
+  "name": "Köy Günlüğü",
+  "landing_text": "Stardew tarzı yaşam simülasyonuna hoş geldin. Mevsimler omurgadır: her 8 günde alt mevsim değişir. İlkbaharda tohum al, yazın hasat et, mevsime uygun balık tut.",
+  "version": 1,
+  "creative_tab": "minecraft:tools_and_utilities",
+  "model": "patchouli:book_green",
+  "show_progress": false,
+  "use_blocky_font": false,
+  "use_resource_pack": true
+}

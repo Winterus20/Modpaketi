@@ -1,0 +1,15 @@
+{
+  "name": "Tarım & Pazar",
+  "icon": "farmingforblockheads:market",
+  "category": "balik:basics",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Farmer's Delight kanonik mutfak ve temel sebze kaynağıdır. Farm & Charm un, arpa, çilek ve çorba tarifleri için kullanılır. Croptopia'daki çakışan eşyalar otomatik birleştirilir."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Farming for Blockheads pazarından mevsimsel tohum ve yem alınabilir. Kategoriler: İlkbahar/Yaz/Sonbahar/Kış tohumları ve balık yemi.$(br2)Botany Pots ve sağ tık hasat QoL içindir."
+    }
+  ]
+}

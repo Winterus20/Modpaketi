@@ -13,6 +13,7 @@ rhino.local.properties
 # Geçici çıkarım klasörleri
 tmp_tide/
 tmp_tide_extra/
+kubejs/data/_backup_fishing_*/
 
 # IDE / OS
 .DS_Store

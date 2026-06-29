@@ -1,1 +1,76 @@
-{}
+{
+  "customCategories": {
+    "balik_bait": {
+      "name": "Balık Yemi",
+      "icon": { "item": "aquaculture:worm" }
+    },
+    "balik_seeds_spring": {
+      "name": "İlkbahar Tohumları",
+      "icon": { "item": "farmersdelight:tomato_seeds" }
+    },
+    "balik_seeds_summer": {
+      "name": "Yaz Tohumları",
+      "icon": { "item": "farmersdelight:cabbage_seeds" }
+    },
+    "balik_seeds_fall": {
+      "name": "Sonbahar Tohumları",
+      "icon": { "item": "farm_and_charm:barley" }
+    },
+    "balik_seeds_winter": {
+      "name": "Kış Tohumları",
+      "icon": { "item": "farmersdelight:onion" }
+    }
+  },
+  "customEntries": [
+    {
+      "output": { "item": "aquaculture:worm" },
+      "payment": { "item": "minecraft:emerald", "count": 2 },
+      "category": "balik_bait"
+    },
+    {
+      "output": { "item": "aquaculture:leech" },
+      "payment": { "item": "minecraft:emerald", "count": 3 },
+      "category": "balik_bait"
+    },
+    {
+      "output": { "item": "tide:bait" },
+      "payment": { "item": "minecraft:emerald", "count": 4 },
+      "category": "balik_bait"
+    },
+    {
+      "output": { "item": "tide:lucky_bait" },
+      "payment": { "item": "minecraft:emerald", "count": 8 },
+      "category": "balik_bait"
+    },
+    {
+      "output": { "item": "farmersdelight:tomato_seeds" },
+      "payment": { "item": "minecraft:emerald", "count": 2 },
+      "category": "balik_seeds_spring"
+    },
+    {
+      "output": { "item": "farmersdelight:cabbage_seeds" },
+      "payment": { "item": "minecraft:emerald", "count": 2 },
+      "category": "balik_seeds_summer"
+    },
+    {
+      "output": { "item": "farm_and_charm:barley" },
+      "payment": { "item": "minecraft:emerald", "count": 2 },
+      "category": "balik_seeds_fall"
+    },
+    {
+      "output": { "item": "farmersdelight:onion" },
+      "payment": { "item": "minecraft:emerald", "count": 2 },
+      "category": "balik_seeds_winter"
+    },
+    {
+      "output": { "item": "farm_and_charm:strawberry" },
+      "payment": { "item": "minecraft:emerald", "count": 3 },
+      "category": "balik_seeds_spring"
+    },
+    {
+      "output": { "item": "vinery:red_grape_seeds" },
+      "payment": { "item": "minecraft:emerald", "count": 4 },
+      "category": "balik_seeds_fall"
+    }
+  ]
+}

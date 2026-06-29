@@ -1,0 +1,21 @@
+filename = 'Kiwi-1.20.1-Forge-11.10.3.jar'
+name = 'Kiwi 🥝'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '11.10.3+forge'
+
+[download]
+hash = '95357497d6042c6c1d33b222da06ada6eb03b78004720d0610cd82dc83e6f0a23bca2a87ba8c1a02b1de323e8235b94cb2107b5e3c04150fbb4760521173cdfc'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ufdDoWPd/versions/NSxwah05/Kiwi-1.20.1-Forge-11.10.3.jar'
+
+[update.modrinth]
+mod-id = 'ufdDoWPd'
+version = 'NSxwah05'
+
+[[x-prismlauncher-dependencies]]
+addonId = '9s6osm5g'
+type = 'OPTIONAL'
