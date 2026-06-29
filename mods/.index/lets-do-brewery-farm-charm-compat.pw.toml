@@ -1,0 +1,25 @@
+filename = 'letsdo-brewery-forge-2.0.6.jar'
+name = "[Let's Do] Brewery - Farm&Charm Compat"
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = ' Brewery - 2.0.6 - FORGE - 1.20.1'
+
+[download]
+hash = 'ce364781ec9accfdd5bb04f8280ffb542243b1ae'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6847826
+project-id = 1038106
+
+[[x-prismlauncher-dependencies]]
+addonId = '1038103'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '419699'
+type = 'REQUIRED'

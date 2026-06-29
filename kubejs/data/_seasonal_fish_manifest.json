@@ -1,0 +1,1543 @@
+{
+  "generated_at": "2026-06-29T14:26:46.425693+00:00",
+  "total_fish": 115,
+  "skipped_dedup": 14,
+  "backup_dir": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\kubejs\\data\\_backup_fishing_20260629_172646",
+  "season_summary": {
+    "spring": {
+      "total": 88,
+      "by_category": {
+        "freshwater": 39,
+        "saltwater": 46,
+        "misc": 3
+      }
+    },
+    "summer": {
+      "total": 88,
+      "by_category": {
+        "freshwater": 36,
+        "saltwater": 49,
+        "misc": 3
+      }
+    },
+    "fall": {
+      "total": 87,
+      "by_category": {
+        "freshwater": 35,
+        "saltwater": 49,
+        "misc": 3
+      }
+    },
+    "winter": {
+      "total": 82,
+      "by_category": {
+        "freshwater": 43,
+        "saltwater": 36,
+        "misc": 3
+      }
+    }
+  },
+  "season_balance": {
+    "min": 82,
+    "max": 88,
+    "spread": 6
+  },
+  "fish": [
+    {
+      "fish": "alexsmobs:blobfish",
+      "namespace": "alexsmobs",
+      "category": "saltwater",
+      "preferred_temperature": null,
+      "seasons": [
+        "spring",
+        "summer",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide_extra\\data\\alexsmobs\\fishing\\fish\\saltwater\\blobfish.json",
+      "output": "alexsmobs\\fishing\\fish\\saltwater\\blobfish.json"
+    },
+    {
+      "fish": "alexsmobs:flying_fish",
+      "namespace": "alexsmobs",
+      "category": "saltwater",
+      "preferred_temperature": null,
+      "seasons": [
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide_extra\\data\\alexsmobs\\fishing\\fish\\saltwater\\flying_fish.json",
+      "output": "alexsmobs\\fishing\\fish\\saltwater\\flying_fish.json"
+    },
+    {
+      "fish": "aquaculture:arapaima",
+      "namespace": "aquaculture",
+      "category": "freshwater",
+      "preferred_temperature": null,
+      "seasons": [
+        "spring",
+        "summer",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide_extra\\data\\aquaculture\\fishing\\fish\\freshwater\\arapaima.json",
+      "output": "aquaculture\\fishing\\fish\\freshwater\\arapaima.json"
+    },
+    {
+      "fish": "aquaculture:arrau_turtle",
+      "namespace": "aquaculture",
+      "category": "freshwater",
+      "preferred_temperature": null,
+      "seasons": [
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide_extra\\data\\aquaculture\\fishing\\fish\\freshwater\\arrau_turtle.json",
+      "output": "aquaculture\\fishing\\fish\\freshwater\\arrau_turtle.json"
+    },
+    {
+      "fish": "aquaculture:bayad",
+      "namespace": "aquaculture",
+      "category": "freshwater",
+      "preferred_temperature": 1.0,
+      "seasons": [
+        "spring",
+        "summer",
+        "fall"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide_extra\\data\\aquaculture\\fishing\\fish\\freshwater\\bayad.json",
+      "output": "aquaculture\\fishing\\fish\\freshwater\\bayad.json"
+    },
+    {
+      "fish": "aquaculture:bluegill",
+      "namespace": "aquaculture",
+      "category": "freshwater",
+      "preferred_temperature": 0.0,
+      "seasons": [
+        "spring",
+        "summer",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide_extra\\data\\aquaculture\\fishing\\fish\\freshwater\\bluegill.json",
+      "output": "aquaculture\\fishing\\fish\\freshwater\\bluegill.json"
+    },
+    {
+      "fish": "aquaculture:boulti",
+      "namespace": "aquaculture",
+      "category": "freshwater",
+      "preferred_temperature": 1.0,
+      "seasons": [
+        "spring",
+        "summer",
+        "fall"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide_extra\\data\\aquaculture\\fishing\\fish\\freshwater\\boulti.json",
+      "output": "aquaculture\\fishing\\fish\\freshwater\\boulti.json"
+    },
+    {
+      "fish": "aquaculture:box_turtle",
+      "namespace": "aquaculture",
+      "category": "freshwater",
+      "preferred_temperature": null,
+      "seasons": [
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide_extra\\data\\aquaculture\\fishing\\fish\\freshwater\\box_turtle.json",
+      "output": "aquaculture\\fishing\\fish\\freshwater\\box_turtle.json"
+    },
+    {
+      "fish": "aquaculture:brown_trout",
+      "namespace": "aquaculture",
+      "category": "freshwater",
+      "preferred_temperature": 0.0,
+      "seasons": [
+        "spring",
+        "summer",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide_extra\\data\\aquaculture\\fishing\\fish\\freshwater\\brown_trout.json",
+      "output": "aquaculture\\fishing\\fish\\freshwater\\brown_trout.json"
+    },
+    {
+      "fish": "aquaculture:capitaine",
+      "namespace": "aquaculture",
+      "category": "freshwater",
+      "preferred_temperature": 1.0,
+      "seasons": [
+        "spring",
+        "summer",
+        "fall"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide_extra\\data\\aquaculture\\fishing\\fish\\freshwater\\capitaine.json",
+      "output": "aquaculture\\fishing\\fish\\freshwater\\capitaine.json"
+    },
+    {
+      "fish": "aquaculture:carp",
+      "namespace": "aquaculture",
+      "category": "freshwater",
+      "preferred_temperature": 0.15,
+      "seasons": [
+        "spring",
+        "summer",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide_extra\\data\\aquaculture\\fishing\\fish\\freshwater\\carp.json",
+      "output": "aquaculture\\fishing\\fish\\freshwater\\carp.json"
+    },
+    {
+      "fish": "aquaculture:catfish",
+      "namespace": "aquaculture",
+      "category": "freshwater",
+      "preferred_temperature": 0.4,
+      "seasons": [
+        "spring",
+        "summer",
+        "fall"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide_extra\\data\\aquaculture\\fishing\\fish\\freshwater\\catfish.json",
+      "output": "aquaculture\\fishing\\fish\\freshwater\\catfish.json"
+    },
+    {
+      "fish": "aquaculture:gar",
+      "namespace": "aquaculture",
+      "category": "freshwater",
+      "preferred_temperature": 1.0,
+      "seasons": [
+        "spring",
+        "summer",
+        "fall"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide_extra\\data\\aquaculture\\fishing\\fish\\freshwater\\gar.json",
+      "output": "aquaculture\\fishing\\fish\\freshwater\\gar.json"
+    },
+    {
+      "fish": "aquaculture:minnow",
+      "namespace": "aquaculture",
+      "category": "freshwater",
+      "preferred_temperature": 0.2,
+      "seasons": [
+        "spring",
+        "summer",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide_extra\\data\\aquaculture\\fishing\\fish\\freshwater\\minnow.json",
+      "output": "aquaculture\\fishing\\fish\\freshwater\\minnow.json"
+    },
+    {
+      "fish": "aquaculture:muskellunge",
+      "namespace": "aquaculture",
+      "category": "freshwater",
+      "preferred_temperature": 0.1,
+      "seasons": [
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide_extra\\data\\aquaculture\\fishing\\fish\\freshwater\\muskellunge.json",
+      "output": "aquaculture\\fishing\\fish\\freshwater\\muskellunge.json"
+    },
+    {
+      "fish": "aquaculture:perch",
+      "namespace": "aquaculture",
+      "category": "freshwater",
+      "preferred_temperature": null,
+      "seasons": [
+        "spring",
+        "summer",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide_extra\\data\\aquaculture\\fishing\\fish\\freshwater\\perch.json",
+      "output": "aquaculture\\fishing\\fish\\freshwater\\perch.json"
+    },
+    {
+      "fish": "aquaculture:pink_salmon",
+      "namespace": "aquaculture",
+      "category": "freshwater",
+      "preferred_temperature": -1.0,
+      "seasons": [
+        "spring",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide_extra\\data\\aquaculture\\fishing\\fish\\freshwater\\pink_salmon.json",
+      "output": "aquaculture\\fishing\\fish\\freshwater\\pink_salmon.json"
+    },
+    {
+      "fish": "aquaculture:piranha",
+      "namespace": "aquaculture",
+      "category": "freshwater",
+      "preferred_temperature": null,
+      "seasons": [
+        "spring",
+        "summer",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide_extra\\data\\aquaculture\\fishing\\fish\\freshwater\\piranha.json",
+      "output": "aquaculture\\fishing\\fish\\freshwater\\piranha.json"
+    },
+    {
+      "fish": "aquaculture:rainbow_trout",
+      "namespace": "aquaculture",
+      "category": "freshwater",
+      "preferred_temperature": -1.0,
+      "seasons": [
+        "spring",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide_extra\\data\\aquaculture\\fishing\\fish\\freshwater\\rainbow_trout.json",
+      "output": "aquaculture\\fishing\\fish\\freshwater\\rainbow_trout.json"
+    },
+    {
+      "fish": "aquaculture:smallmouth_bass",
+      "namespace": "aquaculture",
+      "category": "freshwater",
+      "preferred_temperature": -0.25,
+      "seasons": [
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide_extra\\data\\aquaculture\\fishing\\fish\\freshwater\\smallmouth_bass.json",
+      "output": "aquaculture\\fishing\\fish\\freshwater\\smallmouth_bass.json"
+    },
+    {
+      "fish": "aquaculture:starshell_turtle",
+      "namespace": "aquaculture",
+      "category": "freshwater",
+      "preferred_temperature": null,
+      "seasons": [
+        "spring",
+        "summer",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide_extra\\data\\aquaculture\\fishing\\fish\\freshwater\\starshell_turtle.json",
+      "output": "aquaculture\\fishing\\fish\\freshwater\\starshell_turtle.json"
+    },
+    {
+      "fish": "aquaculture:synodontis",
+      "namespace": "aquaculture",
+      "category": "freshwater",
+      "preferred_temperature": 1.0,
+      "seasons": [
+        "spring",
+        "summer",
+        "fall"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide_extra\\data\\aquaculture\\fishing\\fish\\freshwater\\synodontis.json",
+      "output": "aquaculture\\fishing\\fish\\freshwater\\synodontis.json"
+    },
+    {
+      "fish": "aquaculture:tambaqui",
+      "namespace": "aquaculture",
+      "category": "freshwater",
+      "preferred_temperature": null,
+      "seasons": [
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide_extra\\data\\aquaculture\\fishing\\fish\\freshwater\\tambaqui.json",
+      "output": "aquaculture\\fishing\\fish\\freshwater\\tambaqui.json"
+    },
+    {
+      "fish": "aquaculture:atlantic_cod",
+      "namespace": "aquaculture",
+      "category": "saltwater",
+      "preferred_temperature": -1.0,
+      "seasons": [
+        "spring",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide_extra\\data\\aquaculture\\fishing\\fish\\saltwater\\atlantic_cod.json",
+      "output": "aquaculture\\fishing\\fish\\saltwater\\atlantic_cod.json"
+    },
+    {
+      "fish": "aquaculture:atlantic_halibut",
+      "namespace": "aquaculture",
+      "category": "saltwater",
+      "preferred_temperature": -1.0,
+      "seasons": [
+        "spring",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide_extra\\data\\aquaculture\\fishing\\fish\\saltwater\\atlantic_halibut.json",
+      "output": "aquaculture\\fishing\\fish\\saltwater\\atlantic_halibut.json"
+    },
+    {
+      "fish": "aquaculture:atlantic_herring",
+      "namespace": "aquaculture",
+      "category": "saltwater",
+      "preferred_temperature": -1.0,
+      "seasons": [
+        "spring",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide_extra\\data\\aquaculture\\fishing\\fish\\saltwater\\atlantic_herring.json",
+      "output": "aquaculture\\fishing\\fish\\saltwater\\atlantic_herring.json"
+    },
+    {
+      "fish": "aquaculture:blackfish",
+      "namespace": "aquaculture",
+      "category": "saltwater",
+      "preferred_temperature": -1.0,
+      "seasons": [
+        "spring",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide_extra\\data\\aquaculture\\fishing\\fish\\saltwater\\blackfish.json",
+      "output": "aquaculture\\fishing\\fish\\saltwater\\blackfish.json"
+    },
+    {
+      "fish": "aquaculture:brown_shrooma",
+      "namespace": "aquaculture",
+      "category": "saltwater",
+      "preferred_temperature": null,
+      "seasons": [
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide_extra\\data\\aquaculture\\fishing\\fish\\saltwater\\brown_shrooma.json",
+      "output": "aquaculture\\fishing\\fish\\saltwater\\brown_shrooma.json"
+    },
+    {
+      "fish": "aquaculture:jellyfish",
+      "namespace": "aquaculture",
+      "category": "saltwater",
+      "preferred_temperature": null,
+      "seasons": [
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide_extra\\data\\aquaculture\\fishing\\fish\\saltwater\\jellyfish.json",
+      "output": "aquaculture\\fishing\\fish\\saltwater\\jellyfish.json"
+    },
+    {
+      "fish": "aquaculture:pacific_halibut",
+      "namespace": "aquaculture",
+      "category": "saltwater",
+      "preferred_temperature": -1.0,
+      "seasons": [
+        "spring",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide_extra\\data\\aquaculture\\fishing\\fish\\saltwater\\pacific_halibut.json",
+      "output": "aquaculture\\fishing\\fish\\saltwater\\pacific_halibut.json"
+    },
+    {
+      "fish": "aquaculture:pollock",
+      "namespace": "aquaculture",
+      "category": "saltwater",
+      "preferred_temperature": -1.0,
+      "seasons": [
+        "spring",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide_extra\\data\\aquaculture\\fishing\\fish\\saltwater\\pollock.json",
+      "output": "aquaculture\\fishing\\fish\\saltwater\\pollock.json"
+    },
+    {
+      "fish": "aquaculture:red_grouper",
+      "namespace": "aquaculture",
+      "category": "saltwater",
+      "preferred_temperature": null,
+      "seasons": [
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide_extra\\data\\aquaculture\\fishing\\fish\\saltwater\\red_grouper.json",
+      "output": "aquaculture\\fishing\\fish\\saltwater\\red_grouper.json"
+    },
+    {
+      "fish": "aquaculture:red_shrooma",
+      "namespace": "aquaculture",
+      "category": "saltwater",
+      "preferred_temperature": null,
+      "seasons": [
+        "spring",
+        "summer",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide_extra\\data\\aquaculture\\fishing\\fish\\saltwater\\red_shrooma.json",
+      "output": "aquaculture\\fishing\\fish\\saltwater\\red_shrooma.json"
+    },
+    {
+      "fish": "aquaculture:tuna",
+      "namespace": "aquaculture",
+      "category": "saltwater",
+      "preferred_temperature": null,
+      "seasons": [
+        "spring",
+        "summer",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide_extra\\data\\aquaculture\\fishing\\fish\\saltwater\\tuna.json",
+      "output": "aquaculture\\fishing\\fish\\saltwater\\tuna.json"
+    },
+    {
+      "fish": "crabbersdelight:crab",
+      "namespace": "crabbersdelight",
+      "category": "saltwater",
+      "preferred_temperature": null,
+      "seasons": [
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide_extra\\data\\crabbersdelight\\fishing\\fish\\saltwater\\crab.json",
+      "output": "crabbersdelight\\fishing\\fish\\saltwater\\crab.json"
+    },
+    {
+      "fish": "crittersandcompanions:clam",
+      "namespace": "crittersandcompanions",
+      "category": "freshwater",
+      "preferred_temperature": null,
+      "seasons": [
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide_extra\\data\\crittersandcompanions\\fishing\\fish\\freshwater\\clam.json",
+      "output": "crittersandcompanions\\fishing\\fish\\freshwater\\clam.json"
+    },
+    {
+      "fish": "crittersandcompanions:koi_fish",
+      "namespace": "crittersandcompanions",
+      "category": "freshwater",
+      "preferred_temperature": null,
+      "seasons": [
+        "spring",
+        "summer",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide_extra\\data\\crittersandcompanions\\fishing\\fish\\freshwater\\koi_fish.json",
+      "output": "crittersandcompanions\\fishing\\fish\\freshwater\\koi_fish.json"
+    },
+    {
+      "fish": "hybrid_aquatic:betta",
+      "namespace": "hybrid_aquatic",
+      "category": "freshwater",
+      "preferred_temperature": null,
+      "seasons": [
+        "spring",
+        "summer",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\hybrid_aquatic\\fishing\\fish\\freshwater\\betta.json",
+      "output": "hybrid_aquatic\\fishing\\fish\\freshwater\\betta.json"
+    },
+    {
+      "fish": "hybrid_aquatic:cichlid",
+      "namespace": "hybrid_aquatic",
+      "category": "freshwater",
+      "preferred_temperature": null,
+      "seasons": [
+        "spring",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\hybrid_aquatic\\fishing\\fish\\freshwater\\cichlid.json",
+      "output": "hybrid_aquatic\\fishing\\fish\\freshwater\\cichlid.json"
+    },
+    {
+      "fish": "hybrid_aquatic:danio",
+      "namespace": "hybrid_aquatic",
+      "category": "freshwater",
+      "preferred_temperature": null,
+      "seasons": [
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\hybrid_aquatic\\fishing\\fish\\freshwater\\danio.json",
+      "output": "hybrid_aquatic\\fishing\\fish\\freshwater\\danio.json"
+    },
+    {
+      "fish": "hybrid_aquatic:discus",
+      "namespace": "hybrid_aquatic",
+      "category": "freshwater",
+      "preferred_temperature": null,
+      "seasons": [
+        "spring",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\hybrid_aquatic\\fishing\\fish\\freshwater\\discus.json",
+      "output": "hybrid_aquatic\\fishing\\fish\\freshwater\\discus.json"
+    },
+    {
+      "fish": "hybrid_aquatic:golden_dorado",
+      "namespace": "hybrid_aquatic",
+      "category": "freshwater",
+      "preferred_temperature": 0.6,
+      "seasons": [
+        "spring",
+        "summer",
+        "fall"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\hybrid_aquatic\\fishing\\fish\\freshwater\\golden_dorado.json",
+      "output": "hybrid_aquatic\\fishing\\fish\\freshwater\\golden_dorado.json"
+    },
+    {
+      "fish": "aquaculture:goldfish",
+      "namespace": "aquaculture",
+      "category": "freshwater",
+      "preferred_temperature": null,
+      "seasons": [
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\hybrid_aquatic\\fishing\\fish\\freshwater\\goldfish.json",
+      "output": "aquaculture\\fishing\\fish\\freshwater\\goldfish.json",
+      "remapped_from": "hybrid_aquatic:goldfish"
+    },
+    {
+      "fish": "hybrid_aquatic:gourami",
+      "namespace": "hybrid_aquatic",
+      "category": "freshwater",
+      "preferred_temperature": null,
+      "seasons": [
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\hybrid_aquatic\\fishing\\fish\\freshwater\\gourami.json",
+      "output": "hybrid_aquatic\\fishing\\fish\\freshwater\\gourami.json"
+    },
+    {
+      "fish": "hybrid_aquatic:pleco",
+      "namespace": "hybrid_aquatic",
+      "category": "freshwater",
+      "preferred_temperature": null,
+      "seasons": [
+        "spring",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\hybrid_aquatic\\fishing\\fish\\freshwater\\pleco.json",
+      "output": "hybrid_aquatic\\fishing\\fish\\freshwater\\pleco.json"
+    },
+    {
+      "fish": "hybrid_aquatic:sunfish",
+      "namespace": "hybrid_aquatic",
+      "category": "freshwater",
+      "preferred_temperature": 0.0,
+      "seasons": [
+        "spring",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\hybrid_aquatic\\fishing\\fish\\freshwater\\sunfish.json",
+      "output": "hybrid_aquatic\\fishing\\fish\\freshwater\\sunfish.json"
+    },
+    {
+      "fish": "hybrid_aquatic:tetra",
+      "namespace": "hybrid_aquatic",
+      "category": "freshwater",
+      "preferred_temperature": null,
+      "seasons": [
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\hybrid_aquatic\\fishing\\fish\\freshwater\\tetra.json",
+      "output": "hybrid_aquatic\\fishing\\fish\\freshwater\\tetra.json"
+    },
+    {
+      "fish": "hybrid_aquatic:tiger_barb",
+      "namespace": "hybrid_aquatic",
+      "category": "freshwater",
+      "preferred_temperature": null,
+      "seasons": [
+        "spring",
+        "summer",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\hybrid_aquatic\\fishing\\fish\\freshwater\\tiger_barb.json",
+      "output": "hybrid_aquatic\\fishing\\fish\\freshwater\\tiger_barb.json"
+    },
+    {
+      "fish": "hybrid_aquatic:anglerfish",
+      "namespace": "hybrid_aquatic",
+      "category": "misc",
+      "preferred_temperature": null,
+      "seasons": [
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\hybrid_aquatic\\fishing\\fish\\misc\\anglerfish.json",
+      "output": "hybrid_aquatic\\fishing\\fish\\misc\\anglerfish.json"
+    },
+    {
+      "fish": "hybrid_aquatic:coelacanth",
+      "namespace": "hybrid_aquatic",
+      "category": "misc",
+      "preferred_temperature": 0.3,
+      "seasons": [
+        "spring",
+        "summer",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\hybrid_aquatic\\fishing\\fish\\misc\\coelacanth.json",
+      "output": "hybrid_aquatic\\fishing\\fish\\misc\\coelacanth.json"
+    },
+    {
+      "fish": "hybrid_aquatic:mackerel",
+      "namespace": "hybrid_aquatic",
+      "category": "misc",
+      "preferred_temperature": 0.1,
+      "seasons": [
+        "spring",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\hybrid_aquatic\\fishing\\fish\\misc\\mackerel.json",
+      "output": "hybrid_aquatic\\fishing\\fish\\misc\\mackerel.json"
+    },
+    {
+      "fish": "hybrid_aquatic:mahi",
+      "namespace": "hybrid_aquatic",
+      "category": "misc",
+      "preferred_temperature": 0.4,
+      "seasons": [
+        "spring",
+        "summer",
+        "fall"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\hybrid_aquatic\\fishing\\fish\\misc\\mahi.json",
+      "output": "hybrid_aquatic\\fishing\\fish\\misc\\mahi.json"
+    },
+    {
+      "fish": "hybrid_aquatic:blowfish",
+      "namespace": "hybrid_aquatic",
+      "category": "saltwater",
+      "preferred_temperature": 0.8,
+      "seasons": [
+        "spring",
+        "summer",
+        "fall"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\hybrid_aquatic\\fishing\\fish\\saltwater\\blowfish.json",
+      "output": "hybrid_aquatic\\fishing\\fish\\saltwater\\blowfish.json"
+    },
+    {
+      "fish": "hybrid_aquatic:boxfish",
+      "namespace": "hybrid_aquatic",
+      "category": "saltwater",
+      "preferred_temperature": 0.8,
+      "seasons": [
+        "spring",
+        "summer",
+        "fall"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\hybrid_aquatic\\fishing\\fish\\saltwater\\boxfish.json",
+      "output": "hybrid_aquatic\\fishing\\fish\\saltwater\\boxfish.json"
+    },
+    {
+      "fish": "hybrid_aquatic:clownfish",
+      "namespace": "hybrid_aquatic",
+      "category": "saltwater",
+      "preferred_temperature": 0.8,
+      "seasons": [
+        "spring",
+        "summer",
+        "fall"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\hybrid_aquatic\\fishing\\fish\\saltwater\\clownfish.json",
+      "output": "hybrid_aquatic\\fishing\\fish\\saltwater\\clownfish.json"
+    },
+    {
+      "fish": "hybrid_aquatic:damselfish",
+      "namespace": "hybrid_aquatic",
+      "category": "saltwater",
+      "preferred_temperature": 0.8,
+      "seasons": [
+        "spring",
+        "summer",
+        "fall"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\hybrid_aquatic\\fishing\\fish\\saltwater\\damselfish.json",
+      "output": "hybrid_aquatic\\fishing\\fish\\saltwater\\damselfish.json"
+    },
+    {
+      "fish": "hybrid_aquatic:flashlight_fish",
+      "namespace": "hybrid_aquatic",
+      "category": "saltwater",
+      "preferred_temperature": 0.8,
+      "seasons": [
+        "spring",
+        "summer",
+        "fall"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\hybrid_aquatic\\fishing\\fish\\saltwater\\flashlight_fish.json",
+      "output": "hybrid_aquatic\\fishing\\fish\\saltwater\\flashlight_fish.json"
+    },
+    {
+      "fish": "hybrid_aquatic:herring",
+      "namespace": "hybrid_aquatic",
+      "category": "saltwater",
+      "preferred_temperature": 0.0,
+      "seasons": [
+        "spring",
+        "summer",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\hybrid_aquatic\\fishing\\fish\\saltwater\\herring.json",
+      "output": "hybrid_aquatic\\fishing\\fish\\saltwater\\herring.json"
+    },
+    {
+      "fish": "hybrid_aquatic:lionfish",
+      "namespace": "hybrid_aquatic",
+      "category": "saltwater",
+      "preferred_temperature": 0.8,
+      "seasons": [
+        "spring",
+        "summer",
+        "fall"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\hybrid_aquatic\\fishing\\fish\\saltwater\\lionfish.json",
+      "output": "hybrid_aquatic\\fishing\\fish\\saltwater\\lionfish.json"
+    },
+    {
+      "fish": "hybrid_aquatic:moray_eel",
+      "namespace": "hybrid_aquatic",
+      "category": "saltwater",
+      "preferred_temperature": 0.5,
+      "seasons": [
+        "spring",
+        "summer",
+        "fall"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\hybrid_aquatic\\fishing\\fish\\saltwater\\moray_eel.json",
+      "output": "hybrid_aquatic\\fishing\\fish\\saltwater\\moray_eel.json"
+    },
+    {
+      "fish": "hybrid_aquatic:needlefish",
+      "namespace": "hybrid_aquatic",
+      "category": "saltwater",
+      "preferred_temperature": 0.7,
+      "seasons": [
+        "spring",
+        "summer",
+        "fall"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\hybrid_aquatic\\fishing\\fish\\saltwater\\needlefish.json",
+      "output": "hybrid_aquatic\\fishing\\fish\\saltwater\\needlefish.json"
+    },
+    {
+      "fish": "hybrid_aquatic:ocean_sunfish",
+      "namespace": "hybrid_aquatic",
+      "category": "saltwater",
+      "preferred_temperature": 0.35,
+      "seasons": [
+        "spring",
+        "summer",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\hybrid_aquatic\\fishing\\fish\\saltwater\\ocean_sunfish.json",
+      "output": "hybrid_aquatic\\fishing\\fish\\saltwater\\ocean_sunfish.json"
+    },
+    {
+      "fish": "hybrid_aquatic:opah",
+      "namespace": "hybrid_aquatic",
+      "category": "saltwater",
+      "preferred_temperature": 0.35,
+      "seasons": [
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\hybrid_aquatic\\fishing\\fish\\saltwater\\opah.json",
+      "output": "hybrid_aquatic\\fishing\\fish\\saltwater\\opah.json"
+    },
+    {
+      "fish": "hybrid_aquatic:parrotfish",
+      "namespace": "hybrid_aquatic",
+      "category": "saltwater",
+      "preferred_temperature": 0.6,
+      "seasons": [
+        "spring",
+        "summer",
+        "fall"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\hybrid_aquatic\\fishing\\fish\\saltwater\\parrotfish.json",
+      "output": "hybrid_aquatic\\fishing\\fish\\saltwater\\parrotfish.json"
+    },
+    {
+      "fish": "hybrid_aquatic:pearlfish",
+      "namespace": "hybrid_aquatic",
+      "category": "saltwater",
+      "preferred_temperature": 0.0,
+      "seasons": [
+        "spring",
+        "summer",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\hybrid_aquatic\\fishing\\fish\\saltwater\\pearlfish.json",
+      "output": "hybrid_aquatic\\fishing\\fish\\saltwater\\pearlfish.json"
+    },
+    {
+      "fish": "hybrid_aquatic:rockfish",
+      "namespace": "hybrid_aquatic",
+      "category": "saltwater",
+      "preferred_temperature": 0.5,
+      "seasons": [
+        "spring",
+        "summer",
+        "fall"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\hybrid_aquatic\\fishing\\fish\\saltwater\\rockfish.json",
+      "output": "hybrid_aquatic\\fishing\\fish\\saltwater\\rockfish.json"
+    },
+    {
+      "fish": "hybrid_aquatic:sea_bass",
+      "namespace": "hybrid_aquatic",
+      "category": "saltwater",
+      "preferred_temperature": 0.2,
+      "seasons": [
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\hybrid_aquatic\\fishing\\fish\\saltwater\\sea_bass.json",
+      "output": "hybrid_aquatic\\fishing\\fish\\saltwater\\sea_bass.json"
+    },
+    {
+      "fish": "hybrid_aquatic:seahorse",
+      "namespace": "hybrid_aquatic",
+      "category": "saltwater",
+      "preferred_temperature": 0.8,
+      "seasons": [
+        "spring",
+        "summer",
+        "fall"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\hybrid_aquatic\\fishing\\fish\\saltwater\\seahorse.json",
+      "output": "hybrid_aquatic\\fishing\\fish\\saltwater\\seahorse.json"
+    },
+    {
+      "fish": "hybrid_aquatic:sheepshead_wrasse",
+      "namespace": "hybrid_aquatic",
+      "category": "saltwater",
+      "preferred_temperature": 0.0,
+      "seasons": [
+        "spring",
+        "summer",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\hybrid_aquatic\\fishing\\fish\\saltwater\\sheepshead_wrasse.json",
+      "output": "hybrid_aquatic\\fishing\\fish\\saltwater\\sheepshead_wrasse.json"
+    },
+    {
+      "fish": "hybrid_aquatic:squirrelfish",
+      "namespace": "hybrid_aquatic",
+      "category": "saltwater",
+      "preferred_temperature": 0.8,
+      "seasons": [
+        "spring",
+        "summer",
+        "fall"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\hybrid_aquatic\\fishing\\fish\\saltwater\\squirrelfish.json",
+      "output": "hybrid_aquatic\\fishing\\fish\\saltwater\\squirrelfish.json"
+    },
+    {
+      "fish": "hybrid_aquatic:stingray",
+      "namespace": "hybrid_aquatic",
+      "category": "saltwater",
+      "preferred_temperature": 0.55,
+      "seasons": [
+        "spring",
+        "summer",
+        "fall"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\hybrid_aquatic\\fishing\\fish\\saltwater\\stingray.json",
+      "output": "hybrid_aquatic\\fishing\\fish\\saltwater\\stingray.json"
+    },
+    {
+      "fish": "hybrid_aquatic:stonefish",
+      "namespace": "hybrid_aquatic",
+      "category": "saltwater",
+      "preferred_temperature": 0.8,
+      "seasons": [
+        "spring",
+        "summer",
+        "fall"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\hybrid_aquatic\\fishing\\fish\\saltwater\\stonefish.json",
+      "output": "hybrid_aquatic\\fishing\\fish\\saltwater\\stonefish.json"
+    },
+    {
+      "fish": "hybrid_aquatic:surgeonfish",
+      "namespace": "hybrid_aquatic",
+      "category": "saltwater",
+      "preferred_temperature": 0.8,
+      "seasons": [
+        "spring",
+        "summer",
+        "fall"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\hybrid_aquatic\\fishing\\fish\\saltwater\\surgeonfish.json",
+      "output": "hybrid_aquatic\\fishing\\fish\\saltwater\\surgeonfish.json"
+    },
+    {
+      "fish": "hybrid_aquatic:trevally",
+      "namespace": "hybrid_aquatic",
+      "category": "saltwater",
+      "preferred_temperature": 0.7,
+      "seasons": [
+        "spring",
+        "summer",
+        "fall"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\hybrid_aquatic\\fishing\\fish\\saltwater\\trevally.json",
+      "output": "hybrid_aquatic\\fishing\\fish\\saltwater\\trevally.json"
+    },
+    {
+      "fish": "hybrid_aquatic:triggerfish",
+      "namespace": "hybrid_aquatic",
+      "category": "saltwater",
+      "preferred_temperature": 0.8,
+      "seasons": [
+        "spring",
+        "summer",
+        "fall"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\hybrid_aquatic\\fishing\\fish\\saltwater\\triggerfish.json",
+      "output": "hybrid_aquatic\\fishing\\fish\\saltwater\\triggerfish.json"
+    },
+    {
+      "fish": "minecraft:salmon",
+      "namespace": "minecraft",
+      "category": "freshwater",
+      "preferred_temperature": -0.6,
+      "seasons": [
+        "spring",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\minecraft\\fishing\\fish\\freshwater\\salmon.json",
+      "output": "minecraft\\fishing\\fish\\freshwater\\salmon.json"
+    },
+    {
+      "fish": "minecraft:cod",
+      "namespace": "minecraft",
+      "category": "saltwater",
+      "preferred_temperature": -1.0,
+      "seasons": [
+        "spring",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\minecraft\\fishing\\fish\\saltwater\\cod.json",
+      "output": "minecraft\\fishing\\fish\\saltwater\\cod.json"
+    },
+    {
+      "fish": "minecraft:pufferfish",
+      "namespace": "minecraft",
+      "category": "saltwater",
+      "preferred_temperature": 1.0,
+      "seasons": [
+        "spring",
+        "summer",
+        "fall"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\minecraft\\fishing\\fish\\saltwater\\pufferfish.json",
+      "output": "minecraft\\fishing\\fish\\saltwater\\pufferfish.json"
+    },
+    {
+      "fish": "minecraft:tropical_fish",
+      "namespace": "minecraft",
+      "category": "saltwater",
+      "preferred_temperature": 1.0,
+      "seasons": [
+        "spring",
+        "summer",
+        "fall"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\minecraft\\fishing\\fish\\saltwater\\tropical_fish.json",
+      "output": "minecraft\\fishing\\fish\\saltwater\\tropical_fish.json"
+    },
+    {
+      "fish": "tide:black_crappie",
+      "namespace": "tide",
+      "category": "freshwater",
+      "preferred_temperature": -0.12,
+      "seasons": [
+        "spring",
+        "summer",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\tide\\fishing\\fish\\freshwater\\black_crappie.json",
+      "output": "tide\\fishing\\fish\\freshwater\\black_crappie.json"
+    },
+    {
+      "fish": "tide:blossom_bass",
+      "namespace": "tide",
+      "category": "freshwater",
+      "preferred_temperature": null,
+      "seasons": [
+        "spring",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\tide\\fishing\\fish\\freshwater\\blossom_bass.json",
+      "output": "tide\\fishing\\fish\\freshwater\\blossom_bass.json"
+    },
+    {
+      "fish": "tide:brook_trout",
+      "namespace": "tide",
+      "category": "freshwater",
+      "preferred_temperature": -0.1,
+      "seasons": [
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\tide\\fishing\\fish\\freshwater\\brook_trout.json",
+      "output": "tide\\fishing\\fish\\freshwater\\brook_trout.json"
+    },
+    {
+      "fish": "tide:bull_shark",
+      "namespace": "tide",
+      "category": "freshwater",
+      "preferred_temperature": 0.35,
+      "seasons": [
+        "spring",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\tide\\fishing\\fish\\freshwater\\bull_shark.json",
+      "output": "tide\\fishing\\fish\\freshwater\\bull_shark.json"
+    },
+    {
+      "fish": "tide:frostbite_flounder",
+      "namespace": "tide",
+      "category": "freshwater",
+      "preferred_temperature": null,
+      "seasons": [
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\tide\\fishing\\fish\\freshwater\\frostbite_flounder.json",
+      "output": "tide\\fishing\\fish\\freshwater\\frostbite_flounder.json"
+    },
+    {
+      "fish": "tide:guppy",
+      "namespace": "tide",
+      "category": "freshwater",
+      "preferred_temperature": 1.0,
+      "seasons": [
+        "spring",
+        "summer",
+        "fall"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\tide\\fishing\\fish\\freshwater\\guppy.json",
+      "output": "tide\\fishing\\fish\\freshwater\\guppy.json"
+    },
+    {
+      "fish": "tide:largemouth_bass",
+      "namespace": "tide",
+      "category": "freshwater",
+      "preferred_temperature": 0.03,
+      "seasons": [
+        "spring",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\tide\\fishing\\fish\\freshwater\\largemouth_bass.json",
+      "output": "tide\\fishing\\fish\\freshwater\\largemouth_bass.json"
+    },
+    {
+      "fish": "tide:mirage_catfish",
+      "namespace": "tide",
+      "category": "freshwater",
+      "preferred_temperature": null,
+      "seasons": [
+        "spring",
+        "summer",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\tide\\fishing\\fish\\freshwater\\mirage_catfish.json",
+      "output": "tide\\fishing\\fish\\freshwater\\mirage_catfish.json"
+    },
+    {
+      "fish": "tide:mooneye",
+      "namespace": "tide",
+      "category": "freshwater",
+      "preferred_temperature": -0.35,
+      "seasons": [
+        "spring",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\tide\\fishing\\fish\\freshwater\\mooneye.json",
+      "output": "tide\\fishing\\fish\\freshwater\\mooneye.json"
+    },
+    {
+      "fish": "tide:pike",
+      "namespace": "tide",
+      "category": "freshwater",
+      "preferred_temperature": -0.3,
+      "seasons": [
+        "spring",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\tide\\fishing\\fish\\freshwater\\pike.json",
+      "output": "tide\\fishing\\fish\\freshwater\\pike.json"
+    },
+    {
+      "fish": "tide:sand_tiger_shark",
+      "namespace": "tide",
+      "category": "freshwater",
+      "preferred_temperature": null,
+      "seasons": [
+        "spring",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\tide\\fishing\\fish\\freshwater\\sand_tiger_shark.json",
+      "output": "tide\\fishing\\fish\\freshwater\\sand_tiger_shark.json"
+    },
+    {
+      "fish": "tide:slimy_salmon",
+      "namespace": "tide",
+      "category": "freshwater",
+      "preferred_temperature": null,
+      "seasons": [
+        "spring",
+        "summer",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\tide\\fishing\\fish\\freshwater\\slimy_salmon.json",
+      "output": "tide\\fishing\\fish\\freshwater\\slimy_salmon.json"
+    },
+    {
+      "fish": "tide:sturgeon",
+      "namespace": "tide",
+      "category": "freshwater",
+      "preferred_temperature": -0.65,
+      "seasons": [
+        "spring",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\tide\\fishing\\fish\\freshwater\\sturgeon.json",
+      "output": "tide\\fishing\\fish\\freshwater\\sturgeon.json"
+    },
+    {
+      "fish": "tide:walleye",
+      "namespace": "tide",
+      "category": "freshwater",
+      "preferred_temperature": -1.0,
+      "seasons": [
+        "spring",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\tide\\fishing\\fish\\freshwater\\walleye.json",
+      "output": "tide\\fishing\\fish\\freshwater\\walleye.json"
+    },
+    {
+      "fish": "tide:white_crappie",
+      "namespace": "tide",
+      "category": "freshwater",
+      "preferred_temperature": 0.05,
+      "seasons": [
+        "spring",
+        "summer",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\tide\\fishing\\fish\\freshwater\\white_crappie.json",
+      "output": "tide\\fishing\\fish\\freshwater\\white_crappie.json"
+    },
+    {
+      "fish": "tide:yellow_perch",
+      "namespace": "tide",
+      "category": "freshwater",
+      "preferred_temperature": 0.28,
+      "seasons": [
+        "spring",
+        "summer",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\tide\\fishing\\fish\\freshwater\\yellow_perch.json",
+      "output": "tide\\fishing\\fish\\freshwater\\yellow_perch.json"
+    },
+    {
+      "fish": "tide:anchovy",
+      "namespace": "tide",
+      "category": "saltwater",
+      "preferred_temperature": -0.15,
+      "seasons": [
+        "spring",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\tide\\fishing\\fish\\saltwater\\anchovy.json",
+      "output": "tide\\fishing\\fish\\saltwater\\anchovy.json"
+    },
+    {
+      "fish": "tide:angelfish",
+      "namespace": "tide",
+      "category": "saltwater",
+      "preferred_temperature": 1.0,
+      "seasons": [
+        "spring",
+        "summer",
+        "fall"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\tide\\fishing\\fish\\saltwater\\angelfish.json",
+      "output": "tide\\fishing\\fish\\saltwater\\angelfish.json"
+    },
+    {
+      "fish": "tide:aquathorn",
+      "namespace": "tide",
+      "category": "saltwater",
+      "preferred_temperature": null,
+      "seasons": [
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\tide\\fishing\\fish\\saltwater\\aquathorn.json",
+      "output": "tide\\fishing\\fish\\saltwater\\aquathorn.json"
+    },
+    {
+      "fish": "tide:flounder",
+      "namespace": "tide",
+      "category": "saltwater",
+      "preferred_temperature": -0.25,
+      "seasons": [
+        "spring",
+        "summer",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\tide\\fishing\\fish\\saltwater\\flounder.json",
+      "output": "tide\\fishing\\fish\\saltwater\\flounder.json"
+    },
+    {
+      "fish": "tide:great_white_shark",
+      "namespace": "tide",
+      "category": "saltwater",
+      "preferred_temperature": -0.18,
+      "seasons": [
+        "spring",
+        "summer",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\tide\\fishing\\fish\\saltwater\\great_white_shark.json",
+      "output": "tide\\fishing\\fish\\saltwater\\great_white_shark.json"
+    },
+    {
+      "fish": "tide:mahi_mahi",
+      "namespace": "tide",
+      "category": "saltwater",
+      "preferred_temperature": 0.4,
+      "seasons": [
+        "spring",
+        "summer",
+        "fall"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\tide\\fishing\\fish\\saltwater\\mahi_mahi.json",
+      "output": "tide\\fishing\\fish\\saltwater\\mahi_mahi.json"
+    },
+    {
+      "fish": "tide:manta_ray",
+      "namespace": "tide",
+      "category": "saltwater",
+      "preferred_temperature": 0.43,
+      "seasons": [
+        "spring",
+        "summer",
+        "fall"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\tide\\fishing\\fish\\saltwater\\manta_ray.json",
+      "output": "tide\\fishing\\fish\\saltwater\\manta_ray.json"
+    },
+    {
+      "fish": "tide:marstilus",
+      "namespace": "tide",
+      "category": "saltwater",
+      "preferred_temperature": null,
+      "seasons": [
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\tide\\fishing\\fish\\saltwater\\marstilus.json",
+      "output": "tide\\fishing\\fish\\saltwater\\marstilus.json"
+    },
+    {
+      "fish": "tide:neptune_koi",
+      "namespace": "tide",
+      "category": "saltwater",
+      "preferred_temperature": null,
+      "seasons": [
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\tide\\fishing\\fish\\saltwater\\neptune_koi.json",
+      "output": "tide\\fishing\\fish\\saltwater\\neptune_koi.json"
+    },
+    {
+      "fish": "tide:ocean_perch",
+      "namespace": "tide",
+      "category": "saltwater",
+      "preferred_temperature": -0.4,
+      "seasons": [
+        "spring",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\tide\\fishing\\fish\\saltwater\\ocean_perch.json",
+      "output": "tide\\fishing\\fish\\saltwater\\ocean_perch.json"
+    },
+    {
+      "fish": "tide:pluto_snail",
+      "namespace": "tide",
+      "category": "saltwater",
+      "preferred_temperature": null,
+      "seasons": [
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\tide\\fishing\\fish\\saltwater\\pluto_snail.json",
+      "output": "tide\\fishing\\fish\\saltwater\\pluto_snail.json"
+    },
+    {
+      "fish": "tide:red_snapper",
+      "namespace": "tide",
+      "category": "saltwater",
+      "preferred_temperature": -0.3,
+      "seasons": [
+        "spring",
+        "summer",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\tide\\fishing\\fish\\saltwater\\red_snapper.json",
+      "output": "tide\\fishing\\fish\\saltwater\\red_snapper.json"
+    },
+    {
+      "fish": "tide:sailfish",
+      "namespace": "tide",
+      "category": "saltwater",
+      "preferred_temperature": 0.7,
+      "seasons": [
+        "spring",
+        "summer",
+        "fall"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\tide\\fishing\\fish\\saltwater\\sailfish.json",
+      "output": "tide\\fishing\\fish\\saltwater\\sailfish.json"
+    },
+    {
+      "fish": "tide:saturn_cuttlefish",
+      "namespace": "tide",
+      "category": "saltwater",
+      "preferred_temperature": null,
+      "seasons": [
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\tide\\fishing\\fish\\saltwater\\saturn_cuttlefish.json",
+      "output": "tide\\fishing\\fish\\saltwater\\saturn_cuttlefish.json"
+    },
+    {
+      "fish": "tide:shooting_starfish",
+      "namespace": "tide",
+      "category": "saltwater",
+      "preferred_temperature": null,
+      "seasons": [
+        "spring",
+        "summer",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\tide\\fishing\\fish\\saltwater\\shooting_starfish.json",
+      "output": "tide\\fishing\\fish\\saltwater\\shooting_starfish.json"
+    },
+    {
+      "fish": "tide:snook",
+      "namespace": "tide",
+      "category": "saltwater",
+      "preferred_temperature": 0.12,
+      "seasons": [
+        "spring",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\tide\\fishing\\fish\\saltwater\\snook.json",
+      "output": "tide\\fishing\\fish\\saltwater\\snook.json"
+    },
+    {
+      "fish": "tide:spore_stalker",
+      "namespace": "tide",
+      "category": "saltwater",
+      "preferred_temperature": null,
+      "seasons": [
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\tide\\fishing\\fish\\saltwater\\spore_stalker.json",
+      "output": "tide\\fishing\\fish\\saltwater\\spore_stalker.json"
+    },
+    {
+      "fish": "tide:sun_emblem",
+      "namespace": "tide",
+      "category": "saltwater",
+      "preferred_temperature": null,
+      "seasons": [
+        "spring",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\tide\\fishing\\fish\\saltwater\\sun_emblem.json",
+      "output": "tide\\fishing\\fish\\saltwater\\sun_emblem.json"
+    },
+    {
+      "fish": "tide:swordfish",
+      "namespace": "tide",
+      "category": "saltwater",
+      "preferred_temperature": 0.6,
+      "seasons": [
+        "spring",
+        "summer",
+        "fall"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\tide\\fishing\\fish\\saltwater\\swordfish.json",
+      "output": "tide\\fishing\\fish\\saltwater\\swordfish.json"
+    },
+    {
+      "fish": "tide:uranias_pisces",
+      "namespace": "tide",
+      "category": "saltwater",
+      "preferred_temperature": null,
+      "seasons": [
+        "summer",
+        "fall",
+        "winter"
+      ],
+      "source": "C:\\Users\\Yigit\\AppData\\Roaming\\PrismLauncher\\instances\\Balik\\minecraft\\tmp_tide\\data\\tide\\fishing\\fish\\saltwater\\uranias_pisces.json",
+      "output": "tide\\fishing\\fish\\saltwater\\uranias_pisces.json"
+    }
+  ]
+}

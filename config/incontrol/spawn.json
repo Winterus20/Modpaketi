@@ -1,0 +1,31 @@
+[
+  {
+    "mob": [
+      "tide:anglerfish",
+      "tide:arapaima",
+      "tide:bluegill",
+      "tide:carp",
+      "tide:catfish",
+      "tide:coelacanth",
+      "tide:mackerel",
+      "tide:rainbow_trout",
+      "tide:smallmouth_bass",
+      "tide:tuna",
+      "tide:bull_shark",
+      "tide:great_white_shark",
+      "tide:sand_tiger_shark",
+      "tide:manta_ray",
+      "tide:devils_hole_pupfish",
+      "hybrid_aquatic:otter",
+      "hybrid_aquatic:blobfish",
+      "hybrid_aquatic:comb_jelly",
+      "hybrid_aquatic:flying_fish",
+      "hybrid_aquatic:frilled_shark",
+      "hybrid_aquatic:giant_squid",
+      "hybrid_aquatic:hammerhead_shark",
+      "hybrid_aquatic:lobster",
+      "hybrid_aquatic:orca"
+    ],
+    "result": "deny"
+  }
+]

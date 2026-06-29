@@ -1,0 +1,14 @@
+{
+  "fish": "crittersandcompanions:clam",
+  "show_in_journal": false,
+  "conditions": [
+    {
+      "type": "tide:seasons",
+      "seasons": [
+        "summer",
+        "fall",
+        "winter"
+      ]
+    }
+  ]
+}
