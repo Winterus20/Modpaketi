@@ -237,7 +237,7 @@ def backup_existing(backup_dir: Path, kube_data: Path, output_paths: list[Path])
 
 
 def main() -> None:
-    instance_root = Path(__file__).resolve().parent
+    instance_root = Path(__file__).resolve().parent.parent
     mods_dir = instance_root / "mods"
     kube_data = instance_root / "kubejs" / "data"
     tmp_tide = instance_root / "tmp_tide"
