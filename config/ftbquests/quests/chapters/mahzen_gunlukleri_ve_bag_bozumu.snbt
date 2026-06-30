@@ -1,94 +1,114 @@
 {
-	default_hide_dependency_lines: false
-	default_quest_shape: ""
-	filename: "mahzen_gunlukleri_ve_bag_bozumu"
+	id: "F9CF65E471A97940"
 	group: ""
-	icon: "brewinandchewin:keg"
-	id: "3A05532598C4DD63"
 	order_index: 10
-	quest_links: [ ]
+	filename: "mahzen_gunlukleri_ve_bag_bozumu"
+	title: "{kubejs.ftbquests.chapter.mahzen_gunlukleri_ve_bag_bozumu.title}"
+	icon: "brewinandchewin:keg"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
-			description: ["{kubejs.ftbquests.quest.mahzen_gunlukleri_ve_bag_bozumu.keg.desc.0}"]
 			id: "16612585845A8718"
-			rewards: [{
-				count: 4
-				id: "202D180BA6C06556"
-				item: "brewinandchewin:beer"
-				type: "item"
-			}]
-			tasks: [{
-				id: "155CC92DD3E6D9EC"
-				item: "brewinandchewin:keg"
-				type: "item"
-			}]
 			title: "{kubejs.ftbquests.quest.mahzen_gunlukleri_ve_bag_bozumu.keg.title}"
 			x: 0.0d
 			y: 0.0d
+			description: [ "{kubejs.ftbquests.quest.mahzen_gunlukleri_ve_bag_bozumu.keg.desc.0}" ]
+			tasks: [
+				{
+					id: "85CA917D96046E94"
+					type: "item"
+					item: "brewinandchewin:keg"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "202D180BA6C06556"
+					type: "item"
+					item: "brewinandchewin:beer"
+					count: 4
+				}
+			]
 		}
 		{
-			dependencies: ["16612585845A8718"]
-			description: ["{kubejs.ftbquests.quest.mahzen_gunlukleri_ve_bag_bozumu.brewery.desc.0}"]
 			id: "3EBAE79FCF28F9C3"
-			rewards: [{
-				count: 2
-				id: "2AB09CB844E0F1A0"
-				item: "brewery:beer_mug"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3226955903B1AB2C"
-				item: "brewery:wooden_brewingstation"
-				type: "item"
-			}]
 			title: "{kubejs.ftbquests.quest.mahzen_gunlukleri_ve_bag_bozumu.brewery.title}"
 			x: -1.5d
 			y: 1.5d
+			description: [ "{kubejs.ftbquests.quest.mahzen_gunlukleri_ve_bag_bozumu.brewery.desc.0}" ]
+			tasks: [
+				{
+					id: "F252DB1F41FDE5B5"
+					type: "item"
+					item: "brewery:wooden_brewingstation"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "878A2A3357266AAC"
+					type: "item"
+					item: "brewery:beer_mug"
+					count: 2
+				}
+			]
+			dependencies: [ "16612585845A8718" ]
 		}
 		{
-			dependencies: ["16612585845A8718"]
-			description: ["{kubejs.ftbquests.quest.mahzen_gunlukleri_ve_bag_bozumu.cheese.desc.0}"]
-			id: "71E511CFBFCFE768"
-			rewards: [{
-				count: 2
-				id: "7B787539C5C06886"
-				item: "brewinandchewin:cheesy_pasta"
-				type: "item"
-			}]
-			tasks: [{
-				id: "4595E721086BA8F0"
-				item: "brewinandchewin:flaxen_cheese_wheel"
-				type: "item"
-			}]
+			id: "B68B270157F317B4"
 			title: "{kubejs.ftbquests.quest.mahzen_gunlukleri_ve_bag_bozumu.cheese.title}"
 			x: 1.5d
 			y: 1.5d
-		}
-		{
-			dependencies: ["16612585845A8718"]
-			description: ["{kubejs.ftbquests.quest.mahzen_gunlukleri_ve_bag_bozumu.beach_party.desc.0}"]
-			id: "52E3957301A6E658"
-			rewards: [{
-				id: "3C300FA523F9BFEF"
-				item: "beachparty:mini_fridge"
-				type: "item"
-			}]
+			description: [ "{kubejs.ftbquests.quest.mahzen_gunlukleri_ve_bag_bozumu.cheese.desc.0}" ]
 			tasks: [
 				{
-					id: "331900F08EAB8AB4"
-					item: "beachparty:beach_chair"
+					id: "4595E721086BA8F0"
 					type: "item"
-				}
-				{
-					id: "01FE1E42990FA63A"
-					item: "beachparty:coconut_cocktail"
-					type: "item"
+					item: "brewinandchewin:flaxen_cheese_wheel"
+					count: 1L
 				}
 			]
+			rewards: [
+				{
+					id: "BD94EEDFD6B119C7"
+					type: "item"
+					item: "brewinandchewin:cheesy_pasta"
+					count: 2
+				}
+			]
+			dependencies: [ "16612585845A8718" ]
+		}
+		{
+			id: "52E3957301A6E658"
 			title: "{kubejs.ftbquests.quest.mahzen_gunlukleri_ve_bag_bozumu.beach_party.title}"
 			x: 0.0d
 			y: 3.5d
+			description: [ "{kubejs.ftbquests.quest.mahzen_gunlukleri_ve_bag_bozumu.beach_party.desc.0}" ]
+			tasks: [
+				{
+					id: "331900F08EAB8AB4"
+					type: "item"
+					item: "beachparty:beach_chair"
+					count: 1L
+				}
+				{
+					id: "01FE1E42990FA63A"
+					type: "item"
+					item: "beachparty:coconut_cocktail"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "C1586152014CF87F"
+					type: "item"
+					item: "beachparty:mini_fridge"
+					count: 1
+				}
+			]
+			dependencies: [ "16612585845A8718" ]
 		}
 	]
-	title: "{kubejs.ftbquests.chapter.mahzen_gunlukleri_ve_bag_bozumu.title}"
+	quest_links: [ ]
 }

@@ -194,6 +194,22 @@ def main():
                 "rewards": rewards_list
             }
 
+            if "shape" in q:
+                q_snbt["shape"] = q["shape"]
+            if "size" in q:
+                q_snbt["size"] = SNBTDouble(q["size"])
+            if "subtitle_en" in q and "subtitle_tr" in q:
+                q_subtitle_key = f"kubejs.ftbquests.quest.{filename}.{q_key}.subtitle"
+                en_translations[q_subtitle_key] = q["subtitle_en"]
+                tr_translations[q_subtitle_key] = q["subtitle_tr"]
+                q_snbt["subtitle"] = f"{{{q_subtitle_key}}}"
+            if "hide" in q:
+                q_snbt["hide"] = q["hide"]
+            if "hide_dependency_lines" in q:
+                q_snbt["hide_dependency_lines"] = q["hide_dependency_lines"]
+            if "min_width" in q:
+                q_snbt["min_width"] = SNBTDouble(q["min_width"])
+
             # Add dependencies
             if "dependency" in q:
                 if isinstance(q["dependency"], list):

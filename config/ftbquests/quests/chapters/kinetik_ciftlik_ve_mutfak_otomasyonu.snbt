@@ -1,139 +1,173 @@
 {
-	default_hide_dependency_lines: false
-	default_quest_shape: ""
-	filename: "kinetik_ciftlik_ve_mutfak_otomasyonu"
+	id: "B86411800A7B0C64"
 	group: ""
-	icon: "create:water_wheel"
-	id: "0B69E819E6B303CD"
 	order_index: 7
-	quest_links: [ ]
+	filename: "kinetik_ciftlik_ve_mutfak_otomasyonu"
+	title: "{kubejs.ftbquests.chapter.kinetik_ciftlik_ve_mutfak_otomasyonu.title}"
+	icon: "create:water_wheel"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
-			description: ["{kubejs.ftbquests.quest.kinetik_ciftlik_ve_mutfak_otomasyonu.create_intro.desc.0}"]
-			id: "0136C2D40671F7A9"
-			rewards: [{
-				count: 16
-				id: "2E8CB6E7ACD2AC64"
-				item: "minecraft:andesite"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "0790A998F19CC6EB"
-					item: "create:water_wheel"
-					type: "item"
-				}
-				{
-					id: "7BA34D732812D019"
-					item: "create:shaft"
-					type: "item"
-				}
-				{
-					id: "01FAA5893405623E"
-					item: "create:cogwheel"
-					type: "item"
-				}
-			]
+			id: "F0AD904AE9667940"
 			title: "{kubejs.ftbquests.quest.kinetik_ciftlik_ve_mutfak_otomasyonu.create_intro.title}"
 			x: 0.0d
 			y: 0.0d
+			description: [ "{kubejs.ftbquests.quest.kinetik_ciftlik_ve_mutfak_otomasyonu.create_intro.desc.0}" ]
+			tasks: [
+				{
+					id: "AED0D72E4B1479FF"
+					type: "item"
+					item: "create:water_wheel"
+					count: 1L
+				}
+				{
+					id: "7BA34D732812D019"
+					type: "item"
+					item: "create:shaft"
+					count: 1L
+				}
+				{
+					id: "01FAA5893405623E"
+					type: "item"
+					item: "create:cogwheel"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "2E8CB6E7ACD2AC64"
+					type: "item"
+					item: "minecraft:andesite"
+					count: 16
+				}
+			]
 		}
 		{
-			description: ["{kubejs.ftbquests.quest.kinetik_ciftlik_ve_mutfak_otomasyonu.press.desc.0}"]
-			id: "45AF2E0B6551289D"
-			rewards: [{
-				count: 4
-				id: "3AB1B0BAFF43AAA9"
-				item: "minecraft:iron_ingot"
-				type: "item"
-			}]
-			tasks: [{
-				id: "77644DA1E594FF6C"
-				item: "create:mechanical_press"
-				type: "item"
-			}]
+			id: "B2C0B122F0723E4D"
 			title: "{kubejs.ftbquests.quest.kinetik_ciftlik_ve_mutfak_otomasyonu.press.title}"
 			x: -1.5d
 			y: 1.5d
-		}
-		{
-			description: ["{kubejs.ftbquests.quest.kinetik_ciftlik_ve_mutfak_otomasyonu.mixer.desc.0}"]
-			id: "47B160CF182873FD"
-			rewards: [{
-				count: 8
-				id: "669B2723FD6D8E9C"
-				item: "minecraft:coal"
-				type: "item"
-			}]
+			description: [ "{kubejs.ftbquests.quest.kinetik_ciftlik_ve_mutfak_otomasyonu.press.desc.0}" ]
 			tasks: [
 				{
-					id: "1F4BC76238E2614A"
-					item: "create:mechanical_mixer"
+					id: "77644DA1E594FF6C"
 					type: "item"
-				}
-				{
-					id: "7AFA847183B6DA63"
-					item: "create:basin"
-					type: "item"
+					item: "create:mechanical_press"
+					count: 1L
 				}
 			]
+			rewards: [
+				{
+					id: "3AB1B0BAFF43AAA9"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 4
+				}
+			]
+			dependencies: [ "F0AD904AE9667940" ]
+		}
+		{
+			id: "47B160CF182873FD"
 			title: "{kubejs.ftbquests.quest.kinetik_ciftlik_ve_mutfak_otomasyonu.mixer.title}"
 			x: 1.5d
 			y: 1.5d
+			description: [ "{kubejs.ftbquests.quest.kinetik_ciftlik_ve_mutfak_otomasyonu.mixer.desc.0}" ]
+			tasks: [
+				{
+					id: "E128F0B6D2515939"
+					type: "item"
+					item: "create:mechanical_mixer"
+					count: 1L
+				}
+				{
+					id: "7AFA847183B6DA63"
+					type: "item"
+					item: "create:basin"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "669B2723FD6D8E9C"
+					type: "item"
+					item: "minecraft:coal"
+					count: 8
+				}
+			]
+			dependencies: [ "F0AD904AE9667940" ]
 		}
 		{
-			dependencies: ["47B160CF182873FD"]
-			dependency_requirement: "one_completed"
-			description: ["{kubejs.ftbquests.quest.kinetik_ciftlik_ve_mutfak_otomasyonu.automated_kitchen.desc.0}"]
-			id: "747E9C7D9B75B1E4"
-			rewards: [{
-				count: 8
-				id: "07ED410F4BA5E482"
-				item: "minecraft:golden_carrot"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2C635792DD2B1875"
-				type: "checkmark"
-			}]
+			id: "BD9E864BD7086CC6"
 			title: "{kubejs.ftbquests.quest.kinetik_ciftlik_ve_mutfak_otomasyonu.automated_kitchen.title}"
 			x: 0.0d
 			y: 3.0d
+			description: [ "{kubejs.ftbquests.quest.kinetik_ciftlik_ve_mutfak_otomasyonu.automated_kitchen.desc.0}" ]
+			tasks: [
+				{
+					id: "2C635792DD2B1875"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "E6CA71DEFF676ABE"
+					type: "item"
+					item: "minecraft:golden_carrot"
+					count: 8
+				}
+			]
+			dependencies: [ "B2C0B122F0723E4D", "47B160CF182873FD" ]
+			dependency_requirement: "one_completed"
 		}
 		{
-			description: ["{kubejs.ftbquests.quest.kinetik_ciftlik_ve_mutfak_otomasyonu.slicer.desc.0}"]
 			id: "7CE88EA5E63D8834"
-			rewards: [{
-				id: "2B0DB70FF313D57C"
-				item: "sliceanddice:sprinkler"
-				type: "item"
-			}]
-			tasks: [{
-				id: "494A9F36F4E880D9"
-				item: "sliceanddice:slicer"
-				type: "item"
-			}]
 			title: "{kubejs.ftbquests.quest.kinetik_ciftlik_ve_mutfak_otomasyonu.slicer.title}"
 			x: -3.0d
 			y: 3.0d
+			description: [ "{kubejs.ftbquests.quest.kinetik_ciftlik_ve_mutfak_otomasyonu.slicer.desc.0}" ]
+			tasks: [
+				{
+					id: "494A9F36F4E880D9"
+					type: "item"
+					item: "sliceanddice:slicer"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "2B0DB70FF313D57C"
+					type: "item"
+					item: "sliceanddice:sprinkler"
+					count: 1
+				}
+			]
+			dependencies: [ "BD9E864BD7086CC6" ]
 		}
 		{
-			description: ["{kubejs.ftbquests.quest.kinetik_ciftlik_ve_mutfak_otomasyonu.central_kitchen.desc.0}"]
-			id: "44396DEC0F7F8AA0"
-			rewards: [{
-				id: "41997ADFFF525F28"
-				item: "create_central_kitchen:syrup_bucket"
-				type: "item"
-			}]
-			tasks: [{
-				id: "1BABD85881BCC76C"
-				item: "create_central_kitchen:cooking_guide"
-				type: "item"
-			}]
+			id: "853DA5277E328EEA"
 			title: "{kubejs.ftbquests.quest.kinetik_ciftlik_ve_mutfak_otomasyonu.central_kitchen.title}"
 			x: 3.0d
 			y: 3.0d
+			description: [ "{kubejs.ftbquests.quest.kinetik_ciftlik_ve_mutfak_otomasyonu.central_kitchen.desc.0}" ]
+			tasks: [
+				{
+					id: "E9C4FE3869A1B248"
+					type: "item"
+					item: "create_central_kitchen:cooking_guide"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "41997ADFFF525F28"
+					type: "item"
+					item: "create_central_kitchen:syrup_bucket"
+					count: 1
+				}
+			]
+			dependencies: [ "BD9E864BD7086CC6" ]
 		}
 	]
-	title: "{kubejs.ftbquests.chapter.kinetik_ciftlik_ve_mutfak_otomasyonu.title}"
+	quest_links: [ ]
 }

@@ -1,256 +1,366 @@
 {
-	default_hide_dependency_lines: false
-	default_quest_shape: ""
-	filename: "yeni_bir_baslangic"
+	id: "F61479258B1E8F19"
 	group: ""
-	icon: "minecraft:grass_block"
-	id: "6230277738B5C4FF"
 	order_index: 0
-	quest_links: [ ]
+	filename: "yeni_bir_baslangic"
+	title: "{kubejs.ftbquests.chapter.yeni_bir_baslangic.title}"
+	icon: "minecraft:grass_block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
-			description: ["{kubejs.ftbquests.quest.yeni_bir_baslangic.welcome.desc.0}"]
-			id: "009D6759C6690F6D"
-			rewards: [{
-				count: 3
-				id: "0D9EE2D6783AFF5E"
-				item: "minecraft:bread"
-				type: "item"
-			}]
-			tasks: [{
-				id: "71BB719425E206C4"
-				type: "checkmark"
-			}]
+			id: "A0945C75AC0D5AAD"
 			title: "{kubejs.ftbquests.quest.yeni_bir_baslangic.welcome.title}"
 			x: 0.0d
 			y: 0.0d
+			description: [ "{kubejs.ftbquests.quest.yeni_bir_baslangic.welcome.desc.0}" ]
+			tasks: [
+				{
+					id: "71BB719425E206C4"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "0D9EE2D6783AFF5E"
+					type: "item"
+					item: "minecraft:bread"
+					count: 3
+				}
+			]
+			shape: "heart"
+			size: 1.5d
+			subtitle: "{kubejs.ftbquests.quest.yeni_bir_baslangic.welcome.subtitle}"
 		}
 		{
-			description: ["{kubejs.ftbquests.quest.yeni_bir_baslangic.basic_survival.desc.0}"]
-			id: "116AF82A9CF2E8DA"
+			id: "925C5177915018A2"
+			title: "{kubejs.ftbquests.quest.yeni_bir_baslangic.basic_survival.title}"
+			x: 0.0d
+			y: -1.5d
+			description: [ "{kubejs.ftbquests.quest.yeni_bir_baslangic.basic_survival.desc.0}" ]
+			tasks: [
+				{
+					id: "37E31454DFDFE2A8"
+					type: "item"
+					item: "minecraft:crafting_table"
+					count: 1L
+				}
+			]
 			rewards: [
 				{
 					id: "44C166FD4B6C8E5E"
-					item: {
-						Count: 1
-						id: "minecraft:stone_axe"
-						tag: {
-							Damage: 0
-						}
-					}
 					type: "item"
+					item: "minecraft:stone_axe"
+					count: 1
 				}
 				{
-					count: 8
 					id: "76D0D4E6EF2AC3A5"
-					item: "minecraft:torch"
 					type: "item"
+					item: "minecraft:torch"
+					count: 8
 				}
 			]
-			tasks: [{
-				id: "37E31454DFDFE2A8"
-				item: "minecraft:crafting_table"
-				type: "item"
-			}]
-			title: "{kubejs.ftbquests.quest.yeni_bir_baslangic.basic_survival.title}"
-			x: 0.0d
-			y: -2.0d
+			shape: "gear"
+			size: 1.25d
+			subtitle: "{kubejs.ftbquests.quest.yeni_bir_baslangic.basic_survival.subtitle}"
+			dependencies: [ "A0945C75AC0D5AAD" ]
 		}
 		{
-			description: ["{kubejs.ftbquests.quest.yeni_bir_baslangic.seasons.desc.0}"]
-			id: "79D06A7755703C33"
-			rewards: [{
-				id: "6792E16992043B20"
-				item: "sereneseasons:season_sensor"
-				type: "item"
-			}]
-			tasks: [{
-				id: "106FA9931262A7F8"
-				item: "sereneseasons:calendar"
-				type: "item"
-			}]
-			title: "{kubejs.ftbquests.quest.yeni_bir_baslangic.seasons.title}"
-			x: 2.0d
-			y: -3.0d
-		}
-		{
-			description: ["{kubejs.ftbquests.quest.yeni_bir_baslangic.sol_carrot.desc.0}"]
-			id: "173BA2EEB348C899"
-			rewards: [{
-				count: 4
-				id: "4B29BAD83752FC5C"
-				item: "minecraft:golden_carrot"
-				type: "item"
-			}]
+			id: "EBABEE8159F4A1D7"
+			title: "{kubejs.ftbquests.quest.yeni_bir_baslangic.first_cast.title}"
+			x: -1.5d
+			y: -1.5d
+			description: [ "{kubejs.ftbquests.quest.yeni_bir_baslangic.first_cast.desc.0}" ]
 			tasks: [
 				{
-					id: "23447DF97A065343"
-					item: "minecraft:apple"
+					id: "DAFD9AFDC9D76DE9"
 					type: "item"
-				}
-				{
-					id: "260D0E7421C334C8"
-					item: "minecraft:sweet_berries"
-					type: "item"
-				}
-				{
-					id: "37D0F31ABB280242"
-					item: "minecraft:carrot"
-					type: "item"
+					item: "minecraft:fishing_rod"
+					count: 1L
 				}
 			]
-			title: "{kubejs.ftbquests.quest.yeni_bir_baslangic.sol_carrot.title}"
-			x: 3.0d
-			y: -1.0d
-		}
-		{
-			description: [
-				"{kubejs.ftbquests.quest.yeni_bir_baslangic.backpack.desc.0}"
-				"{kubejs.ftbquests.quest.yeni_bir_baslangic.backpack.desc.1}"
-			]
-			id: "48BE47D93F010326"
 			rewards: [
 				{
-					count: 4
-					id: "6DE5371FF8A54166"
-					item: "minecraft:leather"
+					id: "975D9881F2E16F42"
 					type: "item"
+					item: "aquaculture:worm"
+					count: 4
 				}
 				{
-					count: 4
-					id: "3EF65E0DFA89D77B"
-					item: "minecraft:string"
+					id: "99C3A83B49817E86"
 					type: "item"
+					item: "tide:fishing_journal"
+					count: 1
 				}
 			]
-			tasks: [{
-				id: "380F46D09D6F8CDD"
-				item: "sophisticatedbackpacks:backpack"
-				type: "item"
-			}]
-			title: "{kubejs.ftbquests.quest.yeni_bir_baslangic.backpack.title}"
-			x: -2.0d
-			y: -3.0d
+			subtitle: "{kubejs.ftbquests.quest.yeni_bir_baslangic.first_cast.subtitle}"
+			dependencies: [ "925C5177915018A2" ]
 		}
 		{
-			description: ["{kubejs.ftbquests.quest.yeni_bir_baslangic.first_cast.desc.0}"]
-			id: "51CE4A5DADF0B71B"
-			rewards: [
-				{
-					id: "53A25A933A547ABF"
-					item: {
-						Count: 1
-						id: "aquaculture:iron_fishing_rod"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "6DFFE0ECD1E04887"
-					item: {
-						Count: 1
-						id: "aquaculture:worm"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "77E29D3376FFD559"
-				item: "minecraft:cod"
-				type: "item"
-			}]
-			title: "{kubejs.ftbquests.quest.yeni_bir_baslangic.first_cast.title}"
+			id: "ECE3B1205ACE726B"
+			title: "{kubejs.ftbquests.quest.yeni_bir_baslangic.first_fish.title}"
 			x: -3.0d
-			y: -1.0d
+			y: -1.5d
+			description: [ "{kubejs.ftbquests.quest.yeni_bir_baslangic.first_fish.desc.0}" ]
+			tasks: [
+				{
+					id: "552375BC969B6D8C"
+					type: "item"
+					item: "minecraft:cod"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "8E0C3ED5416D6E39"
+					type: "item"
+					item: "aquaculture:box"
+					count: 1
+				}
+			]
+			shape: "diamond"
+			subtitle: "{kubejs.ftbquests.quest.yeni_bir_baslangic.first_fish.subtitle}"
+			dependencies: [ "EBABEE8159F4A1D7" ]
 		}
 		{
-			description: ["{kubejs.ftbquests.quest.yeni_bir_baslangic.sleeping_bag.desc.0}"]
+			id: "DBCBFDDA48454D54"
+			title: "{kubejs.ftbquests.quest.yeni_bir_baslangic.backpack.title}"
+			x: -1.5d
+			y: -3.0d
+			description: [ "{kubejs.ftbquests.quest.yeni_bir_baslangic.backpack.desc.0}", "{kubejs.ftbquests.quest.yeni_bir_baslangic.backpack.desc.1}" ]
+			tasks: [
+				{
+					id: "380F46D09D6F8CDD"
+					type: "item"
+					item: "sophisticatedbackpacks:backpack"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "A572954EB0A1BA00"
+					type: "item"
+					item: "minecraft:leather"
+					count: 4
+				}
+				{
+					id: "3EF65E0DFA89D77B"
+					type: "item"
+					item: "minecraft:string"
+					count: 4
+				}
+			]
+			subtitle: "{kubejs.ftbquests.quest.yeni_bir_baslangic.backpack.subtitle}"
+			dependencies: [ "925C5177915018A2" ]
+		}
+		{
 			id: "4599348700681CD1"
-			rewards: [{
-				count: 2
-				id: "1A4A25913D58D6B6"
-				item: "minecraft:white_wool"
-				type: "item"
-			}]
-			tasks: [{
-				id: "118E20DE5D8939AF"
-				item: "comforts:sleeping_bag_white"
-				type: "item"
-			}]
 			title: "{kubejs.ftbquests.quest.yeni_bir_baslangic.sleeping_bag.title}"
-			x: -2.0d
-			y: -5.0d
+			x: -1.5d
+			y: -4.5d
+			description: [ "{kubejs.ftbquests.quest.yeni_bir_baslangic.sleeping_bag.desc.0}" ]
+			tasks: [
+				{
+					id: "EDB03744E73C5466"
+					type: "item"
+					item: "comforts:sleeping_bag_white"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "1A4A25913D58D6B6"
+					type: "item"
+					item: "minecraft:white_wool"
+					count: 2
+				}
+			]
+			subtitle: "{kubejs.ftbquests.quest.yeni_bir_baslangic.sleeping_bag.subtitle}"
+			dependencies: [ "DBCBFDDA48454D54" ]
 		}
 		{
-			description: ["{kubejs.ftbquests.quest.yeni_bir_baslangic.compasses.desc.0}"]
-			id: "4E2BFBB596FC03DC"
-			rewards: [{
-				count: 2
-				id: "6AF468F40DC91DEF"
-				item: "minecraft:ender_pearl"
-				type: "item"
-			}]
-			tasks: [{
-				id: "78D8B44FCDF64BB2"
-				item: "naturescompass:naturescompass"
-				type: "item"
-			}]
+			id: "B92B6BF50C081A81"
 			title: "{kubejs.ftbquests.quest.yeni_bir_baslangic.compasses.title}"
 			x: -3.0d
 			y: -3.0d
-		}
-		{
-			dependencies: ["173BA2EEB348C899"]
-			description: ["{kubejs.ftbquests.quest.yeni_bir_baslangic.waystone.desc.0}"]
-			id: "2564B94E9ACA0CBF"
-			rewards: [{
-				count: 3
-				id: "44752CEA7A4BCBBD"
-				item: "waystones:return_scroll"
-				type: "item"
-			}]
-			tasks: [{
-				id: "38E18004D31317E5"
-				item: "waystones:waystone"
-				type: "item"
-			}]
-			title: "{kubejs.ftbquests.quest.yeni_bir_baslangic.waystone.title}"
-			x: 3.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["79D06A7755703C33"]
-			description: ["{kubejs.ftbquests.quest.yeni_bir_baslangic.market.desc.0}"]
-			id: "2CCE107928371D1C"
-			rewards: [
+			description: [ "{kubejs.ftbquests.quest.yeni_bir_baslangic.compasses.desc.0}" ]
+			tasks: [
 				{
-					count: 8
-					id: "01006B2AE5BC3735"
-					item: "minecraft:wheat_seeds"
+					id: "78D8B44FCDF64BB2"
 					type: "item"
-				}
-				{
-					count: 4
-					id: "7434521FA837F4C8"
-					item: "minecraft:carrot"
-					type: "item"
+					item: "naturescompass:naturescompass"
+					count: 1L
 				}
 			]
-			tasks: [{
-				id: "5976FCC8EE92CF88"
-				item: "farmingforblockheads:market"
-				type: "item"
-			}]
-			title: "{kubejs.ftbquests.quest.yeni_bir_baslangic.market.title}"
+			rewards: [
+				{
+					id: "D53F0032E19B0794"
+					type: "item"
+					item: "minecraft:ender_pearl"
+					count: 2
+				}
+			]
+			subtitle: "{kubejs.ftbquests.quest.yeni_bir_baslangic.compasses.subtitle}"
+			dependencies: [ "DBCBFDDA48454D54" ]
+		}
+		{
+			id: "A1F1A2D862F92F61"
+			title: "{kubejs.ftbquests.quest.yeni_bir_baslangic.waystone.title}"
+			x: -3.0d
+			y: -4.5d
+			description: [ "{kubejs.ftbquests.quest.yeni_bir_baslangic.waystone.desc.0}" ]
+			tasks: [
+				{
+					id: "38E18004D31317E5"
+					type: "item"
+					item: "waystones:waystone"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "9467B1A47E877E6D"
+					type: "item"
+					item: "waystones:return_scroll"
+					count: 3
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{kubejs.ftbquests.quest.yeni_bir_baslangic.waystone.subtitle}"
+			dependencies: [ "B92B6BF50C081A81" ]
+		}
+		{
+			id: "C0C8B08E063177EE"
+			title: "{kubejs.ftbquests.quest.yeni_bir_baslangic.knife_and_board.title}"
+			x: 1.5d
+			y: -1.5d
+			description: [ "{kubejs.ftbquests.quest.yeni_bir_baslangic.knife_and_board.desc.0}" ]
+			tasks: [
+				{
+					id: "FD456D303EDB5E6F"
+					type: "item"
+					item: "farmersdelight:flint_knife"
+					count: 1L
+				}
+				{
+					id: "AA7023CB2F9C3EDA"
+					type: "item"
+					item: "farmersdelight:cutting_board"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "41DF4FC2330E6E20"
+					type: "item"
+					item: "farmersdelight:straw"
+					count: 4
+				}
+				{
+					id: "CB9146DEBE29CC8B"
+					type: "item"
+					item: "farmersdelight:canvas"
+					count: 2
+				}
+			]
+			subtitle: "{kubejs.ftbquests.quest.yeni_bir_baslangic.knife_and_board.subtitle}"
+			dependencies: [ "925C5177915018A2" ]
+		}
+		{
+			id: "173BA2EEB348C899"
+			title: "{kubejs.ftbquests.quest.yeni_bir_baslangic.sol_carrot.title}"
 			x: 3.0d
-			y: -5.0d
+			y: -1.5d
+			description: [ "{kubejs.ftbquests.quest.yeni_bir_baslangic.sol_carrot.desc.0}" ]
+			tasks: [
+				{
+					id: "FB3DBF00B5023835"
+					type: "item"
+					item: "minecraft:apple"
+					count: 1L
+				}
+				{
+					id: "AE93CAB52422F192"
+					type: "item"
+					item: "minecraft:sweet_berries"
+					count: 1L
+				}
+				{
+					id: "37D0F31ABB280242"
+					type: "item"
+					item: "minecraft:carrot"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "4B29BAD83752FC5C"
+					type: "item"
+					item: "minecraft:golden_carrot"
+					count: 4
+				}
+			]
+			shape: "diamond"
+			subtitle: "{kubejs.ftbquests.quest.yeni_bir_baslangic.sol_carrot.subtitle}"
+			dependencies: [ "C0C8B08E063177EE" ]
+		}
+		{
+			id: "79D06A7755703C33"
+			title: "{kubejs.ftbquests.quest.yeni_bir_baslangic.seasons.title}"
+			x: 1.5d
+			y: -3.0d
+			description: [ "{kubejs.ftbquests.quest.yeni_bir_baslangic.seasons.desc.0}" ]
+			tasks: [
+				{
+					id: "846E861093816E14"
+					type: "item"
+					item: "sereneseasons:calendar"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "6792E16992043B20"
+					type: "item"
+					item: "sereneseasons:season_sensor"
+					count: 1
+				}
+			]
+			subtitle: "{kubejs.ftbquests.quest.yeni_bir_baslangic.seasons.subtitle}"
+			dependencies: [ "925C5177915018A2" ]
+		}
+		{
+			id: "EF683AE9219EB83F"
+			title: "{kubejs.ftbquests.quest.yeni_bir_baslangic.market.title}"
+			x: 1.5d
+			y: -4.5d
+			description: [ "{kubejs.ftbquests.quest.yeni_bir_baslangic.market.desc.0}" ]
+			tasks: [
+				{
+					id: "5976FCC8EE92CF88"
+					type: "item"
+					item: "farmingforblockheads:market"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "01006B2AE5BC3735"
+					type: "item"
+					item: "minecraft:wheat_seeds"
+					count: 8
+				}
+				{
+					id: "95E520222A9AC580"
+					type: "item"
+					item: "minecraft:carrot"
+					count: 4
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{kubejs.ftbquests.quest.yeni_bir_baslangic.market.subtitle}"
+			dependencies: [ "79D06A7755703C33" ]
 		}
 	]
-	title: "{kubejs.ftbquests.chapter.yeni_bir_baslangic.title}"
+	quest_links: [ ]
 }

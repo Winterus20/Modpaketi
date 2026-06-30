@@ -1,391 +1,491 @@
 {
-	default_hide_dependency_lines: false
-	default_quest_shape: ""
-	filename: "sadik_dostlar_ve_vahsi_yasam"
-	group: ""
-	icon: "doggytalents:training_treat"
 	id: "5BEFAE9FA9175077"
+	group: ""
 	order_index: 4
-	quest_links: [ ]
+	filename: "sadik_dostlar_ve_vahsi_yasam"
+	title: "{kubejs.ftbquests.chapter.sadik_dostlar_ve_vahsi_yasam.title}"
+	icon: "doggytalents:training_treat"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
-			description: ["{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.doggy_talents.desc.0}"]
 			id: "6C804FD7CB2806CF"
-			rewards: [
-				{
-					count: 4
-					id: "3E2E3C8105412BDD"
-					item: "minecraft:clay_ball"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "5AEE7CFC6BDD1CCE"
-					item: "minecraft:bone"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "16E801DFF042DD90"
-				item: "doggytalents:training_treat"
-				type: "item"
-			}]
 			title: "{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.doggy_talents.title}"
 			x: 2.5d
 			y: 0.0d
-		}
-		{
-			description: ["{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.dog_bed.desc.0}"]
-			id: "1D6526BFDCF0173C"
-			rewards: [
+			description: [ "{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.doggy_talents.desc.0}" ]
+			tasks: [
 				{
-					id: "276FE6358DF3108E"
-					item: "minecraft:red_dye"
+					id: "BE78ECFAB6735400"
 					type: "item"
-				}
-				{
-					id: "7D9C9486C84B0C8B"
-					item: "minecraft:leather"
-					type: "item"
+					item: "doggytalents:training_treat"
+					count: 1L
 				}
 			]
-			tasks: [{
-				id: "6ACEF5BC887AA933"
-				item: "doggytalents:dog_bed"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "E7FB36D7383B6377"
+					type: "item"
+					item: "minecraft:clay_ball"
+					count: 4
+				}
+				{
+					id: "B45FF83448B20C74"
+					type: "item"
+					item: "minecraft:bone"
+					count: 2
+				}
+			]
+		}
+		{
+			id: "1D6526BFDCF0173C"
 			title: "{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.dog_bed.title}"
 			x: 2.5d
 			y: 2.0d
-		}
-		{
-			description: ["{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.super_treat.desc.0}"]
-			id: "7E1CA10026000001"
-			rewards: [
+			description: [ "{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.dog_bed.desc.0}" ]
+			tasks: [
 				{
-					count: 2
-					id: "55D59BADC1D05658"
-					item: "doggytalents:whistle"
+					id: "EC2CFFA40A1CABAC"
 					type: "item"
-				}
-				{
-					count: 6
-					id: "67C42D58ED94D447"
-					item: "minecraft:bone"
-					type: "item"
+					item: "doggytalents:dog_bed"
+					count: 1L
 				}
 			]
-			tasks: [{
-				id: "49C9780370A106B3"
-				item: "doggytalents:super_treat"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "276FE6358DF3108E"
+					type: "item"
+					item: "minecraft:red_dye"
+					count: 1
+				}
+				{
+					id: "7D9C9486C84B0C8B"
+					type: "item"
+					item: "minecraft:leather"
+					count: 1
+				}
+			]
+			dependencies: [ "DE0EC263D3E478F0" ]
+		}
+		{
+			id: "7E1CA10026000001"
 			title: "{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.super_treat.title}"
 			x: 3.5d
 			y: 3.0d
-		}
-		{
-			description: ["{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.whistle.desc.0}"]
-			id: "7E1CA1002E000001"
-			rewards: [
+			description: [ "{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.super_treat.desc.0}" ]
+			tasks: [
 				{
-					count: 2
-					id: "0E9A7D2944435CD1"
-					item: "doggytalents:training_treat"
+					id: "D8E1D92AEC8322F1"
 					type: "item"
-				}
-				{
-					count: 8
-					id: "76C89B215FC4CFFA"
-					item: "minecraft:bone"
-					type: "item"
+					item: "doggytalents:super_treat"
+					count: 1L
 				}
 			]
-			tasks: [{
-				id: "26951D65795DD07E"
-				item: "doggytalents:whistle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "55D59BADC1D05658"
+					type: "item"
+					item: "doggytalents:whistle"
+					count: 2
+				}
+				{
+					id: "D3A7BD36ED620257"
+					type: "item"
+					item: "minecraft:bone"
+					count: 6
+				}
+			]
+			dependencies: [ "A58304F1094A25A1" ]
+		}
+		{
+			id: "7E1CA1002E000001"
 			title: "{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.whistle.title}"
 			x: 6.5d
 			y: 1.0d
+			description: [ "{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.whistle.desc.0}" ]
+			tasks: [
+				{
+					id: "26951D65795DD07E"
+					type: "item"
+					item: "doggytalents:whistle"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "97371BDB610ED670"
+					type: "item"
+					item: "doggytalents:training_treat"
+					count: 2
+				}
+				{
+					id: "76C89B215FC4CFFA"
+					type: "item"
+					item: "minecraft:bone"
+					count: 8
+				}
+			]
+			dependencies: [ "2426A2F22F5E6528" ]
 		}
 		{
-			description: ["{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.treat_bag.desc.0}"]
 			id: "7E1CA1002E000004"
-			rewards: [{
-				id: "21F1CF1F50389A10"
-				item: "doggytalents:canine_tracker"
-				type: "item"
-			}]
-			tasks: [{
-				id: "01A635291AD5804E"
-				item: "doggytalents:treat_bag"
-				type: "item"
-			}]
 			title: "{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.treat_bag.title}"
 			x: 7.5d
 			y: 1.0d
+			description: [ "{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.treat_bag.desc.0}" ]
+			tasks: [
+				{
+					id: "01A635291AD5804E"
+					type: "item"
+					item: "doggytalents:treat_bag"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "21F1CF1F50389A10"
+					type: "item"
+					item: "doggytalents:canine_tracker"
+					count: 1
+				}
+			]
+			dependencies: [ "C1EFDC67C9B0DE20" ]
 		}
 		{
-			description: ["{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.canine_tracker.desc.0}"]
 			id: "7E1CA1002E000002"
-			rewards: [{
-				count: 4
-				id: "514A8FBDA94D248C"
-				item: "doggytalents:training_treat"
-				type: "item"
-			}]
-			tasks: [{
-				id: "158193748414826A"
-				item: "doggytalents:canine_tracker"
-				type: "item"
-			}]
 			title: "{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.canine_tracker.title}"
 			x: 8.5d
 			y: 1.0d
+			description: [ "{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.canine_tracker.desc.0}" ]
+			tasks: [
+				{
+					id: "158193748414826A"
+					type: "item"
+					item: "doggytalents:canine_tracker"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "514A8FBDA94D248C"
+					type: "item"
+					item: "doggytalents:training_treat"
+					count: 4
+				}
+			]
+			dependencies: [ "32DB7CE60DF2B11D" ]
 		}
 		{
-			description: ["{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.locator_orb.desc.0}"]
 			id: "7E1CA1002E000003"
-			rewards: [{
-				id: "2CD117A14D5E29D8"
-				item: "minecraft:compass"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2F1296D46686FEE4"
-				item: "doggytalents:locator_orb_dyable"
-				type: "item"
-			}]
 			title: "{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.locator_orb.title}"
 			x: 9.5d
 			y: 1.0d
+			description: [ "{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.locator_orb.desc.0}" ]
+			tasks: [
+				{
+					id: "2F1296D46686FEE4"
+					type: "item"
+					item: "doggytalents:locator_orb_dyable"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "A1F7A75C9ABDDA20"
+					type: "item"
+					item: "minecraft:compass"
+					count: 1
+				}
+			]
+			dependencies: [ "1840AD3DB3D5A18C" ]
 		}
 		{
-			description: ["{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.throw_stick.desc.0}"]
 			id: "7E1CA1002E000005"
-			rewards: [{
-				id: "4DD1BB7E81294F25"
-				item: "doggytalents:frisbee"
-				type: "item"
-			}]
-			tasks: [{
-				id: "290FA974A5AD2A8D"
-				item: "doggytalents:throw_stick"
-				type: "item"
-			}]
 			title: "{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.throw_stick.title}"
 			x: 2.5d
 			y: -1.5d
+			description: [ "{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.throw_stick.desc.0}" ]
+			tasks: [
+				{
+					id: "BF317A3B992EE6BA"
+					type: "item"
+					item: "doggytalents:throw_stick"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "4DD1BB7E81294F25"
+					type: "item"
+					item: "doggytalents:frisbee"
+					count: 1
+				}
+			]
+			dependencies: [ "DE0EC263D3E478F0" ]
 		}
 		{
-			description: ["{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.frisbee.desc.0}"]
 			id: "7E1CA1002E000006"
-			rewards: [{
-				id: "19F4C63B9127566F"
-				item: "doggytalents:throw_stick"
-				type: "item"
-			}]
-			tasks: [{
-				id: "76542371DBC36566"
-				item: "doggytalents:frisbee"
-				type: "item"
-			}]
 			title: "{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.frisbee.title}"
 			x: 4.0d
 			y: -1.5d
-		}
-		{
-			description: ["{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.rice_grains.desc.0}"]
-			id: "7E1CA1002E000007"
-			rewards: [
+			description: [ "{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.frisbee.desc.0}" ]
+			tasks: [
 				{
-					count: 16
-					id: "70009F84581B069F"
-					item: "doggytalents:rice_grains"
+					id: "E16F790EBE1A7740"
 					type: "item"
-				}
-				{
-					count: 4
-					id: "78CE610C16FC4B5E"
-					item: "minecraft:bowl"
-					type: "item"
+					item: "doggytalents:frisbee"
+					count: 1L
 				}
 			]
-			tasks: [{
-				id: "76FFE26134079E2A"
-				item: "doggytalents:rice_grains"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "19F4C63B9127566F"
+					type: "item"
+					item: "doggytalents:throw_stick"
+					count: 1
+				}
+			]
+			dependencies: [ "41753178C4EB94C0" ]
+		}
+		{
+			id: "7E1CA1002E000007"
 			title: "{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.rice_grains.title}"
 			x: 3.5d
 			y: 7.5d
+			description: [ "{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.rice_grains.desc.0}" ]
+			tasks: [
+				{
+					id: "B45E8BB233AA7813"
+					type: "item"
+					item: "doggytalents:rice_grains"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "D45F2071688BFE3E"
+					type: "item"
+					item: "doggytalents:rice_grains"
+					count: 16
+				}
+				{
+					id: "78CE610C16FC4B5E"
+					type: "item"
+					item: "minecraft:bowl"
+					count: 4
+				}
+			]
+			dependencies: [ "2426A2F22F5E6528" ]
 		}
 		{
-			description: ["{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.rice_mill.desc.0}"]
 			id: "7E1CA1002E000008"
-			rewards: [{
-				count: 2
-				id: "39AA00A3D3224A79"
-				item: "doggytalents:rice_bowl"
-				type: "item"
-			}]
-			tasks: [{
-				id: "1CBF1606FB4BA330"
-				item: "doggytalents:rice_mill"
-				type: "item"
-			}]
 			title: "{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.rice_mill.title}"
 			x: 4.5d
 			y: 7.5d
+			description: [ "{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.rice_mill.desc.0}" ]
+			tasks: [
+				{
+					id: "1CBF1606FB4BA330"
+					type: "item"
+					item: "doggytalents:rice_mill"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "E05271CF225EBD3B"
+					type: "item"
+					item: "doggytalents:rice_bowl"
+					count: 2
+				}
+			]
+			dependencies: [ "1A29B64A270FA46F" ]
 		}
 		{
-			description: ["{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.pet_care.desc.0}"]
 			id: "6716F7B7563D507B"
-			rewards: [{
-				count: 2
-				id: "67DFA1D53BADF1AB"
-				item: "domesticationinnovation:collar_tag"
-				type: "item"
-			}]
-			tasks: [{
-				id: "28CF3B0688F6F618"
-				item: "domesticationinnovation:pet_bed_red"
-				type: "item"
-			}]
 			title: "{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.pet_care.title}"
 			x: 6.5d
 			y: 2.0d
+			description: [ "{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.pet_care.desc.0}" ]
+			tasks: [
+				{
+					id: "28CF3B0688F6F618"
+					type: "item"
+					item: "domesticationinnovation:pet_bed_red"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "E36531E0BA4E89E8"
+					type: "item"
+					item: "domesticationinnovation:collar_tag"
+					count: 2
+				}
+			]
+			dependencies: [ "A58304F1094A25A1" ]
 		}
 		{
-			description: ["{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.wayward_lantern.desc.0}"]
 			id: "7E1CA1002F000003"
-			rewards: [{
-				count: 4
-				id: "7F1A09F9197CF497"
-				item: "minecraft:soul_lantern"
-				type: "item"
-			}]
-			tasks: [{
-				id: "71CC9B21494A876C"
-				item: "domesticationinnovation:wayward_lantern"
-				type: "item"
-			}]
 			title: "{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.wayward_lantern.title}"
 			x: 7.5d
 			y: 2.0d
+			description: [ "{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.wayward_lantern.desc.0}" ]
+			tasks: [
+				{
+					id: "88590B078F0ADB34"
+					type: "item"
+					item: "domesticationinnovation:wayward_lantern"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "7F1A09F9197CF497"
+					type: "item"
+					item: "minecraft:soul_lantern"
+					count: 4
+				}
+			]
+			dependencies: [ "E7F3B32ECCCB5E31" ]
 		}
 		{
-			description: ["{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.feather_on_a_stick.desc.0}"]
 			id: "7E1CA1002F000002"
-			rewards: [{
-				id: "070E081AA6038CBB"
-				item: "domesticationinnovation:deflection_shield"
-				type: "item"
-			}]
-			tasks: [{
-				id: "554F97A87DE367C1"
-				item: {
-					Count: 1
-					id: "domesticationinnovation:feather_on_a_stick"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
 			title: "{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.feather_on_a_stick.title}"
 			x: 8.5d
 			y: 2.0d
-		}
-		{
-			description: ["{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.magnet.desc.0}"]
-			id: "7E1CA10027000001"
-			rewards: [
+			description: [ "{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.feather_on_a_stick.desc.0}" ]
+			tasks: [
 				{
-					count: 2
-					id: "11B3F44AE5C9C782"
-					item: "domesticationinnovation:deflection_shield"
+					id: "554F97A87DE367C1"
 					type: "item"
-				}
-				{
-					count: 4
-					id: "6C7BF4A2864ABC7F"
-					item: "minecraft:emerald"
-					type: "item"
+					item: {
+						id: "domesticationinnovation:feather_on_a_stick"
+						Count: 1
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 			]
-			tasks: [{
-				id: "5A60E01F98CEC3F8"
-				item: "domesticationinnovation:magnet"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "BA6F87ADC874C61D"
+					type: "item"
+					item: "domesticationinnovation:deflection_shield"
+					count: 1
+				}
+			]
+			dependencies: [ "4F33E8B55D587F81" ]
+		}
+		{
+			id: "7E1CA10027000001"
 			title: "{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.magnet.title}"
 			x: 9.5d
 			y: 2.0d
+			description: [ "{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.magnet.desc.0}" ]
+			tasks: [
+				{
+					id: "5A60E01F98CEC3F8"
+					type: "item"
+					item: "domesticationinnovation:magnet"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "11B3F44AE5C9C782"
+					type: "item"
+					item: "domesticationinnovation:deflection_shield"
+					count: 2
+				}
+				{
+					id: "A5349D87F4A8B4E1"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 4
+				}
+			]
+			dependencies: [ "2B6F13EC94CE4B8E" ]
 		}
 		{
-			description: ["{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.deflection_shield.desc.0}"]
 			id: "7E1CA1002F000001"
-			rewards: [{
-				id: "19ECCC4383FADA9F"
-				item: "minecraft:diamond"
-				type: "item"
-			}]
-			tasks: [{
-				id: "793AED0AF4F6FC9B"
-				item: "domesticationinnovation:deflection_shield"
-				type: "item"
-			}]
 			title: "{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.deflection_shield.title}"
 			x: 9.5d
 			y: 3.0d
-		}
-		{
-			description: ["{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.pet_beds.desc.0}"]
-			id: "7E1CA1002F000004"
-			rewards: [{
-				id: "78A5C3ADF9F65E76"
-				item: "domesticationinnovation:deed_of_ownership"
-				type: "item"
-			}]
+			description: [ "{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.deflection_shield.desc.0}" ]
 			tasks: [
 				{
-					id: "256DDD72CBECCFDD"
-					item: "domesticationinnovation:pet_bed_red"
+					id: "793AED0AF4F6FC9B"
 					type: "item"
-				}
-				{
-					id: "273CE37BC5FBACBD"
-					item: "domesticationinnovation:pet_bed_blue"
-					type: "item"
-				}
-				{
-					id: "61F5311DCB809259"
-					item: "domesticationinnovation:pet_bed_green"
-					type: "item"
-				}
-				{
-					id: "2E0DC29885E29CF0"
-					item: "domesticationinnovation:pet_bed_yellow"
-					type: "item"
-				}
-				{
-					id: "5A2ECD495D52C08B"
-					item: "domesticationinnovation:pet_bed_purple"
-					type: "item"
-				}
-				{
-					id: "5C840A7A35471744"
-					item: "domesticationinnovation:pet_bed_cyan"
-					type: "item"
+					item: "domesticationinnovation:deflection_shield"
+					count: 1L
 				}
 			]
+			rewards: [
+				{
+					id: "19ECCC4383FADA9F"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 1
+				}
+			]
+			dependencies: [ "148FAC85C640AE0E" ]
+		}
+		{
+			id: "7E1CA1002F000004"
 			title: "{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.pet_beds.title}"
 			x: 8.5d
 			y: 3.0d
+			description: [ "{kubejs.ftbquests.quest.sadik_dostlar_ve_vahsi_yasam.pet_beds.desc.0}" ]
+			tasks: [
+				{
+					id: "256DDD72CBECCFDD"
+					type: "item"
+					item: "domesticationinnovation:pet_bed_red"
+					count: 1L
+				}
+				{
+					id: "AC1CFB4CEA3D90A3"
+					type: "item"
+					item: "domesticationinnovation:pet_bed_blue"
+					count: 1L
+				}
+				{
+					id: "61F5311DCB809259"
+					type: "item"
+					item: "domesticationinnovation:pet_bed_green"
+					count: 1L
+				}
+				{
+					id: "F2A6AC8F43181DF4"
+					type: "item"
+					item: "domesticationinnovation:pet_bed_yellow"
+					count: 1L
+				}
+				{
+					id: "CF706869F145FDE7"
+					type: "item"
+					item: "domesticationinnovation:pet_bed_purple"
+					count: 1L
+				}
+				{
+					id: "8541413E16FDC543"
+					type: "item"
+					item: "domesticationinnovation:pet_bed_cyan"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "78A5C3ADF9F65E76"
+					type: "item"
+					item: "domesticationinnovation:deed_of_ownership"
+					count: 1
+				}
+			]
+			dependencies: [ "541F14179ECFE38A" ]
 		}
 	]
-	title: "{kubejs.ftbquests.chapter.sadik_dostlar_ve_vahsi_yasam.title}"
+	quest_links: [ ]
 }

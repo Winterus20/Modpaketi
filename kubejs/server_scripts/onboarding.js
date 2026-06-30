@@ -5,9 +5,9 @@ PlayerEvents.loggedIn(event => {
     if (player.level.isClientSide()) return
 
     const data = player.persistentData
-    if (data.balik_journal_v2) return
+    if (data.balik_journal_v3) return
 
-    data.balik_journal_v2 = true
-    player.give(Item.of('patchouli:guide_book', '{"patchouli:book":"balik:field_journal"}'))
-    player.tell('§aKöy Günlüğü envanterine eklendi.')
+    data.balik_journal_v3 = true
+    player.give(Item.of('ftbquests:book'))
+    player.tell('§aGörev Kitabı envanterine eklendi.')
 })
