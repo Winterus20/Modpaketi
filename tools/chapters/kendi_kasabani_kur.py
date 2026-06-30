@@ -119,7 +119,7 @@ CHAPTER = {
             'x': 0.0,
             'y': 4.5,
             'dependency': 'builder',
-            'title_en': 'Raids & Security',
+            'title_en': 'Raids \\& Security',
             'title_tr': 'Baskınlar ve Güvenlik',
             'desc_en': ['As your colony grows, barbarians and raiders will attack during the night. Build Guard Towers and recruit guards to defend your citizens!'],
             'desc_tr': ['Koloniniz büyüdükçe, barbarlar ve akıncılar geceleri saldıracaktır. Vatandaşlarınızı savunmak için Nöbetçi Kuleleri (Guard Towers) inşa edin ve muhafızlar kiralayın!'],

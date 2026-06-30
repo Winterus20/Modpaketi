@@ -1,7 +1,7 @@
 CHAPTER = {
     'order': 5,
     'filename': 'kumes_ve_agil_gunlukleri',
-    'title_en': 'Coop & Barn Chronicles',
+    'title_en': 'Coop \\& Barn Chronicles',
     'title_tr': 'Kümes ve Ağıl Günlükleri',
     'icon': 'dragnlivestock:gender_test_strip',
     'quests': [

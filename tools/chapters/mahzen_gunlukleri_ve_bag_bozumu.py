@@ -1,7 +1,7 @@
 CHAPTER = {
     'order': 10,
     'filename': 'mahzen_gunlukleri_ve_bag_bozumu',
-    'title_en': 'Cellar Diaries & Wine Harvest',
+    'title_en': 'Cellar Diaries \\& Wine Harvest',
     'title_tr': 'Mahzen Günlükleri ve Bağ Bozumu',
     'icon': 'brewinandchewin:keg',
     'quests': [
@@ -11,8 +11,8 @@ CHAPTER = {
             'y': 0.0,
             'title_en': 'Fermentation Station',
             'title_tr': 'Fermentasyon İstasyonu',
-            'desc_en': ["Brewin' & Chewin' introduces the Keg, which ferments drinks and ages cheese. Place a Keg, fill it, and let time work its magic to brew Beer, Mead, Rice Wine, or Kombucha — each with unique effects."],
-            'desc_tr': ["Brewin' & Chewin', içecekleri fermente eden ve peyniri aged yapan Fıçıyı (Keg) sunar. Bir Fıçı yerleştirin, doldurun ve zamanın sihrini Beer, Mead, Pirinç Şarabı veya Kombucha üretmesine izin verin — her biri benzersiz etkilere sahiptir."],
+            'desc_en': ["Brewin' \\& Chewin' introduces the Keg, which ferments drinks and ages cheese. Place a Keg, fill it, and let time work its magic to brew Beer, Mead, Rice Wine, or Kombucha — each with unique effects."],
+            'desc_tr': ["Brewin' \\& Chewin', içecekleri fermente eden ve peyniri aged yapan Fıçıyı (Keg) sunar. Bir Fıçı yerleştirin, doldurun ve zamanın sihrini Beer, Mead, Pirinç Şarabı veya Kombucha üretmesine izin verin — her biri benzersiz etkilere sahiptir."],
             'tasks': [
                 {
                     'type': 'item',

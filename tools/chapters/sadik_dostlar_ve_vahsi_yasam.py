@@ -1,7 +1,7 @@
 CHAPTER = {
     'order': 4,
     'filename': 'sadik_dostlar_ve_vahsi_yasam',
-    'title_en': 'Companions & Wildlife',
+    'title_en': 'Companions \\& Wildlife',
     'title_tr': 'Sadık Dostlar ve Vahşi Yaşam',
     'icon': 'doggytalents:training_treat',
     'quests': [

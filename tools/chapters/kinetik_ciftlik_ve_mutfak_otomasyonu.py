@@ -1,7 +1,7 @@
 CHAPTER = {
     'order': 7,
     'filename': 'kinetik_ciftlik_ve_mutfak_otomasyonu',
-    'title_en': 'Kinetic Farming & Kitchen Automation',
+    'title_en': 'Kinetic Farming \\& Kitchen Automation',
     'title_tr': 'Kinetik Çiftlik ve Mutfak Otomasyonu',
     'icon': 'create:water_wheel',
     'quests': [
@@ -92,8 +92,8 @@ CHAPTER = {
             'dependency_or': ['press', 'mixer'],
             'title_en': 'Automated Cooking',
             'title_tr': 'Otomatik Mutfak',
-            'desc_en': ["Integrate Create machinery with Farmer's Delight using Slice & Dice or Create Central Kitchen. Automate food slicing or soup cooking to supply your colony or spice of life goals effortlessly!"],
-            'desc_tr': ["Slice & Dice veya Create Central Kitchen kullanarak Create makinelerini Farmer's Delight ile birleştirin. Koloninizi veya Spice of Life hedeflerinizi zahmetsizce beslemek için yiyecek dilimlemeyi veya çorba pişirmeyi otomatikleştirin!"],
+            'desc_en': ["Integrate Create machinery with Farmer's Delight using Slice \\& Dice or Create Central Kitchen. Automate food slicing or soup cooking to supply your colony or spice of life goals effortlessly!"],
+            'desc_tr': ["Slice \\& Dice veya Create Central Kitchen kullanarak Create makinelerini Farmer's Delight ile birleştirin. Koloninizi veya Spice of Life hedeflerinizi zahmetsizce beslemek için yiyecek dilimlemeyi veya çorba pişirmeyi otomatikleştirin!"],
             'tasks': [
                 {
                     'type': 'checkmark',
@@ -112,10 +112,10 @@ CHAPTER = {
             'x': -3.0,
             'y': 3.0,
             'dependency': 'automated_kitchen',
-            'title_en': 'Slice & Dice',
-            'title_tr': 'Dilimle & Doğra',
-            'desc_en': ["Slice & Dice adds a Slicer that automates Farmer's Delight cutting-board recipes, and a Sprinkler driven by Create's rotation. Hook a Slicer to a belt and a depot to mass-produce sliced ingredients without lifting a finger."],
-            'desc_tr': ["Slice & Dice, Farmer's Delight kesme tahtası tariflerini otomatikleştiren bir Dilimleyici (Slicer) ve Create'in dönüşüyle çalışan bir Serpme ekler. Bir Dilimleyiciyi bant ve depoya bağlayın ve parmağınızı kıpırdatarak dilimlenmiş malzeme üretin."],
+            'title_en': 'Slice \\& Dice',
+            'title_tr': 'Dilimle \\& Doğra',
+            'desc_en': ["Slice \\& Dice adds a Slicer that automates Farmer's Delight cutting-board recipes, and a Sprinkler driven by Create's rotation. Hook a Slicer to a belt and a depot to mass-produce sliced ingredients without lifting a finger."],
+            'desc_tr': ["Slice \\& Dice, Farmer's Delight kesme tahtası tariflerini otomatikleştiren bir Dilimleyici (Slicer) ve Create'in dönüşüyle çalışan bir Serpme ekler. Bir Dilimleyiciyi bant ve depoya bağlayın ve parmağınızı kıpırdatarak dilimlenmiş malzeme üretin."],
             'tasks': [
                 {
                     'type': 'item',

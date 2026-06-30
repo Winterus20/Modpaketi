@@ -1,7 +1,7 @@
 CHAPTER = {
     'order': 1,
     'filename': 'toprak_ana_ve_hasat_zamani',
-    'title_en': 'Mother Earth & Harvest Time',
+    'title_en': 'Mother Earth \\& Harvest Time',
     'title_tr': 'Toprak Ana ve Hasat Zamanı',
     'icon': 'minecraft:wheat',
     'quests': [

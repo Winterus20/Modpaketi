@@ -1,7 +1,7 @@
 CHAPTER = {
     'order': 6,
     'filename': 'baliki_ve_deniz',
-    'title_en': 'Fishing & Oceans',
+    'title_en': 'Fishing \\& Oceans',
     'title_tr': 'Derya Kuzuları ve Denizlerin Sırrı',
     'icon': 'aquaculture:iron_fishing_rod',
     'quests': [
@@ -431,7 +431,7 @@ CHAPTER = {
             'x': -3.5,
             'y': 7.0,
             'dependency': 'tide_baits',
-            'title_en': 'Marine Salvage & Sunken Treasures',
+            'title_en': 'Marine Salvage \\& Sunken Treasures',
             'title_tr': 'Deniz Kurtarma ve Batık Hazineler',
             'desc_en': ['Oceans are not just filled with marine life, but also with historical debris and sunken treasures. Using magnetic bait and lucky hooks, try to salvage some historical junk or metal items from the sea floor. Retrieve some Driftwood or a Gold Ring from the water!'],
             'desc_tr': ['Okyanuslar sadece deniz yaşamıyla dolu değildir; aynı zamanda tarihi kalıntılar ve batık hazineler barındırır. Manyetik yemler ve şanslı kancalar kullanarak, deniz tabanından bazı tarihi çöpleri veya metal eşyaları kurtarmaya çalışın. Sudan bir Sürüklenen Odun (Driftwood) veya Altın Yüzük (Gold Ring) çekip çıkarın!'],
@@ -511,8 +511,8 @@ CHAPTER = {
             'dependencies': ['fish_trap', 'seafood'],
             'title_en': 'Industrial Fish Processing',
             'title_tr': 'Endüstriyel Balık İşleme',
-            'desc_en': ['Manually cutting fish slices becomes exhausting when you have nets and traps full of them. Use Kinetically powered slicing machines to automate your seafood production! Craft a Slicer from Slice & Dice to process your catch effortlessly.'],
-            'desc_tr': ['Kapanlarınız ve ağlarınız balık dolduğunda, onları elinizle tek tek dilimlemek yorucu hale gelir. Kinetik enerjiyle çalışan kesme makinelerini kullanarak deniz ürünleri üretiminizi otomatikleştirin! Avınızı zahmetsizce işlemek için Slice & Dice modundan bir Dilimleyici (Slicer) yapın.'],
+            'desc_en': ['Manually cutting fish slices becomes exhausting when you have nets and traps full of them. Use Kinetically powered slicing machines to automate your seafood production! Craft a Slicer from Slice \\& Dice to process your catch effortlessly.'],
+            'desc_tr': ['Kapanlarınız ve ağlarınız balık dolduğunda, onları elinizle tek tek dilimlemek yorucu hale gelir. Kinetik enerjiyle çalışan kesme makinelerini kullanarak deniz ürünleri üretiminizi otomatikleştirin! Avınızı zahmetsizce işlemek için Slice \\& Dice modundan bir Dilimleyici (Slicer) yapın.'],
             'tasks': [
                 {
                     'type': 'item',
@@ -584,7 +584,7 @@ CHAPTER = {
             'title_en': 'Under Pressure',
             'title_tr': 'Basınç Altında',
             'desc_en': ['Complete the ensemble with the Diving Suit and Leggings. This heavy gear increases pressure resistance in deep waters and allows you to swim as swiftly as a fish.'],
-            'desc_tr': ['Dalgıç Elbisesi ve Dalgıç Pantolonu (Diving Suit & Leggings) ile tam takımı tamamla. Bu özel giysi, derin sulardaki basınç direncini artırır ve su altında adeta bir balık gibi hızlı yüzmeni sağlar.'],
+            'desc_tr': ['Dalgıç Elbisesi ve Dalgıç Pantolonu (Diving Suit \\& Leggings) ile tam takımı tamamla. Bu özel giysi, derin sulardaki basınç direncini artırır ve su altında adeta bir balık gibi hızlı yüzmeni sağlar.'],
             'tasks': [
                 {
                     'type': 'item',
@@ -875,7 +875,7 @@ CHAPTER = {
             'x': 5.0,
             'y': 8.5,
             'dependency': 'tropical_fish_supreme_quest',
-            'title_en': 'Tropical Leisure & Beach Party',
+            'title_en': 'Tropical Leisure \\& Beach Party',
             'title_tr': 'Tropikal Keyif ve Plaj Partisi',
             'desc_en': ["After all the dangerous deep-sea dives and freezing winter catches, it's time to enjoy the warm sunshine. Craft a beach chair, open some coconuts, mix a Coconut Cocktail and a Honey Cocktail, and throw a relaxing beach party! You've earned it, Captain!"],
             'desc_tr': ['Tüm tehlikeli derin deniz dalışlarından ve dondurucu kış avlarından sonra, sıcak güneşin tadını çıkarma vakti geldi. Bir plaj sandalyesi yapın, hindistan cevizlerini açın, Hindistan Cevizi Kokteyli (Coconut Cocktail) ve Bal Kokteyli (Honey Cocktail) hazırlayın ve rahatlatıcı bir plaj partisi düzenleyin! Bunu hak ettiniz, Kaptan!'],

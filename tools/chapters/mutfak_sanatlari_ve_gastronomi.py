@@ -1,7 +1,7 @@
 CHAPTER = {
     'order': 2,
     'filename': 'mutfak_sanatlari_ve_gastronomi',
-    'title_en': 'Culinary Arts & Gastronomy',
+    'title_en': 'Culinary Arts \\& Gastronomy',
     'title_tr': 'Mutfak Sanatları ve Gastronomi',
     'icon': 'farmersdelight:cooking_pot',
     'quests': [

@@ -1,7 +1,7 @@
 CHAPTER = {
     'order': 9,
     'filename': 'gizemli_magaralar_ve_kesif',
-    'title_en': 'Mysterious Caves & Exploration',
+    'title_en': 'Mysterious Caves \\& Exploration',
     'title_tr': 'Gizemli Mağaralar ve Keşif',
     'icon': 'alexscaves:cave_tablet',
     'quests': [
