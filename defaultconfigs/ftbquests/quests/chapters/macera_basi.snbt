@@ -25,15 +25,45 @@
 					id: "1AB21602F7B15138"
 					type: "item"
 					item: "minecraft:bread"
-					count: 5
+					count: 3
 				}
 			]
 		}
 		{
+			id: "28D92BD525885CD0"
+			title: "{kubejs.ftbquests.quest.macera_basi.basic_survival.title}"
+			x: 0.0d
+			y: -2.0d
+			description: [ "{kubejs.ftbquests.quest.macera_basi.basic_survival.desc.0}" ]
+			tasks: [
+				{
+					id: "B2B32FCDA75CED3D"
+					type: "item"
+					item: "minecraft:crafting_table"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "C030DC18A3E95EB5"
+					type: "item"
+					item: "minecraft:stone_axe"
+					count: 1
+				}
+				{
+					id: "D1EA68BC5D01A371"
+					type: "item"
+					item: "minecraft:torch"
+					count: 8
+				}
+			]
+			dependencies: [ "B36FC0740C173CF4" ]
+		}
+		{
 			id: "E1204588C4151F07"
 			title: "{kubejs.ftbquests.quest.macera_basi.seasons.title}"
-			x: 0.0d
-			y: 2.0d
+			x: 2.0d
+			y: -3.0d
 			description: [ "{kubejs.ftbquests.quest.macera_basi.seasons.desc.0}" ]
 			tasks: [
 				{
@@ -51,13 +81,13 @@
 					count: 1
 				}
 			]
-			dependencies: [ "B36FC0740C173CF4" ]
+			dependencies: [ "28D92BD525885CD0" ]
 		}
 		{
 			id: "E82FCB66C20ADD43"
 			title: "{kubejs.ftbquests.quest.macera_basi.sol_carrot.title}"
-			x: 1.5d
-			y: 1.0d
+			x: 3.0d
+			y: -1.0d
 			description: [ "{kubejs.ftbquests.quest.macera_basi.sol_carrot.desc.0}" ]
 			tasks: [
 				{
@@ -87,14 +117,14 @@
 					count: 4
 				}
 			]
-			dependencies: [ "B36FC0740C173CF4" ]
+			dependencies: [ "28D92BD525885CD0" ]
 		}
 		{
 			id: "39963C4D67FE66B2"
 			title: "{kubejs.ftbquests.quest.macera_basi.backpack.title}"
-			x: -1.5d
-			y: 1.0d
-			description: [ "{kubejs.ftbquests.quest.macera_basi.backpack.desc.0}" ]
+			x: -2.0d
+			y: -3.0d
+			description: [ "{kubejs.ftbquests.quest.macera_basi.backpack.desc.0}", "{kubejs.ftbquests.quest.macera_basi.backpack.desc.1}" ]
 			tasks: [
 				{
 					id: "94914114604D16E0"
@@ -117,13 +147,43 @@
 					count: 4
 				}
 			]
-			dependencies: [ "B36FC0740C173CF4" ]
+			dependencies: [ "28D92BD525885CD0" ]
+		}
+		{
+			id: "49D341AC0D14EA30"
+			title: "{kubejs.ftbquests.quest.macera_basi.first_cast.title}"
+			x: -3.0d
+			y: -1.0d
+			description: [ "{kubejs.ftbquests.quest.macera_basi.first_cast.desc.0}" ]
+			tasks: [
+				{
+					id: "95A6E29BDAC9F9B3"
+					type: "item"
+					item: "minecraft:cod"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "CE3B7A1ACF1F8B50"
+					type: "item"
+					item: "aquaculture:iron_fishing_rod"
+					count: 1
+				}
+				{
+					id: "BA47B37CE8367F7B"
+					type: "item"
+					item: "aquaculture:worm"
+					count: 4
+				}
+			]
+			dependencies: [ "28D92BD525885CD0" ]
 		}
 		{
 			id: "F05AEE4AC0EED643"
 			title: "{kubejs.ftbquests.quest.macera_basi.sleeping_bag.title}"
-			x: 0.0d
-			y: -2.0d
+			x: -2.0d
+			y: -5.0d
 			description: [ "{kubejs.ftbquests.quest.macera_basi.sleeping_bag.desc.0}" ]
 			tasks: [
 				{
@@ -141,13 +201,13 @@
 					count: 2
 				}
 			]
-			dependencies: [ "B36FC0740C173CF4" ]
+			dependencies: [ "39963C4D67FE66B2" ]
 		}
 		{
 			id: "8BAA7A5BA5E84C18"
 			title: "{kubejs.ftbquests.quest.macera_basi.compasses.title}"
-			x: -1.5d
-			y: -1.0d
+			x: -3.0d
+			y: -3.0d
 			description: [ "{kubejs.ftbquests.quest.macera_basi.compasses.desc.0}" ]
 			tasks: [
 				{
@@ -165,13 +225,13 @@
 					count: 2
 				}
 			]
-			dependencies: [ "B36FC0740C173CF4" ]
+			dependencies: [ "49D341AC0D14EA30" ]
 		}
 		{
 			id: "8A44DEF425FE7710"
 			title: "{kubejs.ftbquests.quest.macera_basi.waystone.title}"
-			x: 1.5d
-			y: -1.0d
+			x: 3.0d
+			y: -3.0d
 			description: [ "{kubejs.ftbquests.quest.macera_basi.waystone.desc.0}" ]
 			tasks: [
 				{
@@ -189,13 +249,13 @@
 					count: 3
 				}
 			]
-			dependencies: [ "B36FC0740C173CF4" ]
+			dependencies: [ "E82FCB66C20ADD43" ]
 		}
 		{
 			id: "287390543BB374C2"
 			title: "{kubejs.ftbquests.quest.macera_basi.market.title}"
-			x: -1.5d
-			y: -3.0d
+			x: 3.0d
+			y: -5.0d
 			description: [ "{kubejs.ftbquests.quest.macera_basi.market.desc.0}" ]
 			tasks: [
 				{
@@ -215,11 +275,11 @@
 				{
 					id: "02E867D2EAA9F6AA"
 					type: "item"
-					item: "minecraft:emerald"
-					count: 2
+					item: "minecraft:carrot"
+					count: 4
 				}
 			]
-			dependencies: [ "B36FC0740C173CF4" ]
+			dependencies: [ "E1204588C4151F07" ]
 		}
 	]
 	quest_links: [ ]

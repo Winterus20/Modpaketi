@@ -33,17 +33,6 @@
         "value": 1024
       }
     },
-    "doggytalents:generic.crit_bonus": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1,
-        "value": 1
-      }
-    },
     "forge:nametag_distance": {
       "enabled": false,
       "min": {
@@ -53,6 +42,17 @@
       "max": {
         "default": 64,
         "value": 64
+      }
+    },
+    "doggytalents:generic.crit_bonus": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "minecraft:generic.movement_speed": {

@@ -4,7 +4,7 @@
 	filename: "icecekler_ve_eglence"
 	group: ""
 	icon: "brewinandchewin:keg"
-	id: "2AC534BADC9CE2F9"
+	id: "43D194DC8EB5081F"
 	order_index: 7
 	quest_links: [ ]
 	quests: [
@@ -13,7 +13,7 @@
 			id: "32247CCC3B30D72F"
 			rewards: [{
 				count: 4
-				id: "15CA7144FA0AA935"
+				id: "1EFEB16B61541F07"
 				item: "brewinandchewin:beer"
 				type: "item"
 			}]
@@ -32,12 +32,12 @@
 			id: "595269980D06FFD9"
 			rewards: [{
 				count: 2
-				id: "258D25A3A9D7E68A"
+				id: "783174D65236C038"
 				item: "brewery:beer_mug"
 				type: "item"
 			}]
 			tasks: [{
-				id: "6400766BEDBE7EF4"
+				id: "7AE90D6F05F41071"
 				item: "brewery:wooden_brewingstation"
 				type: "item"
 			}]
@@ -69,18 +69,18 @@
 			description: ["{kubejs.ftbquests.quest.icecekler_ve_eglence.beach_party.desc.0}"]
 			id: "4A083D469E9FDADA"
 			rewards: [{
-				id: "64A569E6B1CCEA2B"
+				id: "75EDDB5D2F18594B"
 				item: "beachparty:mini_fridge"
 				type: "item"
 			}]
 			tasks: [
 				{
-					id: "4958B4C04CE6CE51"
+					id: "4257FD46678C760D"
 					item: "beachparty:beach_chair"
 					type: "item"
 				}
 				{
-					id: "39B8B0D9A1CFD9F2"
+					id: "2F88CA65A37FD5BE"
 					item: "beachparty:coconut_cocktail"
 					type: "item"
 				}

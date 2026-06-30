@@ -32,10 +32,131 @@
 			]
 		}
 		{
+			id: "980FFBB0FDD7AA8A"
+			title: "{kubejs.ftbquests.quest.baliki_ve_deniz.gold_rod.title}"
+			x: 0.0d
+			y: 2.0d
+			description: [ "{kubejs.ftbquests.quest.baliki_ve_deniz.gold_rod.desc.0}" ]
+			tasks: [
+				{
+					id: "F36EADD325DB2E28"
+					type: "item"
+					item: "aquaculture:gold_fishing_rod"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "C254813D8EDFF63A"
+					type: "item"
+					item: "aquaculture:gold_hook"
+					count: 1
+				}
+			]
+			dependencies: [ "109A3D2AFF94B9F5" ]
+		}
+		{
+			id: "3B9E036E795306A3"
+			title: "{kubejs.ftbquests.quest.baliki_ve_deniz.diamond_rod.title}"
+			x: 0.0d
+			y: 4.0d
+			description: [ "{kubejs.ftbquests.quest.baliki_ve_deniz.diamond_rod.desc.0}" ]
+			tasks: [
+				{
+					id: "CF1CF44BF06C5911"
+					type: "item"
+					item: "aquaculture:diamond_fishing_rod"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "A10500766301DD40"
+					type: "item"
+					item: "aquaculture:diamond_hook"
+					count: 1
+				}
+			]
+			dependencies: [ "980FFBB0FDD7AA8A" ]
+		}
+		{
+			id: "9F38879289520B1E"
+			title: "{kubejs.ftbquests.quest.baliki_ve_deniz.neptunium_rod.title}"
+			x: 0.0d
+			y: 6.0d
+			description: [ "{kubejs.ftbquests.quest.baliki_ve_deniz.neptunium_rod.desc.0}" ]
+			tasks: [
+				{
+					id: "740D2CA90EB6C72D"
+					type: "item"
+					item: "aquaculture:neptunium_fishing_rod"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "34A2AFD066E3AFFB"
+					type: "item"
+					item: "aquaculture:nether_star_hook"
+					count: 1
+				}
+			]
+			dependencies: [ "3B9E036E795306A3" ]
+		}
+		{
+			id: "40503106C60507A2"
+			title: "{kubejs.ftbquests.quest.baliki_ve_deniz.lava_fishing.title}"
+			x: 0.0d
+			y: 7.5d
+			description: [ "{kubejs.ftbquests.quest.baliki_ve_deniz.lava_fishing.desc.0}" ]
+			tasks: [
+				{
+					id: "54AD4B8680227442"
+					type: "item"
+					item: "aquaculture:basalt_bass"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "99C07974FC746536"
+					type: "item"
+					item: "tide:incandescent_bait"
+					count: 1
+				}
+			]
+			dependencies: [ "9F38879289520B1E" ]
+		}
+		{
+			id: "71CA9F702C1B5E6A"
+			title: "{kubejs.ftbquests.quest.baliki_ve_deniz.celestial_fish.title}"
+			x: 0.0d
+			y: 9.0d
+			description: [ "{kubejs.ftbquests.quest.baliki_ve_deniz.celestial_fish.desc.0}" ]
+			tasks: [
+				{
+					id: "9AC62ED0A2AA1371"
+					type: "item"
+					item: "tide:neptune_koi"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "BA4A13C1574A8226"
+					type: "item"
+					item: "aquaculture:neptunes_bounty"
+					count: 1
+				}
+			]
+			dependencies: [ "9F38879289520B1E", "40503106C60507A2" ]
+			dependency_requirement: "one_completed"
+		}
+		{
 			id: "D015356044BB77C3"
 			title: "{kubejs.ftbquests.quest.baliki_ve_deniz.tackle_box.title}"
 			x: -1.5d
-			y: 1.5d
+			y: 1.0d
 			description: [ "{kubejs.ftbquests.quest.baliki_ve_deniz.tackle_box.desc.0}" ]
 			tasks: [
 				{
@@ -56,10 +177,316 @@
 			dependencies: [ "109A3D2AFF94B9F5" ]
 		}
 		{
+			id: "A68437790B6C38B7"
+			title: "{kubejs.ftbquests.quest.baliki_ve_deniz.hooks.title}"
+			x: -1.5d
+			y: 2.5d
+			description: [ "{kubejs.ftbquests.quest.baliki_ve_deniz.hooks.desc.0}" ]
+			tasks: [
+				{
+					id: "C899748712F47B83"
+					type: "item"
+					item: "aquaculture:iron_hook"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "E5B4A8E3079653E4"
+					type: "item"
+					item: "aquaculture:light_hook"
+					count: 1
+				}
+			]
+			dependencies: [ "D015356044BB77C3" ]
+		}
+		{
+			id: "309D4B49BCBC03D0"
+			title: "{kubejs.ftbquests.quest.baliki_ve_deniz.advanced_hooks.title}"
+			x: -1.5d
+			y: 4.0d
+			description: [ "{kubejs.ftbquests.quest.baliki_ve_deniz.advanced_hooks.desc.0}" ]
+			tasks: [
+				{
+					id: "1C7D9101A09A43D3"
+					type: "item"
+					item: "aquaculture:redstone_hook"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "ECDF6168FC4C974A"
+					type: "item"
+					item: "aquaculture:diamond_hook"
+					count: 1
+				}
+			]
+			dependencies: [ "A68437790B6C38B7" ]
+		}
+		{
+			id: "A3AF2CA83F3B2FFA"
+			title: "{kubejs.ftbquests.quest.baliki_ve_deniz.neptunes_bounty.title}"
+			x: -1.5d
+			y: 5.5d
+			description: [ "{kubejs.ftbquests.quest.baliki_ve_deniz.neptunes_bounty.desc.0}" ]
+			tasks: [
+				{
+					id: "45C103513B3B6F62"
+					type: "item"
+					item: "aquaculture:neptunes_bounty"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "D64D727D88FB9B39"
+					type: "item"
+					item: "aquaculture:neptunium_ingot"
+					count: 1
+				}
+			]
+			dependencies: [ "3B9E036E795306A3" ]
+		}
+		{
+			id: "95E322E8AC04289C"
+			title: "{kubejs.ftbquests.quest.baliki_ve_deniz.neptunium_ingot.title}"
+			x: -1.5d
+			y: 7.0d
+			description: [ "{kubejs.ftbquests.quest.baliki_ve_deniz.neptunium_ingot.desc.0}" ]
+			tasks: [
+				{
+					id: "C8A558BC490DCD3C"
+					type: "item"
+					item: "aquaculture:neptunium_ingot"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "83B9CB7CFD985563"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 4
+				}
+			]
+			dependencies: [ "A3AF2CA83F3B2FFA" ]
+		}
+		{
+			id: "A39BF7A10EEF60F4"
+			title: "{kubejs.ftbquests.quest.baliki_ve_deniz.message_in_a_bottle.title}"
+			x: -2.5d
+			y: 0.5d
+			description: [ "{kubejs.ftbquests.quest.baliki_ve_deniz.message_in_a_bottle.desc.0}" ]
+			tasks: [
+				{
+					id: "C78FB779562357AD"
+					type: "item"
+					item: "aquaculture:message_in_a_bottle"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "98C7A84F1344C218"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 2
+				}
+			]
+			dependencies: [ "109A3D2AFF94B9F5" ]
+		}
+		{
+			id: "5C4120CF45EF9CD3"
+			title: "{kubejs.ftbquests.quest.baliki_ve_deniz.lines_bobbers.title}"
+			x: -2.5d
+			y: 2.0d
+			description: [ "{kubejs.ftbquests.quest.baliki_ve_deniz.lines_bobbers.desc.0}" ]
+			tasks: [
+				{
+					id: "44D715649A8773E1"
+					type: "item"
+					item: "aquaculture:fishing_line"
+					count: 1L
+				}
+				{
+					id: "EE7CD9CEE345A8B3"
+					type: "item"
+					item: "aquaculture:bobber"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "F806694D13667141"
+					type: "item"
+					item: "minecraft:string"
+					count: 4
+				}
+				{
+					id: "C4BC111FD80D9CA7"
+					type: "item"
+					item: "minecraft:red_dye"
+					count: 2
+				}
+			]
+			dependencies: [ "D015356044BB77C3" ]
+		}
+		{
+			id: "5328D6C7A59BFE50"
+			title: "{kubejs.ftbquests.quest.baliki_ve_deniz.natural_baits.title}"
+			x: -3.5d
+			y: 1.0d
+			description: [ "{kubejs.ftbquests.quest.baliki_ve_deniz.natural_baits.desc.0}" ]
+			tasks: [
+				{
+					id: "CA1FB4F30AAC1E06"
+					type: "item"
+					item: "aquaculture:worm"
+					count: 1L
+				}
+				{
+					id: "63ACFE9891C5007C"
+					type: "item"
+					item: "aquaculture:leech"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "A7438DF16E5ED88C"
+					type: "item"
+					item: "tide:bait"
+					count: 1
+				}
+			]
+			dependencies: [ "D015356044BB77C3" ]
+		}
+		{
+			id: "0F4A8D4AB3D48F29"
+			title: "{kubejs.ftbquests.quest.baliki_ve_deniz.magnetic_bait.title}"
+			x: -3.5d
+			y: 2.25d
+			description: [ "{kubejs.ftbquests.quest.baliki_ve_deniz.magnetic_bait.desc.0}" ]
+			tasks: [
+				{
+					id: "6E44B46921E6A336"
+					type: "item"
+					item: "tide:magnetic_bait"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "83BD33FD4D5BE577"
+					type: "item"
+					item: "tide:lucky_bait"
+					count: 2
+				}
+			]
+			dependencies: [ "5328D6C7A59BFE50" ]
+		}
+		{
+			id: "A220B180F0BA0BC4"
+			title: "{kubejs.ftbquests.quest.baliki_ve_deniz.tide_baits.title}"
+			x: -3.5d
+			y: 3.5d
+			description: [ "{kubejs.ftbquests.quest.baliki_ve_deniz.tide_baits.desc.0}" ]
+			tasks: [
+				{
+					id: "B5A9B8464319BA66"
+					type: "item"
+					item: "tide:lucky_bait"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "D5B56F17FB2016D7"
+					type: "item"
+					item: "tide:bait"
+					count: 2
+				}
+			]
+			dependencies: [ "0F4A8D4AB3D48F29" ]
+		}
+		{
+			id: "71CA152F68BB4D01"
+			title: "{kubejs.ftbquests.quest.baliki_ve_deniz.abyssal_baits.title}"
+			x: -3.5d
+			y: 4.75d
+			description: [ "{kubejs.ftbquests.quest.baliki_ve_deniz.abyssal_baits.desc.0}" ]
+			tasks: [
+				{
+					id: "916BCF8237A76955"
+					type: "item"
+					item: "tide:abyss_bait"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "7CA9EDDB727D66FC"
+					type: "item"
+					item: "tide:lucky_bait"
+					count: 1
+				}
+			]
+			dependencies: [ "A220B180F0BA0BC4" ]
+		}
+		{
+			id: "63D9EB086BA30564"
+			title: "{kubejs.ftbquests.quest.baliki_ve_deniz.crab_trap.title}"
+			x: -4.5d
+			y: 2.0d
+			description: [ "{kubejs.ftbquests.quest.baliki_ve_deniz.crab_trap.desc.0}" ]
+			tasks: [
+				{
+					id: "EA718ACB6AB77636"
+					type: "item"
+					item: "crabbersdelight:crab_trap"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "3E8DC253C4C97C42"
+					type: "item"
+					item: "crittersandcompanions:clam"
+					count: 4
+				}
+			]
+			dependencies: [ "D015356044BB77C3" ]
+		}
+		{
+			id: "54EA10D372263885"
+			title: "{kubejs.ftbquests.quest.baliki_ve_deniz.fish_trap.title}"
+			x: -4.5d
+			y: 3.5d
+			description: [ "{kubejs.ftbquests.quest.baliki_ve_deniz.fish_trap.desc.0}" ]
+			tasks: [
+				{
+					id: "C7B03080BEC5C7FF"
+					type: "item"
+					item: "fishermens_trap:fishtrap"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "92139C1F59EAB37B"
+					type: "item"
+					item: "minecraft:cod"
+					count: 8
+				}
+			]
+			dependencies: [ "63D9EB086BA30564" ]
+		}
+		{
 			id: "C9646BA3C00DB2E4"
 			title: "{kubejs.ftbquests.quest.baliki_ve_deniz.tide_fish.title}"
-			x: 0.0d
-			y: 2.0d
+			x: 1.5d
+			y: 1.0d
 			description: [ "{kubejs.ftbquests.quest.baliki_ve_deniz.tide_fish.desc.0}" ]
 			tasks: [
 				{
@@ -80,10 +507,113 @@
 			dependencies: [ "109A3D2AFF94B9F5" ]
 		}
 		{
+			id: "238CA9C9F9AE9888"
+			title: "{kubejs.ftbquests.quest.baliki_ve_deniz.deep_dive.title}"
+			x: 1.5d
+			y: 3.0d
+			description: [ "{kubejs.ftbquests.quest.baliki_ve_deniz.deep_dive.desc.0}" ]
+			tasks: [
+				{
+					id: "0F0AB5C12FFAF5BF"
+					type: "item"
+					item: "hybrid_aquatic:diving_helmet"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "A5FA15A82ACC49FC"
+					type: "item"
+					item: "hybrid_aquatic:diving_boots"
+					count: 1
+				}
+			]
+			dependencies: [ "C9646BA3C00DB2E4" ]
+		}
+		{
+			id: "C385496FAC1C90BA"
+			title: "{kubejs.ftbquests.quest.baliki_ve_deniz.diving_suit.title}"
+			x: 1.5d
+			y: 4.5d
+			description: [ "{kubejs.ftbquests.quest.baliki_ve_deniz.diving_suit.desc.0}" ]
+			tasks: [
+				{
+					id: "5543BF33A0BA779F"
+					type: "item"
+					item: "hybrid_aquatic:diving_suit"
+					count: 1L
+				}
+				{
+					id: "ECEB071329BFBB1E"
+					type: "item"
+					item: "hybrid_aquatic:diving_leggings"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "79557696271DF7A6"
+					type: "item"
+					item: "minecraft:copper_ingot"
+					count: 4
+				}
+			]
+			dependencies: [ "238CA9C9F9AE9888" ]
+		}
+		{
+			id: "EA27F20FDFE385BA"
+			title: "{kubejs.ftbquests.quest.baliki_ve_deniz.deep_sea_wildlife.title}"
+			x: 1.5d
+			y: 6.0d
+			description: [ "{kubejs.ftbquests.quest.baliki_ve_deniz.deep_sea_wildlife.desc.0}" ]
+			tasks: [
+				{
+					id: "1314BBA87FEABF72"
+					type: "item"
+					item: "hybrid_aquatic:anglerfish"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "CA216C667FD70207"
+					type: "item"
+					item: "tide:abyss_bait"
+					count: 2
+				}
+			]
+			dependencies: [ "C385496FAC1C90BA", "BACBAD44D7858A78" ]
+			dependency_requirement: "one_completed"
+		}
+		{
+			id: "67733BB466CD4124"
+			title: "{kubejs.ftbquests.quest.baliki_ve_deniz.pearl_hunter.title}"
+			x: 2.5d
+			y: 4.0d
+			description: [ "{kubejs.ftbquests.quest.baliki_ve_deniz.pearl_hunter.desc.0}" ]
+			tasks: [
+				{
+					id: "8530FD5CCAEB8E6B"
+					type: "item"
+					item: "crittersandcompanions:pearl"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "7F235AECDA4076ED"
+					type: "item"
+					item: "crabbersdelight:pearl_block"
+					count: 1
+				}
+			]
+			dependencies: [ "238CA9C9F9AE9888" ]
+		}
+		{
 			id: "81CF45B83789E5F4"
 			title: "{kubejs.ftbquests.quest.baliki_ve_deniz.seafood.title}"
-			x: 1.5d
-			y: 1.5d
+			x: 3.0d
+			y: 1.0d
 			description: [ "{kubejs.ftbquests.quest.baliki_ve_deniz.seafood.desc.0}" ]
 			tasks: [
 				{
@@ -104,58 +634,34 @@
 			dependencies: [ "C9646BA3C00DB2E4" ]
 		}
 		{
-			id: "71CA9F702C1B5E6A"
-			title: "{kubejs.ftbquests.quest.baliki_ve_deniz.celestial_fish.title}"
-			x: 0.0d
-			y: 4.0d
-			description: [ "{kubejs.ftbquests.quest.baliki_ve_deniz.celestial_fish.desc.0}" ]
+			id: "3773A1ADF6A8C4A5"
+			title: "{kubejs.ftbquests.quest.baliki_ve_deniz.shellfish_feast.title}"
+			x: 3.0d
+			y: 2.5d
+			description: [ "{kubejs.ftbquests.quest.baliki_ve_deniz.shellfish_feast.desc.0}" ]
 			tasks: [
 				{
-					id: "9AC62ED0A2AA1371"
+					id: "539EBEEC97E2798C"
 					type: "item"
-					item: "tide:neptune_koi"
+					item: "crabbersdelight:cooked_crab"
 					count: 1L
 				}
 			]
 			rewards: [
 				{
-					id: "BA4A13C1574A8226"
+					id: "E345B7F9AC8F7BF8"
 					type: "item"
-					item: "aquaculture:neptunes_bounty"
-					count: 1
+					item: "minecraft:cooked_cod"
+					count: 2
 				}
 			]
-			dependencies: [ "C9646BA3C00DB2E4" ]
-		}
-		{
-			id: "63D9EB086BA30564"
-			title: "{kubejs.ftbquests.quest.baliki_ve_deniz.crab_trap.title}"
-			x: -3.0d
-			y: 2.0d
-			description: [ "{kubejs.ftbquests.quest.baliki_ve_deniz.crab_trap.desc.0}" ]
-			tasks: [
-				{
-					id: "EA718ACB6AB77636"
-					type: "item"
-					item: "crabbersdelight:crab_trap"
-					count: 1L
-				}
-			]
-			rewards: [
-				{
-					id: "3E8DC253C4C97C42"
-					type: "item"
-					item: "crabbersdelight:clam"
-					count: 4
-				}
-			]
-			dependencies: [ "109A3D2AFF94B9F5" ]
+			dependencies: [ "81CF45B83789E5F4" ]
 		}
 		{
 			id: "844DF95B72DD26AE"
 			title: "{kubejs.ftbquests.quest.baliki_ve_deniz.ocean_delight.title}"
 			x: 3.0d
-			y: 3.0d
+			y: 4.0d
 			description: [ "{kubejs.ftbquests.quest.baliki_ve_deniz.ocean_delight.desc.0}" ]
 			tasks: [
 				{
@@ -173,55 +679,37 @@
 					count: 2
 				}
 			]
-			dependencies: [ "81CF45B83789E5F4" ]
+			dependencies: [ "3773A1ADF6A8C4A5" ]
 		}
 		{
-			id: "54EA10D372263885"
-			title: "{kubejs.ftbquests.quest.baliki_ve_deniz.fish_trap.title}"
-			x: -1.5d
-			y: 4.0d
-			description: [ "{kubejs.ftbquests.quest.baliki_ve_deniz.fish_trap.desc.0}" ]
+			id: "3D734534B7672C33"
+			title: "{kubejs.ftbquests.quest.baliki_ve_deniz.gourmet_fish.title}"
+			x: 3.0d
+			y: 5.5d
+			description: [ "{kubejs.ftbquests.quest.baliki_ve_deniz.gourmet_fish.desc.0}" ]
 			tasks: [
 				{
-					id: "C7B03080BEC5C7FF"
+					id: "DA1301B95473CDBA"
 					type: "item"
-					item: "fishermens_trap:fishtrap"
+					item: "candlelight:salmon_on_white_wine"
 					count: 1L
 				}
 			]
 			rewards: [
 				{
-					id: "92139C1F59EAB37B"
+					id: "A5ABB02921322286"
 					type: "item"
-					item: "minecraft:cod"
-					count: 8
+					item: "farmersdelight:onion"
+					count: 2
 				}
-			]
-			dependencies: [ "109A3D2AFF94B9F5" ]
-		}
-		{
-			id: "238CA9C9F9AE9888"
-			title: "{kubejs.ftbquests.quest.baliki_ve_deniz.deep_dive.title}"
-			x: 1.5d
-			y: 6.0d
-			description: [ "{kubejs.ftbquests.quest.baliki_ve_deniz.deep_dive.desc.0}" ]
-			tasks: [
 				{
-					id: "0F0AB5C12FFAF5BF"
+					id: "0930289A1C93FABB"
 					type: "item"
-					item: "hybrid_aquatic:diving_helmet"
-					count: 1L
+					item: "farmersdelight:tomato"
+					count: 2
 				}
 			]
-			rewards: [
-				{
-					id: "A5FA15A82ACC49FC"
-					type: "item"
-					item: "hybrid_aquatic:diving_boots"
-					count: 1
-				}
-			]
-			dependencies: [ "71CA9F702C1B5E6A" ]
+			dependencies: [ "844DF95B72DD26AE" ]
 		}
 	]
 	quest_links: [ ]

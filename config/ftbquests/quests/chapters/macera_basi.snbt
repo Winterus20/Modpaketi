@@ -10,15 +10,15 @@
 	quests: [
 		{
 			description: ["{kubejs.ftbquests.quest.macera_basi.welcome.desc.0}"]
-			id: "3549FF5EB477A160"
+			id: "2496C332076D8E7A"
 			rewards: [{
-				count: 5
+				count: 3
 				id: "1AB21602F7B15138"
 				item: "minecraft:bread"
 				type: "item"
 			}]
 			tasks: [{
-				id: "0C42CDAA43CC4E10"
+				id: "1CCE0C7DED4FE106"
 				type: "checkmark"
 			}]
 			title: "{kubejs.ftbquests.quest.macera_basi.welcome.title}"
@@ -26,8 +26,40 @@
 			y: 0.0d
 		}
 		{
+			description: ["{kubejs.ftbquests.quest.macera_basi.basic_survival.desc.0}"]
+			id: "28D92BD525885CD0"
+			rewards: [
+				{
+					id: "09FE7CADAE2BDA65"
+					item: {
+						Count: 1
+						id: "minecraft:stone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "71815D4E92DF1E49"
+					item: "minecraft:torch"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3735E0F4A26C859E"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "{kubejs.ftbquests.quest.macera_basi.basic_survival.title}"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["28D92BD525885CD0"]
 			description: ["{kubejs.ftbquests.quest.macera_basi.seasons.desc.0}"]
-			id: "15EB32DC2B757BD3"
+			id: "78382EF3D0233C83"
 			rewards: [{
 				id: "1F68A436152E5FF6"
 				item: "sereneseasons:season_sensor"
@@ -39,12 +71,13 @@
 				type: "item"
 			}]
 			title: "{kubejs.ftbquests.quest.macera_basi.seasons.title}"
-			x: 0.0d
-			y: 2.0d
+			x: 2.0d
+			y: -3.0d
 		}
 		{
+			dependencies: ["28D92BD525885CD0"]
 			description: ["{kubejs.ftbquests.quest.macera_basi.sol_carrot.desc.0}"]
-			id: "2616C7E54F4FBCD8"
+			id: "75D8544E5237143E"
 			rewards: [{
 				count: 4
 				id: "225AB44CEDBD0199"
@@ -53,7 +86,7 @@
 			}]
 			tasks: [
 				{
-					id: "30DAB45F41B0B122"
+					id: "0D9D714CFDD47A37"
 					item: "minecraft:apple"
 					type: "item"
 				}
@@ -63,22 +96,26 @@
 					type: "item"
 				}
 				{
-					id: "6A3C2BCD63CE1399"
+					id: "36FE76EFC9811BBF"
 					item: "minecraft:carrot"
 					type: "item"
 				}
 			]
 			title: "{kubejs.ftbquests.quest.macera_basi.sol_carrot.title}"
-			x: 1.5d
-			y: 1.0d
+			x: 3.0d
+			y: -1.0d
 		}
 		{
-			description: ["{kubejs.ftbquests.quest.macera_basi.backpack.desc.0}"]
+			dependencies: ["28D92BD525885CD0"]
+			description: [
+				"{kubejs.ftbquests.quest.macera_basi.backpack.desc.0}"
+				"{kubejs.ftbquests.quest.macera_basi.backpack.desc.1}"
+			]
 			id: "39963C4D67FE66B2"
 			rewards: [
 				{
 					count: 4
-					id: "6B5D6D1A9EB84998"
+					id: "6C0D8565A0BDD7C3"
 					item: "minecraft:leather"
 					type: "item"
 				}
@@ -90,20 +127,59 @@
 				}
 			]
 			tasks: [{
-				id: "11E48194A4152A6A"
+				id: "3739FC5E621B0FF2"
 				item: "sophisticatedbackpacks:backpack"
 				type: "item"
 			}]
 			title: "{kubejs.ftbquests.quest.macera_basi.backpack.title}"
-			x: -1.5d
-			y: 1.0d
+			x: -2.0d
+			y: -3.0d
 		}
 		{
+			dependencies: ["28D92BD525885CD0"]
+			description: ["{kubejs.ftbquests.quest.macera_basi.first_cast.desc.0}"]
+			id: "49D341AC0D14EA30"
+			rewards: [
+				{
+					id: "1A8D228F93A684CB"
+					item: {
+						Count: 1
+						id: "aquaculture:iron_fishing_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1465FCD182B4AC15"
+					item: {
+						Count: 1
+						id: "aquaculture:worm"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3430C4A4A8DD6AEE"
+				item: "minecraft:cod"
+				type: "item"
+			}]
+			title: "{kubejs.ftbquests.quest.macera_basi.first_cast.title}"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["39963C4D67FE66B2"]
 			description: ["{kubejs.ftbquests.quest.macera_basi.sleeping_bag.desc.0}"]
-			id: "3F94C819A7618AB6"
+			id: "5F1A74A54E6D5842"
 			rewards: [{
 				count: 2
-				id: "0B4EF9A09A363AF4"
+				id: "0BC0FED662C2A57E"
 				item: "minecraft:white_wool"
 				type: "item"
 			}]
@@ -113,12 +189,13 @@
 				type: "item"
 			}]
 			title: "{kubejs.ftbquests.quest.macera_basi.sleeping_bag.title}"
-			x: 0.0d
-			y: -2.0d
+			x: -2.0d
+			y: -5.0d
 		}
 		{
+			dependencies: ["49D341AC0D14EA30"]
 			description: ["{kubejs.ftbquests.quest.macera_basi.compasses.desc.0}"]
-			id: "3FA9EF5E73CD21F2"
+			id: "3C4A2B6BF608C9AD"
 			rewards: [{
 				count: 2
 				id: "011921633964A762"
@@ -131,26 +208,26 @@
 				type: "item"
 			}]
 			title: "{kubejs.ftbquests.quest.macera_basi.compasses.title}"
-			x: -1.5d
-			y: -1.0d
+			x: -3.0d
+			y: -3.0d
 		}
 		{
 			description: ["{kubejs.ftbquests.quest.macera_basi.waystone.desc.0}"]
-			id: "3F4E25EE13F0402E"
+			id: "54282189582F281B"
 			rewards: [{
 				count: 3
-				id: "1C2CA74F4CE5C771"
+				id: "00C5A0C81E1D9DA1"
 				item: "waystones:return_scroll"
 				type: "item"
 			}]
 			tasks: [{
-				id: "089A138738EC77F2"
+				id: "479D29BFAB8FA8F0"
 				item: "waystones:waystone"
 				type: "item"
 			}]
 			title: "{kubejs.ftbquests.quest.macera_basi.waystone.title}"
-			x: 1.5d
-			y: -1.0d
+			x: 3.0d
+			y: -3.0d
 		}
 		{
 			description: ["{kubejs.ftbquests.quest.macera_basi.market.desc.0}"]
@@ -158,25 +235,25 @@
 			rewards: [
 				{
 					count: 8
-					id: "6B54A60C72541BA1"
+					id: "4B356D6E58E7C6AC"
 					item: "minecraft:wheat_seeds"
 					type: "item"
 				}
 				{
-					count: 2
+					count: 4
 					id: "02E867D2EAA9F6AA"
-					item: "minecraft:emerald"
+					item: "minecraft:carrot"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "5B0B222FAE8B2858"
+				id: "1526C57BB299BB9F"
 				item: "farmingforblockheads:market"
 				type: "item"
 			}]
 			title: "{kubejs.ftbquests.quest.macera_basi.market.title}"
-			x: -1.5d
-			y: -3.0d
+			x: 3.0d
+			y: -5.0d
 		}
 	]
 	title: "{kubejs.ftbquests.chapter.macera_basi.title}"

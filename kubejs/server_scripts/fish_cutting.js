@@ -108,7 +108,7 @@ ServerEvents.recipes(event => {
     registerFishCutting(codFish, 'farmersdelight:cod_slice');
 
     // 3. Custom Gourmet Cooking Pot Recipes for Let's Do Candlelight meals
-    // Salmon Cold Plate (using salmon slices, tomato sauce, onion in a bowl)
+    // Salmon on White Wine (using salmon slices, tomato sauce, onion in a bowl)
     event.custom({
         type: 'farmersdelight:cooking',
         ingredients: [
@@ -116,13 +116,13 @@ ServerEvents.recipes(event => {
             { item: 'farmersdelight:tomato_sauce' },
             { tag: 'forge:crops/onion' }
         ],
-        result: { item: 'candlelight:salmon_cold_plate' },
+        result: { item: 'candlelight:salmon_on_white_wine' },
         container: { item: 'minecraft:bowl' },
         experience: 0.35,
         cookingTime: 200
-    }).id('balik:cooking/salmon_cold_plate_from_slice');
+    }).id('balik:cooking/salmon_on_white_wine_from_slice');
 
-    // Fricassee (using cod slices, milk, mushroom, onion in a bowl)
+    // Tropical Fish Supreme (using cod slices, milk, mushroom, onion in a bowl)
     event.custom({
         type: 'farmersdelight:cooking',
         ingredients: [
@@ -131,11 +131,11 @@ ServerEvents.recipes(event => {
             { tag: 'forge:mushrooms' },
             { tag: 'forge:crops/onion' }
         ],
-        result: { item: 'candlelight:fricassee' },
+        result: { item: 'candlelight:tropical_fish_supreme' },
         container: { item: 'minecraft:bowl' },
         experience: 0.35,
         cookingTime: 200
-    }).id('balik:cooking/fricassee_from_fish');
+    }).id('balik:cooking/tropical_fish_supreme_from_slice');
 
     // Beetroot Salad (using beetroot, lettuce, tomato in a bowl)
     event.custom({

@@ -4,13 +4,13 @@
 	filename: "kesif_ve_koloniler"
 	group: ""
 	icon: "minecolonies:blockhuttownhall"
-	id: "4E97609789C981D5"
+	id: "2B1B6C60DED4B199"
 	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
 			description: ["{kubejs.ftbquests.quest.kesif_ve_koloniler.explore_intro.desc.0}"]
-			id: "122BE906D4B0109F"
+			id: "76F49A3B2A868548"
 			rewards: [{
 				count: 4
 				id: "66ACCC8F2B070D8C"
@@ -18,7 +18,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "30F3659F89A3B195"
+				id: "47E5831F040D8D0D"
 				item: "alexsmobs:animal_dictionary"
 				type: "item"
 			}]
@@ -30,7 +30,7 @@
 			description: ["{kubejs.ftbquests.quest.kesif_ve_koloniler.caves_tablet.desc.0}"]
 			id: "7FE18C3D0C8334DA"
 			rewards: [{
-				id: "139B135494F614EE"
+				id: "7850CDB3A27B9DFA"
 				item: {
 					Count: 1
 					id: "minecraft:iron_pickaxe"
@@ -51,23 +51,23 @@
 		}
 		{
 			description: ["{kubejs.ftbquests.quest.kesif_ve_koloniler.minecolonies_intro.desc.0}"]
-			id: "104B4251EE7956DE"
+			id: "6B0967C1636723F6"
 			rewards: [
 				{
 					count: 32
-					id: "7F32E65DC174DD53"
+					id: "2D9DC95E1F13CBBB"
 					item: "minecraft:oak_log"
 					type: "item"
 				}
 				{
 					count: 2
-					id: "6B2E8ED5614590DE"
+					id: "62E1D7422FED2D27"
 					item: "minecraft:chest"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "2733045026CCFC2A"
+				id: "0BA6B8B641AE3781"
 				item: "minecolonies:supplycampdeployer"
 				type: "item"
 			}]
@@ -77,16 +77,16 @@
 		}
 		{
 			description: ["{kubejs.ftbquests.quest.kesif_ve_koloniler.town_hall.desc.0}"]
-			id: "5B81D7C5DC37EF40"
+			id: "29508ECD2CBAEF4E"
 			rewards: [
 				{
-					id: "14F5A65E3D2ED8F0"
+					id: "3B60D6C73371FBD8"
 					item: "minecolonies:clipboard"
 					type: "item"
 				}
 				{
 					count: 8
-					id: "58E7E2BDC58C4C08"
+					id: "175B6196007E3220"
 					item: "minecraft:bread"
 					type: "item"
 				}
@@ -112,7 +112,7 @@
 				}
 				{
 					count: 32
-					id: "28720859102CDE62"
+					id: "5D06F0E740FFBE6D"
 					item: "minecraft:oak_planks"
 					type: "item"
 				}
@@ -133,19 +133,19 @@
 			rewards: [
 				{
 					count: 8
-					id: "28B496AD6FA69616"
+					id: "283A59B79297C096"
 					item: "minecraft:wheat_seeds"
 					type: "item"
 				}
 				{
 					count: 8
-					id: "55AE96B9F7A3C0AD"
+					id: "248CB9BFADD06643"
 					item: "minecraft:cooked_beef"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "5DA60085C4892F7F"
+				id: "5B916402B6410C32"
 				type: "checkmark"
 			}]
 			title: "{kubejs.ftbquests.quest.kesif_ve_koloniler.food_supply.title}"
@@ -155,7 +155,7 @@
 		{
 			dependencies: ["78288480B5F08E41"]
 			description: ["{kubejs.ftbquests.quest.kesif_ve_koloniler.guard_tower.desc.0}"]
-			id: "338334299909F9D2"
+			id: "40CB4EB9F89B8CC9"
 			rewards: [
 				{
 					id: "0F570A86BC3FD1B7"
@@ -169,7 +169,7 @@
 					type: "item"
 				}
 				{
-					id: "1DB9D7E81B9128D1"
+					id: "50FC2A4170E6E4F8"
 					item: "minecraft:iron_shield"
 					type: "item"
 				}
@@ -187,7 +187,7 @@
 			id: "21D144AB5E97E93D"
 			rewards: [{
 				count: 2
-				id: "7D945AFC4A7D5D52"
+				id: "0F99BCD61E47DE3E"
 				item: "wildernature:common_contract"
 				type: "item"
 			}]
@@ -202,7 +202,7 @@
 		}
 		{
 			description: ["{kubejs.ftbquests.quest.kesif_ve_koloniler.goblin_trader.desc.0}"]
-			id: "14E71963778496A9"
+			id: "427CB5803D1FDAC2"
 			rewards: [{
 				count: 4
 				id: "23E0F5F5D4547CE8"

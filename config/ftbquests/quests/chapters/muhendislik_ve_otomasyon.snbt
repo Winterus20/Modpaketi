@@ -4,7 +4,7 @@
 	filename: "muhendislik_ve_otomasyon"
 	group: ""
 	icon: "create:water_wheel"
-	id: "063D049208FB468C"
+	id: "2A0CFA453DEF4808"
 	order_index: 5
 	quest_links: [ ]
 	quests: [
@@ -29,7 +29,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2E8C7D01F7B7EB"
+					id: "059DC4F9F5C1B39B"
 					item: "create:cogwheel"
 					type: "item"
 				}
@@ -41,15 +41,15 @@
 		{
 			dependencies: ["760FBFD6FA9523A8"]
 			description: ["{kubejs.ftbquests.quest.muhendislik_ve_otomasyon.press.desc.0}"]
-			id: "196F53A311022807"
+			id: "73E26AC200ACFF3F"
 			rewards: [{
 				count: 4
-				id: "4FD10D1B3371C944"
+				id: "6B953383D7BDC42F"
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
 			tasks: [{
-				id: "47C58F206A84C099"
+				id: "307A4C120A4BC320"
 				item: "create:mechanical_press"
 				type: "item"
 			}]
@@ -60,10 +60,10 @@
 		{
 			dependencies: ["760FBFD6FA9523A8"]
 			description: ["{kubejs.ftbquests.quest.muhendislik_ve_otomasyon.mixer.desc.0}"]
-			id: "4B6652EEA596AF13"
+			id: "3EB9E375BB353C2B"
 			rewards: [{
 				count: 8
-				id: "47D386C494E9253B"
+				id: "10C74AF53D172F75"
 				item: "minecraft:coal"
 				type: "item"
 			}]
@@ -74,7 +74,7 @@
 					type: "item"
 				}
 				{
-					id: "083CAFEE538D7682"
+					id: "47EC65A2CF7F9770"
 					item: "create:basin"
 					type: "item"
 				}
@@ -86,7 +86,7 @@
 		{
 			dependency_requirement: "one_completed"
 			description: ["{kubejs.ftbquests.quest.muhendislik_ve_otomasyon.automated_kitchen.desc.0}"]
-			id: "602E47F690B26C98"
+			id: "107C0D15D12977E2"
 			rewards: [{
 				count: 8
 				id: "58DA766ADD84FA7F"
@@ -110,7 +110,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "4C957A3173902E1A"
+				id: "49CAB16D9353289C"
 				item: "sliceanddice:slicer"
 				type: "item"
 			}]
@@ -120,9 +120,9 @@
 		}
 		{
 			description: ["{kubejs.ftbquests.quest.muhendislik_ve_otomasyon.central_kitchen.desc.0}"]
-			id: "6C4552C6422C1741"
+			id: "640D61BFB75DD6C4"
 			rewards: [{
-				id: "36D4AEDDB6EE04BD"
+				id: "05939EDAC6365DCE"
 				item: "create_central_kitchen:syrup_bucket"
 				type: "item"
 			}]
