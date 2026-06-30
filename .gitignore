@@ -26,3 +26,32 @@ scratch/
 __pycache__/
 *.pyc
 *.bak
+
+# ModernFix yapı önbelleği (runtime, büyük NBT dosyaları)
+modernfix/
+
+# Shader / resource cache
+shaderpacks/
+resourcepacks/
+
+# Runtime önbellek / otomatik üretilen boş dizinler
+.cache/
+coremods/
+server-resource-packs/
+defaultconfigs/
+blueprints/
+moonlight-global-datapacks/
+texturepacks/
+patchouli_books/
+
+# IDE / tooling üretimi (ProbeJS, vb.)
+.vscode/
+.kimchi/
+.commandcode/
+
+# Patchouli runtime görüntüleme durumu
+patchouli_data.json
+
+# Modpack dışı kişisel debug scriptleri (başka proje)
+query*.py
+queries.sql
