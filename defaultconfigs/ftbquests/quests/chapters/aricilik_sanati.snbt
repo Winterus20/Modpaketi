@@ -1,14 +1,14 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "aricilik_ve_dostlar"
+	filename: "aricilik_sanati"
 	group: ""
 	icon: "productivebees:advanced_oak_beehive"
 	id: "44F7C5597DB95603"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
-		{
+{
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA10028000001.desc.0}"]
 			id: "7E1CA10028000001"
 			rewards: [
@@ -34,7 +34,7 @@
 			x: -3.0d
 			y: -3.0d
 		}
-		{
+{
 			dependencies: ["7E1CA10028000001"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA10028000002.desc.0}"]
 			id: "7E1CA10028000002"
@@ -53,7 +53,7 @@
 			x: -4.5d
 			y: -3.0d
 		}
-		{
+{
 			dependencies: ["7E1CA10028000001"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA10028000003.desc.0}"]
 			id: "7E1CA10028000003"
@@ -72,7 +72,7 @@
 			x: -1.5d
 			y: -3.0d
 		}
-		{
+{
 			dependencies: ["7E1CA10028000001"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA10028000004.desc.0}"]
 			id: "7E1CA10028000004"
@@ -91,7 +91,7 @@
 			x: -3.0d
 			y: -1.5d
 		}
-		{
+{
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.bees_intro.desc.0}"]
 			id: "5C5A21BB7D9091BD"
 			rewards: [
@@ -117,7 +117,7 @@
 			x: 0.0d
 			y: 0.0d
 		}
-		{
+{
 			dependencies: ["5C5A21BB7D9091BD"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.honey_treat.desc.0}"]
 			id: "7A2A331A704E570D"
@@ -135,7 +135,7 @@
 			x: -1.5d
 			y: 1.0d
 		}
-		{
+{
 			dependencies: ["5C5A21BB7D9091BD"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA10001000001.desc.0}"]
 			id: "19CB4081F7F779C5"
@@ -162,7 +162,7 @@
 			x: -3.0d
 			y: 0.0d
 		}
-		{
+{
 			dependencies: ["5C5A21BB7D9091BD"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA10002000001.desc.0}"]
 			id: "1522E8293FEBEA88"
@@ -189,7 +189,7 @@
 			x: -1.5d
 			y: -1.5d
 		}
-		{
+{
 			dependencies: ["19CB4081F7F779C5"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA10003000001.desc.0}"]
 			id: "03A827DB5DA0947D"
@@ -216,7 +216,7 @@
 			x: -4.5d
 			y: 0.0d
 		}
-		{
+{
 			dependencies: ["19CB4081F7F779C5"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA10004000001.desc.0}"]
 			id: "247547EE2BA52AE2"
@@ -248,7 +248,7 @@
 			x: -4.5d
 			y: -1.5d
 		}
-		{
+{
 			dependencies: ["19CB4081F7F779C5"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA10005000001.desc.0}"]
 			id: "783796BE4B588537"
@@ -275,7 +275,7 @@
 			x: -4.5d
 			y: 1.5d
 		}
-		{
+{
 			dependencies: ["03A827DB5DA0947D"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA10029000001.desc.0}"]
 			id: "7E1CA10029000001"
@@ -302,7 +302,7 @@
 			x: -6.0d
 			y: -1.5d
 		}
-		{
+{
 			dependencies: ["03A827DB5DA0947D"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA10029000002.desc.0}"]
 			id: "7E1CA10029000002"
@@ -329,7 +329,7 @@
 			x: -6.0d
 			y: 1.5d
 		}
-		{
+{
 			dependencies: ["06BA46C4A18C02C8"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA10029000003.desc.0}"]
 			id: "7E1CA10029000003"
@@ -356,7 +356,7 @@
 			x: -7.5d
 			y: -2.5d
 		}
-		{
+{
 			dependencies: ["06BA46C4A18C02C8"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA10029000004.desc.0}"]
 			id: "7E1CA10029000004"
@@ -383,7 +383,7 @@
 			x: -7.5d
 			y: -1.0d
 		}
-		{
+{
 			dependencies: ["03A827DB5DA0947D"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA10006000001.desc.0}"]
 			id: "06BA46C4A18C02C8"
@@ -410,7 +410,7 @@
 			x: -6.0d
 			y: 0.0d
 		}
-		{
+{
 			dependencies: ["5C5A21BB7D9091BD"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.advanced_hive.desc.0}"]
 			id: "580ACCA822276858"
@@ -429,7 +429,7 @@
 			x: 0.0d
 			y: 2.0d
 		}
-		{
+{
 			dependencies: ["580ACCA822276858"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA10007000001.desc.0}"]
 			id: "1768DA94B4BB093F"
@@ -456,7 +456,7 @@
 			x: 0.0d
 			y: 3.0d
 		}
-		{
+{
 			dependencies: ["580ACCA822276858"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA10008000001.desc.0}"]
 			id: "6867BD01DE870EDD"
@@ -483,7 +483,7 @@
 			x: 1.0d
 			y: 3.0d
 		}
-		{
+{
 			dependencies: ["1768DA94B4BB093F"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA10009000001.desc.0}"]
 			id: "1E77662FD18F9BC9"
@@ -510,7 +510,7 @@
 			x: -1.5d
 			y: 3.0d
 		}
-		{
+{
 			dependencies: ["1E77662FD18F9BC9"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1002B000001.desc.0}"]
 			id: "7E1CA1002B000001"
@@ -529,7 +529,7 @@
 			x: -2.5d
 			y: 4.0d
 		}
-		{
+{
 			dependencies: ["1768DA94B4BB093F"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1000A000001.desc.0}"]
 			id: "300B3BD6982C079C"
@@ -556,7 +556,7 @@
 			x: 0.0d
 			y: 4.5d
 		}
-		{
+{
 			dependencies: ["783796BE4B588537"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1000B000001.desc.0}"]
 			id: "160E4C4B02725A13"
@@ -583,7 +583,7 @@
 			x: -4.5d
 			y: 3.0d
 		}
-		{
+{
 			dependencies: ["300B3BD6982C079C"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1000C000001.desc.0}"]
 			id: "6E64B878A5075010"
@@ -618,7 +618,7 @@
 			x: -1.0d
 			y: 4.5d
 		}
-		{
+{
 			dependencies: ["300B3BD6982C079C"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1000D000001.desc.0}"]
 			id: "4EAF051C5D5203A5"
@@ -653,7 +653,7 @@
 			x: 1.0d
 			y: 4.5d
 		}
-		{
+{
 			dependencies: ["300B3BD6982C079C"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1002A000001.desc.0}"]
 			id: "7E1CA1002A000001"
@@ -672,7 +672,7 @@
 			x: -2.5d
 			y: 5.5d
 		}
-		{
+{
 			dependencies: ["7E1CA1002A000001"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1002A000002.desc.0}"]
 			id: "7E1CA1002A000002"
@@ -691,7 +691,7 @@
 			x: -2.5d
 			y: 7.5d
 		}
-		{
+{
 			dependencies: ["7E1CA1002A000002"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1002A000003.desc.0}"]
 			id: "7E1CA1002A000003"
@@ -717,7 +717,7 @@
 			x: -2.5d
 			y: 8.5d
 		}
-		{
+{
 			dependencies: ["7E1CA1002B000001"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1002B000002.desc.0}"]
 			id: "7E1CA1002B000002"
@@ -736,7 +736,7 @@
 			x: -3.5d
 			y: 5.5d
 		}
-		{
+{
 			dependencies: ["7E1CA1002B000002"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1002B000003.desc.0}"]
 			id: "7E1CA1002B000003"
@@ -755,7 +755,7 @@
 			x: -3.0d
 			y: 6.5d
 		}
-		{
+{
 			dependencies: ["7E1CA1002B000002"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1002A000004.desc.0}"]
 			id: "7E1CA1002A000004"
@@ -774,7 +774,7 @@
 			x: -4.5d
 			y: 6.0d
 		}
-		{
+{
 			dependencies: ["300B3BD6982C079C"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1002C000001.desc.0}"]
 			id: "7E1CA1002C000001"
@@ -793,7 +793,7 @@
 			x: -4.5d
 			y: 4.5d
 		}
-		{
+{
 			dependencies: ["7E1CA1002C000001"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1002C000002.desc.0}"]
 			id: "7E1CA1002C000002"
@@ -812,7 +812,7 @@
 			x: -4.5d
 			y: 7.5d
 		}
-		{
+{
 			dependencies: ["7E1CA1002C000002"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1002C000003.desc.0}"]
 			id: "7E1CA1002C000003"
@@ -830,7 +830,7 @@
 			x: -4.5d
 			y: 9.0d
 		}
-		{
+{
 			dependencies: ["7E1CA1002C000003"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1002C000004.desc.0}"]
 			id: "7E1CA1002C000004"
@@ -849,7 +849,7 @@
 			x: -4.5d
 			y: 10.5d
 		}
-		{
+{
 			dependencies: ["580ACCA822276858"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.centrifuge.desc.0}"]
 			id: "12DFF02E12C5F0D9"
@@ -868,7 +868,7 @@
 			x: -1.5d
 			y: 2.0d
 		}
-		{
+{
 			dependencies: ["300B3BD6982C079C"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1000E000001.desc.0}"]
 			id: "4E2B0B5C74EA5A8E"
@@ -895,7 +895,7 @@
 			x: 0.0d
 			y: 6.0d
 		}
-		{
+{
 			dependencies: ["4E2B0B5C74EA5A8E"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1000F000001.desc.0}"]
 			id: "08BA8804974CC771"
@@ -922,7 +922,7 @@
 			x: 0.0d
 			y: 7.5d
 		}
-		{
+{
 			dependencies: ["4E2B0B5C74EA5A8E"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA10010000001.desc.0}"]
 			id: "75C59FBF3AED66F8"
@@ -949,7 +949,7 @@
 			x: -1.5d
 			y: 6.0d
 		}
-		{
+{
 			dependencies: ["08BA8804974CC771"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA10011000001.desc.0}"]
 			id: "0155330A3E07D8D0"
@@ -976,7 +976,7 @@
 			x: -1.5d
 			y: 7.5d
 		}
-		{
+{
 			dependencies: ["08BA8804974CC771"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA10012000001.desc.0}"]
 			id: "422E2CC27D8051E3"
@@ -1003,7 +1003,7 @@
 			x: 1.5d
 			y: 7.5d
 		}
-		{
+{
 			dependencies: ["300B3BD6982C079C"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA10013000001.desc.0}"]
 			id: "0B1824E160CC579F"
@@ -1030,7 +1030,7 @@
 			x: 2.5d
 			y: 4.5d
 		}
-		{
+{
 			dependencies: ["0B1824E160CC579F"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA10014000001.desc.0}"]
 			id: "72CA444A436E1121"
@@ -1057,7 +1057,7 @@
 			x: 3.5d
 			y: 4.5d
 		}
-		{
+{
 			dependencies: ["0B1824E160CC579F"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA10015000001.desc.0}"]
 			id: "403E2DCD065BB65D"
@@ -1084,7 +1084,7 @@
 			x: 2.5d
 			y: 6.0d
 		}
-		{
+{
 			dependencies: ["403E2DCD065BB65D"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA10016000001.desc.0}"]
 			id: "112D1F70FCABDD20"
@@ -1111,7 +1111,7 @@
 			x: 3.5d
 			y: 6.0d
 		}
-		{
+{
 			dependencies: ["112D1F70FCABDD20"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA10017000001.desc.0}"]
 			id: "0B6C7D90EA806CFE"
@@ -1138,7 +1138,7 @@
 			x: 4.5d
 			y: 6.0d
 		}
-		{
+{
 			dependencies: ["0B1824E160CC579F"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA10018000001.desc.0}"]
 			id: "21A0A27C2EC1BBC8"
@@ -1165,7 +1165,7 @@
 			x: 4.5d
 			y: 4.5d
 		}
-		{
+{
 			dependencies: ["21A0A27C2EC1BBC8"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA10019000001.desc.0}"]
 			id: "2FD09B108EFCD7F2"
@@ -1192,7 +1192,7 @@
 			x: 5.5d
 			y: 4.5d
 		}
-		{
+{
 			dependencies: ["2FD09B108EFCD7F2"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA10022000001.desc.0}"]
 			id: "7E1CA10022000001"
@@ -1219,7 +1219,7 @@
 			x: 7.5d
 			y: 5.5d
 		}
-		{
+{
 			dependencies: ["7E1CA10022000001"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA10023000001.desc.0}"]
 			id: "7E1CA10023000001"
@@ -1246,7 +1246,7 @@
 			x: 8.5d
 			y: 5.5d
 		}
-		{
+{
 			dependencies: ["7E1CA10023000001"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1001A000001.desc.0}"]
 			id: "78CBB45E043008AB"
@@ -1273,7 +1273,7 @@
 			x: 9.5d
 			y: 5.5d
 		}
-		{
+{
 			dependencies: ["21A0A27C2EC1BBC8"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1001B000001.desc.0}"]
 			id: "75C3034381EF3B1D"
@@ -1300,7 +1300,7 @@
 			x: 4.5d
 			y: 3.0d
 		}
-		{
+{
 			dependencies: ["21A0A27C2EC1BBC8"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1001C000001.desc.0}"]
 			id: "1FDBC74528459270"
@@ -1327,7 +1327,7 @@
 			x: 4.5d
 			y: 2.0d
 		}
-		{
+{
 			dependencies: ["21A0A27C2EC1BBC8"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1001D000001.desc.0}"]
 			id: "6010D24E1D135E88"
@@ -1354,7 +1354,7 @@
 			x: 5.5d
 			y: 3.0d
 		}
-		{
+{
 			dependencies: ["21A0A27C2EC1BBC8"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA10024000001.desc.0}"]
 			id: "7E1CA10024000001"
@@ -1381,7 +1381,7 @@
 			x: 6.0d
 			y: 6.5d
 		}
-		{
+{
 			dependencies: ["21A0A27C2EC1BBC8"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1002D000001.desc.0}"]
 			id: "7E1CA1002D000001"
@@ -1408,7 +1408,7 @@
 			x: 6.5d
 			y: 5.5d
 		}
-		{
+{
 			dependencies: ["21A0A27C2EC1BBC8"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1002D000002.desc.0}"]
 			id: "7E1CA1002D000002"
@@ -1435,7 +1435,7 @@
 			x: 7.5d
 			y: 6.5d
 		}
-		{
+{
 			dependencies: ["21A0A27C2EC1BBC8"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1002D000003.desc.0}"]
 			id: "7E1CA1002D000003"
@@ -1461,7 +1461,7 @@
 			x: 5.5d
 			y: 7.5d
 		}
-		{
+{
 			dependencies: ["403E2DCD065BB65D"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA10025000001.desc.0}"]
 			id: "7E1CA10025000001"
@@ -1488,7 +1488,7 @@
 			x: 6.5d
 			y: 7.5d
 		}
-		{
+{
 			dependencies: ["0B1824E160CC579F"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1001E000001.desc.0}"]
 			id: "66D45D11BF492B62"
@@ -1515,7 +1515,7 @@
 			x: 2.5d
 			y: 3.0d
 		}
-		{
+{
 			dependencies: ["4EAF051C5D5203A5"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA10030000002.desc.0}"]
 			id: "7E1CA10030000002"
@@ -1534,401 +1534,7 @@
 			x: 1.0d
 			y: 5.5d
 		}
-		{
-			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.doggy_talents.desc.0}"]
-			id: "6C804FD7CB2806CF"
-			rewards: [
-				{
-					count: 4
-					id: "34A903646880B20A"
-					item: "minecraft:clay_ball"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "548606CCC7D13934"
-					item: "minecraft:bone"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "7F59C0ECDCE9A134"
-				item: "doggytalents:training_treat"
-				type: "item"
-			}]
-			title: "{kubejs.ftbquests.quest.aricilik_ve_dostlar.doggy_talents.title}"
-			x: 2.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6C804FD7CB2806CF"]
-			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.dog_bed.desc.0}"]
-			id: "1D6526BFDCF0173C"
-			rewards: [
-				{
-					id: "3CF19E63314D2889"
-					item: "minecraft:red_dye"
-					type: "item"
-				}
-				{
-					id: "7F463C3B93889081"
-					item: "minecraft:leather"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "60B7D56D920DB911"
-				item: "doggytalents:dog_bed"
-				type: "item"
-			}]
-			title: "{kubejs.ftbquests.quest.aricilik_ve_dostlar.dog_bed.title}"
-			x: 2.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["1D6526BFDCF0173C"]
-			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA10026000001.desc.0}"]
-			id: "7E1CA10026000001"
-			rewards: [
-				{
-					count: 2
-					id: "1BC7559B55CEBB95"
-					item: "doggytalents:whistle"
-					type: "item"
-				}
-				{
-					count: 6
-					id: "5B38B7AE4D3E4A4C"
-					item: "minecraft:bone"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "3899EAB08E7E2CBD"
-				item: "doggytalents:super_treat"
-				type: "item"
-			}]
-			title: "{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA10026000001.title}"
-			x: 3.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["7E1CA10026000001"]
-			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1002E000001.desc.0}"]
-			id: "7E1CA1002E000001"
-			rewards: [
-				{
-					count: 2
-					id: "34442748F394512F"
-					item: "doggytalents:training_treat"
-					type: "item"
-				}
-				{
-					count: 8
-					id: "5DF8326D389BA9AD"
-					item: "minecraft:bone"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "44F57CBB40EEAA32"
-				item: "doggytalents:whistle"
-				type: "item"
-			}]
-			title: "{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1002E000001.title}"
-			x: 6.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["7E1CA1002E000001"]
-			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1002E000004.desc.0}"]
-			id: "7E1CA1002E000004"
-			rewards: [{
-				id: "627AD445EA4C3278"
-				item: "doggytalents:canine_tracker"
-				type: "item"
-			}]
-			tasks: [{
-				id: "042EE9AC37A54AA2"
-				item: "doggytalents:treat_bag"
-				type: "item"
-			}]
-			title: "{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1002E000004.title}"
-			x: 7.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["7E1CA1002E000004"]
-			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1002E000002.desc.0}"]
-			id: "7E1CA1002E000002"
-			rewards: [{
-				count: 4
-				id: "09AA4225F8016230"
-				item: "doggytalents:training_treat"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6096F6D698C526D0"
-				item: "doggytalents:canine_tracker"
-				type: "item"
-			}]
-			title: "{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1002E000002.title}"
-			x: 8.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["7E1CA1002E000002"]
-			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1002E000003.desc.0}"]
-			id: "7E1CA1002E000003"
-			rewards: [{
-				id: "3704FB2DFF70E40C"
-				item: "minecraft:compass"
-				type: "item"
-			}]
-			tasks: [{
-				id: "19757233938CBAD1"
-				item: "doggytalents:locator_orb_dyable"
-				type: "item"
-			}]
-			title: "{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1002E000003.title}"
-			x: 9.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["6C804FD7CB2806CF"]
-			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1002E000005.desc.0}"]
-			id: "7E1CA1002E000005"
-			rewards: [{
-				id: "29282F70DC7E7532"
-				item: "doggytalents:frisbee"
-				type: "item"
-			}]
-			tasks: [{
-				id: "1D6F19B989D12257"
-				item: "doggytalents:throw_stick"
-				type: "item"
-			}]
-			title: "{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1002E000005.title}"
-			x: 2.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["7E1CA1002E000005"]
-			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1002E000006.desc.0}"]
-			id: "7E1CA1002E000006"
-			rewards: [{
-				id: "6C8E3CE6C9AB7630"
-				item: "doggytalents:throw_stick"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5C62CF09F88BAEB5"
-				item: "doggytalents:frisbee"
-				type: "item"
-			}]
-			title: "{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1002E000006.title}"
-			x: 4.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["7E1CA10026000001"]
-			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1002E000007.desc.0}"]
-			id: "7E1CA1002E000007"
-			rewards: [
-				{
-					count: 16
-					id: "36B7FFD46EDB59D4"
-					item: "doggytalents:rice_grains"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "5DA82D5EA55F7E2B"
-					item: "minecraft:bowl"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "0053F8451114C276"
-				item: "doggytalents:rice_grains"
-				type: "item"
-			}]
-			title: "{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1002E000007.title}"
-			x: 3.5d
-			y: 7.5d
-		}
-		{
-			dependencies: ["7E1CA1002E000007"]
-			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1002E000008.desc.0}"]
-			id: "7E1CA1002E000008"
-			rewards: [{
-				count: 2
-				id: "16AA54DE8E395FBF"
-				item: "doggytalents:rice_bowl"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7CA8988998F7864F"
-				item: "doggytalents:rice_mill"
-				type: "item"
-			}]
-			title: "{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1002E000008.title}"
-			x: 4.5d
-			y: 7.5d
-		}
-		{
-			dependencies: ["1D6526BFDCF0173C"]
-			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.pet_care.desc.0}"]
-			id: "6716F7B7563D507B"
-			rewards: [{
-				count: 2
-				id: "09B2893A7D66E69A"
-				item: "domesticationinnovation:collar_tag"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3110002FE28C910F"
-				item: "domesticationinnovation:pet_bed_red"
-				type: "item"
-			}]
-			title: "{kubejs.ftbquests.quest.aricilik_ve_dostlar.pet_care.title}"
-			x: 6.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["6716F7B7563D507B"]
-			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1002F000003.desc.0}"]
-			id: "7E1CA1002F000003"
-			rewards: [{
-				count: 4
-				id: "683B69BEBCB75C0A"
-				item: "minecraft:soul_lantern"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0FF4CD96F69AD22B"
-				item: "domesticationinnovation:wayward_lantern"
-				type: "item"
-			}]
-			title: "{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1002F000003.title}"
-			x: 7.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["7E1CA1002F000003"]
-			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1002F000002.desc.0}"]
-			id: "7E1CA1002F000002"
-			rewards: [{
-				id: "491C7CE6B4F80353"
-				item: "domesticationinnovation:deflection_shield"
-				type: "item"
-			}]
-			tasks: [{
-				id: "56377DA2E37A62BE"
-				item: {
-					Count: 1
-					id: "domesticationinnovation:feather_on_a_stick"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1002F000002.title}"
-			x: 8.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["7E1CA1002F000002"]
-			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA10027000001.desc.0}"]
-			id: "7E1CA10027000001"
-			rewards: [
-				{
-					count: 2
-					id: "610F393D2E21435D"
-					item: "domesticationinnovation:deflection_shield"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "38B96EB1A88792F2"
-					item: "minecraft:emerald"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "5F504CD50F070E52"
-				item: "domesticationinnovation:magnet"
-				type: "item"
-			}]
-			title: "{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA10027000001.title}"
-			x: 9.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["7E1CA10027000001"]
-			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1002F000001.desc.0}"]
-			id: "7E1CA1002F000001"
-			rewards: [{
-				id: "14B318914751E9AA"
-				item: "minecraft:diamond"
-				type: "item"
-			}]
-			tasks: [{
-				id: "231E61302BA2F4CD"
-				item: "domesticationinnovation:deflection_shield"
-				type: "item"
-			}]
-			title: "{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1002F000001.title}"
-			x: 9.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["7E1CA1002F000001"]
-			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1002F000004.desc.0}"]
-			id: "7E1CA1002F000004"
-			rewards: [{
-				id: "5E158E9CDC33D0C3"
-				item: "domesticationinnovation:deed_of_ownership"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "583C35EDEBBF49E3"
-					item: "domesticationinnovation:pet_bed_red"
-					type: "item"
-				}
-				{
-					id: "5D65408E8B0067BE"
-					item: "domesticationinnovation:pet_bed_blue"
-					type: "item"
-				}
-				{
-					id: "0E57D7AE071037AB"
-					item: "domesticationinnovation:pet_bed_green"
-					type: "item"
-				}
-				{
-					id: "3DBD9C2FC55DF500"
-					item: "domesticationinnovation:pet_bed_yellow"
-					type: "item"
-				}
-				{
-					id: "0C8EFB68E164C28E"
-					item: "domesticationinnovation:pet_bed_purple"
-					type: "item"
-				}
-				{
-					id: "0826C047394B60E4"
-					item: "domesticationinnovation:pet_bed_cyan"
-					type: "item"
-				}
-			]
-			title: "{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1002F000004.title}"
-			x: 8.5d
-			y: 3.0d
-		}
-		{
+{
 			dependencies: ["7E1CA1002F000004"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1002A000005.desc.0}"]
 			id: "7E1CA1002A000005"
@@ -1955,7 +1561,7 @@
 			x: 7.5d
 			y: 3.0d
 		}
-		{
+{
 			dependencies: ["7E1CA1002A000005"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1002A000006.desc.0}"]
 			id: "7E1CA1002A000006"
@@ -1982,7 +1588,7 @@
 			x: 6.5d
 			y: 3.0d
 		}
-		{
+{
 			dependencies: ["78CBB45E043008AB"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA10030000001.desc.0}"]
 			id: "7E1CA10030000001"
@@ -2009,7 +1615,7 @@
 			x: 7.5d
 			y: 4.5d
 		}
-		{
+{
 			dependencies: ["7E1CA10030000001"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA1001F000001.desc.0}"]
 			id: "52EAC474959E16C0"
@@ -2035,7 +1641,7 @@
 			x: 8.5d
 			y: 4.5d
 		}
-		{
+{
 			dependencies: ["52EAC474959E16C0"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA10020000001.desc.0}"]
 			id: "4B7627ECBE354C9F"
@@ -2062,7 +1668,7 @@
 			x: 9.5d
 			y: 4.5d
 		}
-		{
+{
 			dependencies: ["4B7627ECBE354C9F"]
 			description: ["{kubejs.ftbquests.quest.aricilik_ve_dostlar.7E1CA10021000001.desc.0}"]
 			id: "2F661A9532836E5C"
@@ -2100,5 +1706,5 @@
 			y: 4.5d
 		}
 	]
-	title: "{kubejs.ftbquests.chapter.aricilik_ve_dostlar.title}"
+	quest_links: [ ]
 }

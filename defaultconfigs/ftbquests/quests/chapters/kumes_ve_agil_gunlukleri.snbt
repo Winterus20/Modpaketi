@@ -1,0 +1,120 @@
+{
+	id: "AD21D5F821D84A5C"
+	group: ""
+	order_index: 5
+	filename: "kumes_ve_agil_gunlukleri"
+	title: "{kubejs.ftbquests.chapter.kumes_ve_agil_gunlukleri.title}"
+	icon: "dragnlivestock:gender_test_strip"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			id: "05C9B3983C58D90B"
+			title: "{kubejs.ftbquests.quest.kumes_ve_agil_gunlukleri.gender_strip.title}"
+			x: 0.0d
+			y: 0.0d
+			description: [ "{kubejs.ftbquests.quest.kumes_ve_agil_gunlukleri.gender_strip.desc.0}" ]
+			tasks: [
+				{
+					id: "91A2DFBC0CBAC8E9"
+					type: "item"
+					item: "dragnlivestock:gender_test_strip"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "20CD00C392BA4634"
+					type: "item"
+					item: "dragnlivestock:gender_test_strip"
+					count: 4
+				}
+			]
+		}
+		{
+			id: "8CF4BD679F64ED04"
+			title: "{kubejs.ftbquests.quest.kumes_ve_agil_gunlukleri.scissors.title}"
+			x: -1.5d
+			y: 1.5d
+			description: [ "{kubejs.ftbquests.quest.kumes_ve_agil_gunlukleri.scissors.desc.0}" ]
+			tasks: [
+				{
+					id: "90843220099D7D31"
+					type: "item"
+					item: "dragnlivestock:mane_scissors"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "DDB1F796411EB9E6"
+					type: "item"
+					item: "dragnlivestock:tail_scissors"
+					count: 1
+				}
+			]
+			dependencies: [ "05C9B3983C58D90B" ]
+		}
+		{
+			id: "B87DE9CACBC5370C"
+			title: "{kubejs.ftbquests.quest.kumes_ve_agil_gunlukleri.brand_tags.title}"
+			x: 1.5d
+			y: 1.5d
+			description: [ "{kubejs.ftbquests.quest.kumes_ve_agil_gunlukleri.brand_tags.desc.0}" ]
+			tasks: [
+				{
+					id: "524EF204D37E16C5"
+					type: "item"
+					item: "dragnlivestock:yellow_brand_tag"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "0BF7B01FC17CC41E"
+					type: "item"
+					item: "minecraft:leather"
+					count: 2
+				}
+				{
+					id: "BD30DF0305BC35AA"
+					type: "item"
+					item: "minecraft:yellow_dye"
+					count: 1
+				}
+			]
+			dependencies: [ "05C9B3983C58D90B" ]
+		}
+		{
+			id: "80404FABD002A5F4"
+			title: "{kubejs.ftbquests.quest.kumes_ve_agil_gunlukleri.cured_meat.title}"
+			x: 0.0d
+			y: 2.0d
+			description: [ "{kubejs.ftbquests.quest.kumes_ve_agil_gunlukleri.cured_meat.desc.0}" ]
+			tasks: [
+				{
+					id: "10C43C9431F51E2D"
+					type: "item"
+					item: "dragnlivestock:pork_jerky"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "6FCCE39CEEEDB9AA"
+					type: "item"
+					item: "dragnlivestock:pork_strips"
+					count: 2
+				}
+				{
+					id: "18C75B6D1E1A1099"
+					type: "item"
+					item: "minecraft:bowl"
+					count: 2
+				}
+			]
+			dependencies: [ "05C9B3983C58D90B" ]
+		}
+	]
+	quest_links: [ ]
+}

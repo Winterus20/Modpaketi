@@ -1,0 +1,228 @@
+{
+	id: "F4B906A9322E2581"
+	group: ""
+	order_index: 1
+	filename: "toprak_ana_ve_hasat_zamani"
+	title: "{kubejs.ftbquests.chapter.toprak_ana_ve_hasat_zamani.title}"
+	icon: "minecraft:wheat"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			id: "6F31ABFCD9854068"
+			title: "{kubejs.ftbquests.quest.toprak_ana_ve_hasat_zamani.first_harvest.title}"
+			x: 0.0d
+			y: 0.0d
+			description: [ "{kubejs.ftbquests.quest.toprak_ana_ve_hasat_zamani.first_harvest.desc.0}" ]
+			tasks: [
+				{
+					id: "94A63FE10C725F84"
+					type: "item"
+					item: "farmersdelight:flint_knife"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "07D7DF9A5CE04C9E"
+					type: "item"
+					item: "farmersdelight:tomato_seeds"
+					count: 5
+				}
+				{
+					id: "CB4FC87AF9E4DA91"
+					type: "item"
+					item: "farmersdelight:cabbage_seeds"
+					count: 3
+				}
+			]
+		}
+		{
+			id: "50BA44BC8AD5FF5B"
+			title: "{kubejs.ftbquests.quest.toprak_ana_ve_hasat_zamani.seasons_awareness.title}"
+			x: 0.0d
+			y: 1.5d
+			description: [ "{kubejs.ftbquests.quest.toprak_ana_ve_hasat_zamani.seasons_awareness.desc.0}" ]
+			tasks: [
+				{
+					id: "524243189C5C2E12"
+					type: "item"
+					item: "sereneseasons:calendar"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "802E63833E765E0F"
+					type: "item"
+					item: "farm_and_charm:fertilizer"
+					count: 6
+				}
+			]
+			dependencies: [ "41FAFF4298057138" ]
+		}
+		{
+			id: "62CD4F28C41708DD"
+			title: "{kubejs.ftbquests.quest.toprak_ana_ve_hasat_zamani.corn_field.title}"
+			x: -1.5d
+			y: 3.0d
+			description: [ "{kubejs.ftbquests.quest.toprak_ana_ve_hasat_zamani.corn_field.desc.0}" ]
+			tasks: [
+				{
+					id: "7745954CFF79E0E6"
+					type: "item"
+					item: "corn_delight:corn_seeds"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "4C38FFE2DE152E02"
+					type: "item"
+					item: "corn_delight:cornbread"
+					count: 4
+				}
+				{
+					id: "FF0FC92B8A2A0335"
+					type: "item"
+					item: "corn_delight:popcorn"
+					count: 4
+				}
+			]
+			dependencies: [ "41FAFF4298057138" ]
+		}
+		{
+			id: "3A2503EDF53253E9"
+			title: "{kubejs.ftbquests.quest.toprak_ana_ve_hasat_zamani.irrigation.title}"
+			x: 0.0d
+			y: 4.5d
+			description: [ "{kubejs.ftbquests.quest.toprak_ana_ve_hasat_zamani.irrigation.desc.0}" ]
+			tasks: [
+				{
+					id: "FB8FE4D6DD678818"
+					type: "item"
+					item: "farm_and_charm:water_sprinkler"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "984D876AFFD88F7C"
+					type: "item"
+					item: "farm_and_charm:fertilized_soil"
+					count: 4
+				}
+			]
+			dependencies: [ "B19687755BA6C042" ]
+		}
+		{
+			id: "ED802552813D27F0"
+			title: "{kubejs.ftbquests.quest.toprak_ana_ve_hasat_zamani.compact_farming.title}"
+			x: 0.0d
+			y: 6.0d
+			description: [ "{kubejs.ftbquests.quest.toprak_ana_ve_hasat_zamani.compact_farming.desc.0}" ]
+			tasks: [
+				{
+					id: "975DFA8DFEFB7919"
+					type: "item"
+					item: "botanypots:terracotta_botany_pot"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "17DF6D0364CF3305"
+					type: "item"
+					item: "botanypots:terracotta_hopper_botany_pot"
+					count: 1
+				}
+			]
+			dependencies: [ "33D2472873692BFA" ]
+		}
+		{
+			id: "1C22FC26F45D3DE8"
+			title: "{kubejs.ftbquests.quest.toprak_ana_ve_hasat_zamani.spice_route.title}"
+			x: 0.0d
+			y: 7.5d
+			description: [ "{kubejs.ftbquests.quest.toprak_ana_ve_hasat_zamani.spice_route.desc.0}" ]
+			tasks: [
+				{
+					id: "212E3F9FFACB9AC0"
+					type: "item"
+					item: "croptopia:ginger"
+					count: 1L
+				}
+				{
+					id: "7A2C99A7888AB6EC"
+					type: "item"
+					item: "croptopia:basil"
+					count: 1L
+				}
+				{
+					id: "661CD27545945C35"
+					type: "item"
+					item: "croptopia:turmeric"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "2B46D4B353CD48CD"
+					type: "item"
+					item: "croptopia:coffee_beans"
+					count: 3
+				}
+				{
+					id: "8C9142FFC499A47E"
+					type: "item"
+					item: "croptopia:vanilla_seeds"
+					count: 2
+				}
+			]
+			dependencies: [ "ED802552813D27F0" ]
+		}
+		{
+			id: "A8EB18EEE68188AE"
+			title: "{kubejs.ftbquests.quest.toprak_ana_ve_hasat_zamani.the_orchard.title}"
+			x: 1.5d
+			y: 3.0d
+			description: [ "{kubejs.ftbquests.quest.toprak_ana_ve_hasat_zamani.the_orchard.desc.0}" ]
+			tasks: [
+				{
+					id: "37E1F6218DEA563B"
+					type: "item"
+					item: "croptopia:orange_sapling"
+					count: 1L
+				}
+				{
+					id: "5B214DAF0BCA6521"
+					type: "item"
+					item: "croptopia:banana_sapling"
+					count: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "EE4C045A0BBF1C45"
+					type: "item"
+					item: "croptopia:orange"
+					count: 6
+				}
+				{
+					id: "1989D18C21250380"
+					type: "item"
+					item: "croptopia:banana"
+					count: 6
+				}
+				{
+					id: "09DF16258B34B57C"
+					type: "item"
+					item: "croptopia:lemon_sapling"
+					count: 1
+				}
+			]
+			dependencies: [ "1C22FC26F45D3DE8" ]
+		}
+	]
+	quest_links: [ ]
+}
