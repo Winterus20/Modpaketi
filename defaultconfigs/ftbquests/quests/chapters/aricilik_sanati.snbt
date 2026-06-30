@@ -1706,4 +1706,5 @@
 			y: 4.5d
 		}
 	]
+	title: "{kubejs.ftbquests.chapter.aricilik_sanati.title}"
 }
