@@ -11,12 +11,12 @@ CHAPTER = {
             'y': 0.0,
             'shape': 'heart',
             'size': 1.5,
-            'title_en': 'Welcome to Balik!',
-            'title_tr': 'Balık Mod Paketine Hoş Geldiniz!',
+            'title_en': 'Welcome to Harbor Haven!',
+            'title_tr': "Harbor Haven'e Hoş Geldiniz!",
             'subtitle_en': 'A warm welcome to your new cozy life-sim adventure.',
             'subtitle_tr': 'Yeni, huzurlu yaşam simülasyonu macerana sıcak bir hoş geldin.',
-            'desc_en': ['Welcome to your new peaceful life! Balik is a cozy life-sim modpack about fishing, farming, cooking, and exploring a world full of seasons and secrets. Cast a line by the river, grow crops in your garden, cook warm meals, and build your dream homestead. Open your &aQuest Book&r in your inventory to guide your journey.'],
-            'desc_tr': ["Yeni ve huzurlu yaşamına hoş geldin! Balık, mevsimlerin ve sırların dünyasında balıkçılık, tarım, yemek pişirme ve keşif üzerine kurulu bir yaşam simülasyonudur. Nehir kenarında olta at, bahçende sebze yetiştir, sıcak yemekler pişir ve hayalindeki çiftliği kur. Yolculuğuna rehberlik etmesi için envanterindeki &aGörev Kitabı&r'nı aç."],
+            'desc_en': ['Welcome to your new peaceful life! &6Harbor Haven&r is a cozy life-sim modpack about fishing, farming, cooking, and exploring a world full of seasons and secrets. Cast a line by the river, grow crops in your garden, cook warm meals, and build your dream homestead. Open your &aQuest Book&r in your inventory to guide your journey.'],
+            'desc_tr': ["Yeni ve huzurlu yaşamına hoş geldin! &6Harbor Haven&r, mevsimlerin ve sırların dünyasında balıkçılık, tarım, yemek pişirme ve keşif üzerine kurulu bir yaşam simülasyonudur. Nehir kenarında olta at, bahçende sebze yetiştir, sıcak yemekler pişir ve hayalindeki çiftliği kur. Yolculuğuna rehberlik etmesi için envanterindeki &aGörev Kitabı&r'nı aç."],
             'tasks': [
                 {
                     'type': 'checkmark',

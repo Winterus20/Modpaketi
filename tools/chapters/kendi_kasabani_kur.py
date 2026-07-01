@@ -135,7 +135,7 @@ CHAPTER = {
                 },
                 {
                     'type': 'item',
-                    'item': 'minecraft:iron_shield',
+                    'item': 'minecraft:shield',
                 },
             ],
         },

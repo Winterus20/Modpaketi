@@ -5,9 +5,13 @@ PlayerEvents.loggedIn(event => {
     if (player.level.isClientSide()) return
 
     const data = player.persistentData
-    if (data.balik_journal_v3) return
+    if (data.harborhaven_onboarding_v1) return
+    if (data.balik_journal_v3) {
+        data.harborhaven_onboarding_v1 = true
+        return
+    }
 
-    data.balik_journal_v3 = true
+    data.harborhaven_onboarding_v1 = true
     player.give(Item.of('ftbquests:book'))
     player.tell('§aGörev Kitabı envanterine eklendi.')
 })

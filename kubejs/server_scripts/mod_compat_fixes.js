@@ -14,10 +14,10 @@ ServerEvents.recipes(event => {
             { item: 'minecraft:bone_meal' }
         ],
         tool: { tag: 'forge:tools/knives' }
-    }).id('balik:cutting/aquaculture_catfish')
+    }).id('harborhaven:cutting/aquaculture_catfish')
 
     // Aquaculture 2.5.x has no cooked_catfish item; smelt to fish_fillet_cooked instead
-    event.shapeless('alexsmobs:banana', ['croptopia:banana']).id('balik:compat/croptopia_banana_to_alexsmobs')
+    event.shapeless('alexsmobs:banana', ['croptopia:banana']).id('harborhaven:compat/croptopia_banana_to_alexsmobs')
 
     // Broken TFC compat recipes shipped inside Livestock Overhaul without TFC present
     event.remove({ id: 'tfc:tfc_bucket' })

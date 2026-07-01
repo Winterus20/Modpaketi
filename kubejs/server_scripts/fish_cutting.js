@@ -100,7 +100,7 @@ ServerEvents.recipes(event => {
                     { count: count, item: sliceItem },
                     { item: 'minecraft:bone_meal' }
                 ]
-            }).id(`balik:cutting/${fish.replace(':', '_')}`);
+            }).id(`harborhaven:cutting/${fish.replace(':', '_')}`);
         });
     };
 
@@ -120,7 +120,7 @@ ServerEvents.recipes(event => {
         container: { item: 'minecraft:bowl' },
         experience: 0.35,
         cookingTime: 200
-    }).id('balik:cooking/salmon_on_white_wine_from_slice');
+    }).id('harborhaven:cooking/salmon_on_white_wine_from_slice');
 
     // Tropical Fish Supreme (using cod slices, milk, mushroom, onion in a bowl)
     event.custom({
@@ -135,7 +135,7 @@ ServerEvents.recipes(event => {
         container: { item: 'minecraft:bowl' },
         experience: 0.35,
         cookingTime: 200
-    }).id('balik:cooking/tropical_fish_supreme_from_slice');
+    }).id('harborhaven:cooking/tropical_fish_supreme_from_slice');
 
     // Beetroot Salad (using beetroot, lettuce, tomato in a bowl)
     event.custom({
@@ -149,5 +149,5 @@ ServerEvents.recipes(event => {
         container: { item: 'minecraft:bowl' },
         experience: 0.2,
         cookingTime: 100
-    }).id('balik:cooking/beetroot_salad');
+    }).id('harborhaven:cooking/beetroot_salad');
 });

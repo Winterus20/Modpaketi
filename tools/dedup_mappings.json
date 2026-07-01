@@ -129,7 +129,6 @@
     ["croptopia:ratatouille", "farmersdelight:ratatouille"],
     ["croptopia:shepherds_pie", "farmersdelight:shepherds_pie"],
     ["croptopia:apple_pie", "farmersdelight:apple_pie"],
-    ["croptopia:apple_pie_slice", "farmersdelight:apple_pie_slice"],
     ["croptopia:milk_bottle", "farmersdelight:milk_bottle"],
     ["croptopia:melon_juice", "farmersdelight:melon_juice"],
     ["croptopia:beef_wellington", "candlelight:beef_wellington"],
@@ -207,8 +206,6 @@
   ],
 
   "removed_recipes": [
-    "crabbersdelight:lanternfish_barrel",
-    "crabbersdelight:lanternfish_from_barrel",
     "crabbersdelight:palm_planks",
     "crabbersdelight:palm_stairs",
     "crabbersdelight:palm_slab",
@@ -234,14 +231,6 @@
   ],
   "extra_hidden": [
     "tide:fishing_bobber",
-    "hybrid_aquatic:lobster",
-    "crabbersdelight:lanternfish_barrel",
-    "crabbersdelight:seashell_1",
-    "crabbersdelight:seashell_2",
-    "crabbersdelight:seashell_3",
-    "crabbersdelight:seashell_4",
-    "crabbersdelight:seashell_5",
-    "crabbersdelight:seashell_6",
     "tide:anglerfish_spawn_egg",
     "tide:bull_shark_spawn_egg",
     "tide:carp_spawn_egg",
@@ -265,8 +254,7 @@
     "hybrid_aquatic:giant_squid_spawn_egg",
     "hybrid_aquatic:hammerhead_shark_spawn_egg",
     "hybrid_aquatic:lobster_spawn_egg",
-    "hybrid_aquatic:orca_spawn_egg",
-    "hybrid_aquatic:crab"
+    "hybrid_aquatic:orca_spawn_egg"
   ],
   "tide_fish": [
     "aquaculture:carp",
